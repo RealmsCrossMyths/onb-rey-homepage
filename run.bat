@@ -1,6 +1,6 @@
 @echo off
 REM set server settings
-set /A port=8765
+set /A port=9876
 
 
 REM check to see if the server is already compiled or provided
