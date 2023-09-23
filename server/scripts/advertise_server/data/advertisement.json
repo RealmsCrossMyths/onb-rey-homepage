@@ -1,0 +1,18 @@
+{
+    "listservers":{
+        "main":"https://www.keristero.xyz/server_list/"
+    },
+    "advertisements":[
+        {
+            "unique_server_id":"Rey_Junc_HP",
+            "name":"Rey's HP",
+            "description":"The homepage of Rey, Gobby.EXE's operator. She plans to add links to various networks, servers, and other homepages.",
+            "tags":["pvp","meetup","junction"],
+            "address":"keristero.xyz:9876",
+            "data":"",
+            "icon":"advertisement.png",
+            "color":"rgb(13,110,43)",
+            "advertise_map":true
+        }
+    ]
+}
