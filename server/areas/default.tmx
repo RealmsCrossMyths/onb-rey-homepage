@@ -79,7 +79,7 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="5" name="The Block Gate" gid="2147483760" x="600" y="592" width="34" height="52">
+  <object id="5" name="The Block Gate" type="Checkpoint" gid="2147483760" x="606" y="561" width="34" height="52">
    <properties>
     <property name="Description" value="A skull gate to the undernet…"/>
     <property name="Dialogue Type" value="None"/>
@@ -92,8 +92,8 @@
     <property name="Unlock Item" value=""/>
    </properties>
   </object>
-  <object id="6" name="Tree" gid="108" x="472" y="824" width="44" height="61"/>
-  <object id="7" name="Tree" gid="108" x="536" y="824" width="44" height="61"/>
+  <object id="6" name="Tree" gid="108" x="473" y="825" width="44" height="61"/>
+  <object id="7" name="Tree" gid="108" x="537" y="825" width="44" height="61"/>
   <object id="8" name="Big Tree" gid="108" x="520" y="1192" width="132" height="183"/>
  </objectgroup>
  <layer id="3" name="Stairs 1a" width="43" height="43" offsetx="0" offsety="-16">
