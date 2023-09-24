@@ -201,7 +201,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="Object Layer 1a" locked="1" offsetx="0" offsety="-16"/>
+ <objectgroup id="4" name="Object Layer 1a" offsetx="0" offsety="-16"/>
  <layer id="5" name="Stairs 1b" width="45" height="45" offsetx="0" offsety="-32">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -251,7 +251,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="Object Layer 1b" locked="1" offsetx="0" offsety="-32"/>
+ <objectgroup id="6" name="Object Layer 1b" offsetx="0" offsety="-32"/>
  <layer id="7" name="Floor 2" width="45" height="45" offsetx="0" offsety="-48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -301,7 +301,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="8" name="Object Layer 2" locked="1" offsetx="0" offsety="-48">
+ <objectgroup id="8" name="Object Layer 2" offsetx="0" offsety="-48">
   <object id="1" name="Home Warp" type="Home Warp" gid="124" x="704" y="704" width="64" height="32">
    <properties>
     <property name="Direction" value="Down Right"/>
@@ -358,7 +358,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="10" name="Object Layer 2a" locked="1" offsetx="0" offsety="-64"/>
+ <objectgroup id="10" name="Object Layer 2a" offsetx="0" offsety="-64"/>
  <layer id="11" name="Stairs 2b" width="45" height="45" offsetx="0" offsety="-80">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -408,7 +408,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="12" name="Object Layer 2b" locked="1" offsetx="0" offsety="-80"/>
+ <objectgroup id="12" name="Object Layer 2b" offsetx="0" offsety="-80"/>
  <layer id="13" name="Floor 3" width="45" height="45" offsetx="0" offsety="-96">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -458,7 +458,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="14" name="Object Layer 3" locked="1" offsetx="0" offsety="-96">
+ <objectgroup id="14" name="Object Layer 3" offsetx="0" offsety="-96">
   <object id="13" name="Dead Link" type="Server Warp" gid="124" x="128" y="1088" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
@@ -505,15 +505,15 @@
   <object id="20" gid="144" x="720" y="1104" width="64" height="32"/>
   <object id="21" name="Dead Link" type="Server Warp" gid="124" x="704" y="1280" width="64" height="32">
    <properties>
-    <property name="Address" value=""/>
+    <property name="Address" value="keristero.xyz"/>
     <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Incoming Data" value=""/>
-    <property name="Port" type="int" value="0"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Incoming Data" value="GravyYum"/>
+    <property name="Port" type="int" value="8765"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="22" gid="144" x="720" y="1296" width="64" height="32"/>
+  <object id="22" gid="139" x="720" y="1296" width="64" height="32"/>
   <object id="23" name="Dead Link" type="Server Warp" gid="124" x="896" y="320" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
@@ -630,7 +630,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="16" name="Object Layer 3a" locked="1" offsetx="0" offsety="-112"/>
+ <objectgroup id="16" name="Object Layer 3a" offsetx="0" offsety="-112"/>
  <layer id="17" name="Stairs 3b" width="45" height="45" offsetx="0" offsety="-128">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -680,7 +680,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="18" name="Object Layer 3b" locked="1" offsetx="0" offsety="-128"/>
+ <objectgroup id="18" name="Object Layer 3b" offsetx="0" offsety="-128"/>
  <layer id="19" name="Floor 4" width="45" height="45" offsetx="0" offsety="-144">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -730,7 +730,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="20" name="Object Layer 4" locked="1" offsetx="0" offsety="-144">
+ <objectgroup id="20" name="Object Layer 4" offsetx="0" offsety="-144">
   <object id="35" name="Link to Dojo" type="Server Warp" gid="124" x="128" y="512" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
