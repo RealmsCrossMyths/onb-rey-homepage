@@ -13,13 +13,14 @@
  <tileset firstgid="69" source="../assets/tiles/stairs/default.tsx"/>
  <tileset firstgid="72" source="../assets/objects/warps/homepage.tsx"/>
  <tileset firstgid="77" source="../assets/objects/warps/network.tsx"/>
- <tileset firstgid="83" source="../assets/objects/decor/standard/warp_mat.tsx"/>
- <tileset firstgid="88" source="../assets/objects/warps/home.tsx"/>
- <tileset firstgid="93" source="../assets/objects/warps/page.tsx"/>
- <tileset firstgid="98" source="../assets/objects/warps/link.tsx"/>
- <tileset firstgid="103" source="../assets/objects/decor/standard/dead_link.tsx"/>
- <tileset firstgid="108" source="../assets/objects/nature/tree.tsx"/>
- <tileset firstgid="112" source="../assets/objects/doors/skull_gate.tsx"/>
+ <tileset firstgid="83" source="../assets/objects/warps/miscellaneous.tsx"/>
+ <tileset firstgid="88" source="../assets/objects/decor/warps/warp_mat.tsx"/>
+ <tileset firstgid="93" source="../assets/objects/decor/warps/home.tsx"/>
+ <tileset firstgid="98" source="../assets/objects/decor/warps/page.tsx"/>
+ <tileset firstgid="103" source="../assets/objects/decor/warps/link.tsx"/>
+ <tileset firstgid="108" source="../assets/objects/decor/warps/dead_link.tsx"/>
+ <tileset firstgid="113" source="../assets/objects/nature/tree.tsx"/>
+ <tileset firstgid="117" source="../assets/objects/doors/skull_gate.tsx"/>
  <layer id="1" name="Floor 1" width="45" height="45">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -70,8 +71,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="Object Layer 1">
-  <object id="3" name="The Block Warp Mat" gid="83" x="512" y="704" width="64" height="32"/>
-  <object id="4" name="Link to The Block" type="Server Warp" gid="98" x="528" y="720" width="64" height="32">
+  <object id="3" name="Link to The Block" type="Server Warp" gid="83" x="512" y="704" width="64" height="32">
    <properties>
     <property name="Address" value="165.227.139.229"/>
     <property name="Data" value="ReyHome"/>
@@ -81,7 +81,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="5" name="The Block Gate" type="Checkpoint" gid="2147483760" x="638" y="669" width="34" height="52">
+  <object id="4" gid="103" x="528" y="720" width="64" height="32"/>
+  <object id="5" name="The Block Gate" type="Checkpoint" gid="2147483765" x="638" y="669" width="34" height="52">
    <properties>
     <property name="Description" value="A skull gate to the undernet…"/>
     <property name="Dialogue Type" value="None"/>
@@ -94,11 +95,10 @@
     <property name="Unlock Item" value=""/>
    </properties>
   </object>
-  <object id="6" name="Tree" gid="108" x="312" y="920" width="44" height="61"/>
-  <object id="7" name="Tree" gid="108" x="376" y="920" width="44" height="61"/>
-  <object id="8" name="Big Tree" gid="108" x="360" y="1128" width="132" height="183"/>
-  <object id="9" name="Warp Mat" gid="83" x="320" y="704" width="64" height="32"/>
-  <object id="10" name="Link" type="Server Warp" gid="103" x="336" y="720" width="64" height="32">
+  <object id="6" name="Tree" gid="113" x="312" y="920" width="44" height="61"/>
+  <object id="7" name="Tree" gid="113" x="376" y="920" width="44" height="61"/>
+  <object id="8" name="Big Tree" gid="113" x="360" y="1128" width="132" height="183"/>
+  <object id="9" name="Dead Link" type="Server Warp" gid="88" x="320" y="704" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -108,8 +108,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="11" name="Warp Mat" gid="83" x="1088" y="1088" width="64" height="32"/>
-  <object id="12" name="Link" type="Server Warp" gid="103" x="1104" y="1104" width="64" height="32">
+  <object id="10" gid="108" x="336" y="720" width="64" height="32"/>
+  <object id="11" name="Dead Link" type="Server Warp" gid="88" x="1088" y="1088" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -119,6 +119,7 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
+  <object id="12" gid="108" x="1104" y="1104" width="64" height="32"/>
  </objectgroup>
  <layer id="3" name="Stairs 1a" width="45" height="45" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -270,12 +271,12 @@
 </data>
  </layer>
  <objectgroup id="8" name="Object Layer 2" offsetx="0" offsety="-48">
-  <object id="1" name="Home Warp Mat" gid="83" x="704" y="704" width="64" height="32"/>
-  <object id="2" name="Home Warp" type="Home Warp" gid="88" x="720" y="720" width="64" height="32">
+  <object id="1" name="Home Warp" type="Home Warp" gid="83" x="704" y="704" width="64" height="32">
    <properties>
     <property name="Direction" value="Down Right"/>
    </properties>
   </object>
+  <object id="2" gid="93" x="720" y="720" width="64" height="32"/>
  </objectgroup>
  <layer id="9" name="Stairs 2a" width="45" height="45" offsetx="0" offsety="-64">
   <data encoding="csv">
@@ -427,8 +428,7 @@
 </data>
  </layer>
  <objectgroup id="14" name="Object Layer 3" offsetx="0" offsety="-96">
-  <object id="13" name="Warp Mat" gid="83" x="128" y="1088" width="64" height="32"/>
-  <object id="14" name="Link" type="Server Warp" gid="103" x="144" y="1104" width="64" height="32">
+  <object id="13" name="Dead Link" type="Server Warp" gid="88" x="128" y="1088" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -438,8 +438,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="15" name="Warp Mat" gid="83" x="512" y="1088" width="64" height="32"/>
-  <object id="16" name="Link" type="Server Warp" gid="103" x="528" y="1104" width="64" height="32">
+  <object id="14" gid="108" x="144" y="1104" width="64" height="32"/>
+  <object id="15" name="Dead Link" type="Server Warp" gid="88" x="512" y="1088" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -449,8 +449,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="17" name="Warp Mat" gid="83" x="704" y="128" width="64" height="32"/>
-  <object id="18" name="Link" type="Server Warp" gid="103" x="720" y="144" width="64" height="32">
+  <object id="16" gid="108" x="528" y="1104" width="64" height="32"/>
+  <object id="17" name="Dead Link" type="Server Warp" gid="88" x="704" y="128" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -460,8 +460,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="19" name="Warp Mat" gid="83" x="704" y="1088" width="64" height="32"/>
-  <object id="20" name="Link" type="Server Warp" gid="103" x="720" y="1104" width="64" height="32">
+  <object id="18" gid="108" x="720" y="144" width="64" height="32"/>
+  <object id="19" name="Dead Link" type="Server Warp" gid="88" x="704" y="1088" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -471,8 +471,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="21" name="Warp Mat" gid="83" x="704" y="1280" width="64" height="32"/>
-  <object id="22" name="Link" type="Server Warp" gid="103" x="720" y="1296" width="64" height="32">
+  <object id="20" gid="108" x="720" y="1104" width="64" height="32"/>
+  <object id="21" name="Dead Link" type="Server Warp" gid="88" x="704" y="1280" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -482,8 +482,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="23" name="Warp Mat" gid="83" x="896" y="320" width="64" height="32"/>
-  <object id="24" name="Link" type="Server Warp" gid="103" x="912" y="336" width="64" height="32">
+  <object id="22" gid="108" x="720" y="1296" width="64" height="32"/>
+  <object id="23" name="Dead Link" type="Server Warp" gid="88" x="896" y="320" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -493,8 +493,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="25" name="Warp Mat" gid="83" x="896" y="704" width="64" height="32"/>
-  <object id="26" name="Link" type="Server Warp" gid="103" x="912" y="720" width="64" height="32">
+  <object id="24" gid="108" x="912" y="336" width="64" height="32"/>
+  <object id="25" name="Dead Link" type="Server Warp" gid="88" x="896" y="704" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -504,8 +504,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="27" name="Warp Mat" gid="83" x="1088" y="320" width="64" height="32"/>
-  <object id="28" name="Link" type="Server Warp" gid="103" x="1104" y="336" width="64" height="32">
+  <object id="26" gid="108" x="912" y="720" width="64" height="32"/>
+  <object id="27" name="Dead Link" type="Server Warp" gid="88" x="1088" y="320" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -515,8 +515,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="29" name="Warp Mat" gid="83" x="1088" y="1088" width="64" height="32"/>
-  <object id="30" name="Link" type="Server Warp" gid="103" x="1104" y="1104" width="64" height="32">
+  <object id="28" gid="108" x="1104" y="336" width="64" height="32"/>
+  <object id="29" name="Dead Link" type="Server Warp" gid="88" x="1088" y="1088" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -526,8 +526,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31" name="Warp Mat" gid="83" x="1280" y="128" width="64" height="32"/>
-  <object id="32" name="Link" type="Server Warp" gid="103" x="1296" y="144" width="64" height="32">
+  <object id="30" gid="108" x="1104" y="1104" width="64" height="32"/>
+  <object id="31" name="Dead Link" type="Server Warp" gid="88" x="1280" y="128" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -537,8 +537,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="33" name="Warp Mat" gid="83" x="1280" y="1088" width="64" height="32"/>
-  <object id="34" name="Link" type="Server Warp" gid="103" x="1296" y="1104" width="64" height="32">
+  <object id="32" gid="108" x="1296" y="144" width="64" height="32"/>
+  <object id="33" name="Dead Link" type="Server Warp" gid="88" x="1280" y="1088" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -548,6 +548,7 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
+  <object id="34" gid="108" x="1296" y="1104" width="64" height="32"/>
  </objectgroup>
  <layer id="15" name="Stairs 3a" width="45" height="45" offsetx="0" offsety="-112">
   <data encoding="csv">
@@ -699,8 +700,7 @@
 </data>
  </layer>
  <objectgroup id="20" name="Object Layer 4" offsetx="0" offsety="-144">
-  <object id="35" name="Dojo Warp Mat" gid="83" x="128" y="512" width="64" height="32"/>
-  <object id="36" name="Link to Dojo" type="Server Warp" gid="103" x="144" y="528" width="64" height="32">
+  <object id="35" name="Link to Dojo" type="Server Warp" gid="83" x="128" y="512" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -710,5 +710,6 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
+  <object id="36" gid="108" x="144" y="528" width="64" height="32"/>
  </objectgroup>
 </map>

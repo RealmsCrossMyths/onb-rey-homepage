@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.0" name="Decor - Standard - Warp Mat" tilewidth="64" tileheight="32" tilecount="5" columns="5" objectalignment="top">
+<tileset version="1.8" tiledversion="1.8.0" name="Warp Decor - Link (Dead)" tilewidth="64" tileheight="32" tilecount="5" columns="5" objectalignment="center">
  <grid orientation="isometric" width="64" height="32"/>
- <image source="warp_mat.png" width="320" height="32"/>
+ <image source="dead_link.png" width="320" height="32"/>
  <tile id="0">
   <animation>
    <frame tileid="0" duration="50"/>
