@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.0" name="Nature - Undernet Pine" tilewidth="64" tileheight="67" tilecount="4" columns="4" objectalignment="center">
+<tileset version="1.8" tiledversion="1.8.0" name="Nature - Undernet Pine" tilewidth="64" tileheight="67" tilecount="4" columns="4" objectalignment="bottom">
  <grid orientation="isometric" width="64" height="32"/>
  <properties>
   <property name="Solid" type="bool" value="true"/>
