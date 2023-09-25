@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.10.2" name="Warp - Network" tilewidth="64" tileheight="32" tilecount="6" columns="6" objectalignment="top">
- <tileoffset x="1" y="0"/>
+<tileset version="1.8" tiledversion="1.8.0" name="Warp - Network" tilewidth="64" tileheight="32" tilecount="6" columns="6" objectalignment="bottom">
+ <tileoffset x="0" y="64"/>
+ <grid orientation="isometric" width="64" height="32"/>
  <image source="network.png" width="384" height="32"/>
  <tile id="1">
   <animation>

@@ -4,7 +4,7 @@
  <image source="empty.png" width="256" height="192"/>
  <tile id="1">
   <animation>
-   <frame tileid="0" duration="1000"/>
+   <frame tileid="0" duration="10000"/>
    <frame tileid="16" duration="100"/>
    <frame tileid="11" duration="100"/>
    <frame tileid="6" duration="100"/>
@@ -16,7 +16,7 @@
  </tile>
  <tile id="2">
   <animation>
-   <frame tileid="0" duration="1000"/>
+   <frame tileid="0" duration="10000"/>
    <frame tileid="17" duration="100"/>
    <frame tileid="12" duration="100"/>
    <frame tileid="7" duration="100"/>
@@ -28,7 +28,7 @@
  </tile>
  <tile id="3">
   <animation>
-   <frame tileid="0" duration="1000"/>
+   <frame tileid="0" duration="10000"/>
    <frame tileid="18" duration="100"/>
    <frame tileid="13" duration="100"/>
    <frame tileid="8" duration="100"/>
@@ -40,7 +40,7 @@
  </tile>
  <tile id="4">
   <animation>
-   <frame tileid="0" duration="1000"/>
+   <frame tileid="0" duration="10000"/>
    <frame tileid="19" duration="100"/>
    <frame tileid="14" duration="100"/>
    <frame tileid="9" duration="100"/>
@@ -52,7 +52,7 @@
  </tile>
  <tile id="5">
   <animation>
-   <frame tileid="0" duration="1000"/>
+   <frame tileid="0" duration="10000"/>
    <frame tileid="20" duration="100"/>
    <frame tileid="15" duration="100"/>
    <frame tileid="10" duration="100"/>
