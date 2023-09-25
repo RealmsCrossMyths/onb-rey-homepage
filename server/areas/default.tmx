@@ -82,7 +82,7 @@
     <property name="Description" value="Warp Tile"/>
    </properties>
   </object>
-  <object id="5" type="Checkpoint" gid="158" x="911" y="863" width="34" height="52">
+  <object id="5" type="Checkpoint" gid="158" x="876" y="863" width="34" height="52">
    <properties>
     <property name="Description" value="A shifting gate is here..."/>
     <property name="Disappear Cooldown" type="float" value="0"/>
