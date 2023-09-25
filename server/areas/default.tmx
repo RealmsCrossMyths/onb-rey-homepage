@@ -9,14 +9,14 @@
  <tileset firstgid="49" source="../assets/tiles/floors/undernet/gobby_standard.tsx"/>
  <tileset firstgid="97" source="../assets/tiles/floors/special/empty.tsx"/>
  <tileset firstgid="121" source="../assets/tiles/stairs/default.tsx"/>
- <tileset firstgid="124" source="../assets/objects/warps/miscellaneous.tsx"/>
- <tileset firstgid="129" source="../assets/objects/decor/warps/home.tsx"/>
- <tileset firstgid="134" source="../assets/objects/decor/warps/page.tsx"/>
- <tileset firstgid="139" source="../assets/objects/decor/warps/link.tsx"/>
- <tileset firstgid="144" source="../assets/objects/decor/warps/dead_link.tsx"/>
- <tileset firstgid="149" source="../assets/objects/nature/cyber_pine.tsx"/>
- <tileset firstgid="153" source="../assets/objects/nature/under_pine.tsx"/>
- <tileset firstgid="157" source="../assets/objects/doors/skull_gate.tsx"/>
+ <tileset firstgid="124" source="../assets/objects/warps/network.tsx"/>
+ <tileset firstgid="130" source="../assets/objects/decor/warps/home.tsx"/>
+ <tileset firstgid="135" source="../assets/objects/decor/warps/page.tsx"/>
+ <tileset firstgid="140" source="../assets/objects/decor/warps/link.tsx"/>
+ <tileset firstgid="145" source="../assets/objects/decor/warps/dead_link.tsx"/>
+ <tileset firstgid="150" source="../assets/objects/nature/cyber_pine.tsx"/>
+ <tileset firstgid="154" source="../assets/objects/nature/under_pine.tsx"/>
+ <tileset firstgid="158" source="../assets/objects/doors/skull_gate.tsx"/>
  <layer id="1" name="Floor 1" width="45" height="45">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -67,7 +67,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="Object Layer 1">
-  <object id="3" name="Link to The Block" type="Server Warp" gid="124" x="512" y="704" width="64" height="32">
+  <object id="3" name="Link to The Block" type="Server Warp" gid="140" x="528" y="720" width="64" height="32">
    <properties>
     <property name="Address" value="165.227.139.229"/>
     <property name="Data" value="ReyHome"/>
@@ -77,8 +77,12 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="4" gid="139" x="528" y="720" width="64" height="32"/>
-  <object id="5" name="The Block Gate" type="Checkpoint" gid="157" x="638" y="669" width="34" height="52">
+  <object id="4" gid="125" x="512" y="704" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="5" type="Checkpoint" gid="158" x="646" y="675" width="34" height="52">
    <properties>
     <property name="Description" value="A skull gate to the undernet…"/>
     <property name="Dialogue Type" value="None"/>
@@ -91,10 +95,22 @@
     <property name="Unlock Item" value=""/>
    </properties>
   </object>
-  <object id="6" gid="149" x="304" y="912" width="64" height="67"/>
-  <object id="7" gid="149" x="368" y="912" width="64" height="67"/>
-  <object id="8" name="Big Tree" gid="149" x="344" y="1112" width="192" height="201"/>
-  <object id="9" name="Dead Link" type="Server Warp" gid="124" x="320" y="704" width="64" height="32">
+  <object id="6" gid="150" x="304" y="912" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="7" gid="150" x="368" y="912" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="8" gid="150" x="344" y="1112" width="192" height="201">
+   <properties>
+    <property name="Description" value="Big Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="9" name="Link" type="Server Warp" gid="145" x="336" y="720" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -104,53 +120,201 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="10" gid="144" x="336" y="720" width="64" height="32"/>
-  <object id="11" name="Dead Link" type="Server Warp" gid="124" x="1088" y="1088" width="64" height="32">
+  <object id="10" gid="124" x="320" y="704" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="11" name="Link" type="Server Warp" gid="145" x="1104" y="1104" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
+    <property name="Direction" value="Up Left"/>
     <property name="Incoming Data" value=""/>
     <property name="Port" type="int" value="0"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="12" gid="144" x="1104" y="1104" width="64" height="32"/>
-  <object id="37" gid="153" x="144" y="1072" width="64" height="67"/>
-  <object id="38" gid="153" x="144" y="1136" width="64" height="67"/>
-  <object id="39" gid="149" x="240" y="944" width="64" height="67"/>
-  <object id="40" gid="149" x="208" y="1008" width="64" height="67"/>
-  <object id="41" gid="149" x="240" y="1104" width="64" height="67"/>
-  <object id="42" gid="149" x="400" y="1008" width="64" height="67"/>
-  <object id="43" gid="149" x="528" y="1136" width="64" height="67"/>
-  <object id="44" gid="149" x="496" y="1200" width="64" height="67"/>
-  <object id="45" gid="149" x="528" y="1264" width="64" height="67"/>
-  <object id="46" gid="149" x="400" y="1264" width="64" height="67"/>
-  <object id="47" gid="149" x="304" y="1232" width="64" height="67"/>
-  <object id="48" gid="149" x="176" y="1232" width="64" height="67"/>
-  <object id="49" gid="149" x="240" y="1264" width="64" height="67"/>
-  <object id="50" gid="149" x="144" y="1296" width="64" height="67"/>
-  <object id="51" gid="149" x="208" y="1168" width="64" height="67"/>
-  <object id="52" gid="149" x="272" y="1168" width="64" height="67"/>
-  <object id="53" gid="149" x="528" y="912" width="64" height="67"/>
-  <object id="54" gid="149" x="144" y="976" width="64" height="67"/>
-  <object id="55" gid="149" x="176" y="880" width="64" height="67"/>
-  <object id="56" gid="149" x="336" y="976" width="64" height="67"/>
-  <object id="57" gid="149" x="432" y="944" width="64" height="67"/>
-  <object id="58" gid="149" x="496" y="976" width="64" height="67"/>
-  <object id="59" gid="149" x="528" y="1072" width="64" height="67"/>
-  <object id="60" gid="149" x="464" y="880" width="64" height="67"/>
-  <object id="61" gid="149" x="432" y="1200" width="64" height="67"/>
-  <object id="62" gid="149" x="464" y="1296" width="64" height="67"/>
-  <object id="63" gid="149" x="336" y="1328" width="64" height="67"/>
-  <object id="64" gid="149" x="208" y="1328" width="64" height="67"/>
-  <object id="65" gid="149" x="112" y="912" width="64" height="67"/>
-  <object id="66" gid="149" x="560" y="1008" width="64" height="67"/>
-  <object id="67" gid="149" x="432" y="1104" width="64" height="67"/>
-  <object id="69" gid="153" x="464" y="688" width="64" height="67"/>
-  <object id="70" gid="153" x="496" y="656" width="64" height="67"/>
-  <object id="71" gid="153" x="464" y="752" width="64" height="67"/>
-  <object id="72" gid="153" x="496" y="784" width="64" height="67"/>
+  <object id="12" gid="124" x="1088" y="1088" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="37" gid="154" x="144" y="1072" width="64" height="67">
+   <properties>
+    <property name="Description" value="Undernet Pine"/>
+   </properties>
+  </object>
+  <object id="38" gid="154" x="144" y="1136" width="64" height="67">
+   <properties>
+    <property name="Description" value="Undernet Pine"/>
+   </properties>
+  </object>
+  <object id="39" gid="150" x="240" y="944" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="40" gid="150" x="208" y="1008" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="41" gid="150" x="240" y="1104" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="42" gid="150" x="400" y="1008" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="43" gid="150" x="528" y="1136" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="44" gid="150" x="496" y="1200" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="45" gid="150" x="528" y="1264" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="46" gid="150" x="400" y="1264" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="47" gid="150" x="304" y="1232" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="48" gid="150" x="176" y="1232" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="49" gid="150" x="240" y="1264" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="50" gid="150" x="144" y="1296" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="51" gid="150" x="208" y="1168" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="52" gid="150" x="272" y="1168" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="53" gid="150" x="528" y="912" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="54" gid="150" x="144" y="976" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="55" gid="150" x="176" y="880" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="56" gid="150" x="336" y="976" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="57" gid="150" x="432" y="944" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="58" gid="150" x="496" y="976" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="59" gid="150" x="528" y="1072" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="60" gid="150" x="464" y="880" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="61" gid="150" x="432" y="1200" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="62" gid="150" x="464" y="1296" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="63" gid="150" x="336" y="1328" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="64" gid="150" x="208" y="1328" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="65" gid="150" x="112" y="912" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="66" gid="150" x="560" y="1008" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="67" gid="150" x="432" y="1104" width="64" height="67">
+   <properties>
+    <property name="Description" value="Cybernet Pine"/>
+   </properties>
+  </object>
+  <object id="69" gid="154" x="464" y="688" width="64" height="67">
+   <properties>
+    <property name="Description" value="Undernet Pine"/>
+   </properties>
+  </object>
+  <object id="70" gid="154" x="496" y="656" width="64" height="67">
+   <properties>
+    <property name="Description" value="Undernet Pine"/>
+   </properties>
+  </object>
+  <object id="71" gid="154" x="464" y="752" width="64" height="67">
+   <properties>
+    <property name="Description" value="Undernet Pine"/>
+   </properties>
+  </object>
+  <object id="72" gid="154" x="496" y="784" width="64" height="67">
+   <properties>
+    <property name="Description" value="Undernet Pine"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="3" name="Stairs 1a" width="45" height="45" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -302,12 +466,16 @@
 </data>
  </layer>
  <objectgroup id="8" name="Object Layer 2" offsetx="0" offsety="-48">
-  <object id="1" name="Home Warp" type="Home Warp" gid="124" x="704" y="704" width="64" height="32">
+  <object id="1" name="HP" gid="125" x="704" y="704" width="64" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="2" name="Exit to PET" type="Home Warp" gid="130" x="752" y="752" width="64" height="32">
    <properties>
     <property name="Direction" value="Down Right"/>
    </properties>
   </object>
-  <object id="2" gid="129" x="720" y="720" width="64" height="32"/>
  </objectgroup>
  <layer id="9" name="Stairs 2a" width="45" height="45" offsetx="0" offsety="-64">
   <data encoding="csv">
@@ -459,7 +627,22 @@
 </data>
  </layer>
  <objectgroup id="14" name="Object Layer 3" offsetx="0" offsety="-96">
-  <object id="13" name="Dead Link" type="Server Warp" gid="124" x="128" y="1088" width="64" height="32">
+  <object id="13" name="Link" type="Server Warp" gid="145" x="144" y="1104" width="64" height="32">
+   <properties>
+    <property name="Address" value=""/>
+    <property name="Data" value="ReyHome"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Incoming Data" value=""/>
+    <property name="Port" type="int" value="0"/>
+    <property name="Warp In" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="14" gid="124" x="128" y="1088" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="15" name="Link" type="Server Warp" gid="145" x="528" y="1104" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -469,8 +652,12 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="14" gid="144" x="144" y="1104" width="64" height="32"/>
-  <object id="15" name="Dead Link" type="Server Warp" gid="124" x="512" y="1088" width="64" height="32">
+  <object id="16" gid="124" x="512" y="1088" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="17" name="Link" type="Server Warp" gid="145" x="720" y="144" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -480,30 +667,27 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="16" gid="144" x="528" y="1104" width="64" height="32"/>
-  <object id="17" name="Dead Link" type="Server Warp" gid="124" x="704" y="128" width="64" height="32">
+  <object id="18" gid="124" x="704" y="128" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="19" name="Link" type="Server Warp" gid="145" x="720" y="1104" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
+    <property name="Direction" value="Down Right"/>
     <property name="Incoming Data" value=""/>
     <property name="Port" type="int" value="0"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="18" gid="144" x="720" y="144" width="64" height="32"/>
-  <object id="19" name="Dead Link" type="Server Warp" gid="124" x="704" y="1088" width="64" height="32">
+  <object id="20" gid="124" x="704" y="1088" width="61" height="32">
    <properties>
-    <property name="Address" value=""/>
-    <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Incoming Data" value=""/>
-    <property name="Port" type="int" value="0"/>
-    <property name="Warp In" type="bool" value="true"/>
+    <property name="Description" value="Warp Tile"/>
    </properties>
   </object>
-  <object id="20" gid="144" x="720" y="1104" width="64" height="32"/>
-  <object id="21" name="Dead Link" type="Server Warp" gid="124" x="704" y="1280" width="64" height="32">
+  <object id="21" name="Link to Gravy Yum" type="Server Warp" gid="140" x="720" y="1296" width="64" height="32">
    <properties>
     <property name="Address" value="keristero.xyz"/>
     <property name="Data" value="ReyHome"/>
@@ -513,8 +697,12 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="22" gid="139" x="720" y="1296" width="64" height="32"/>
-  <object id="23" name="Dead Link" type="Server Warp" gid="124" x="896" y="320" width="64" height="32">
+  <object id="22" gid="125" x="704" y="1280" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="23" name="Link" type="Server Warp" gid="145" x="912" y="336" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -524,62 +712,86 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="24" gid="144" x="912" y="336" width="64" height="32"/>
-  <object id="25" name="Dead Link" type="Server Warp" gid="124" x="896" y="704" width="64" height="32">
+  <object id="24" gid="124" x="896" y="320" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="25" name="Link" type="Server Warp" gid="145" x="912" y="720" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
+    <property name="Direction" value="Up Right"/>
     <property name="Incoming Data" value=""/>
     <property name="Port" type="int" value="0"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="26" gid="144" x="912" y="720" width="64" height="32"/>
-  <object id="27" name="Dead Link" type="Server Warp" gid="124" x="1088" y="320" width="64" height="32">
+  <object id="26" gid="124" x="896" y="704" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="27" name="Link" type="Server Warp" gid="145" x="1104" y="336" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
+    <property name="Direction" value="Down Right"/>
     <property name="Incoming Data" value=""/>
     <property name="Port" type="int" value="0"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="28" gid="144" x="1104" y="336" width="64" height="32"/>
-  <object id="29" name="Dead Link" type="Server Warp" gid="124" x="1088" y="1088" width="64" height="32">
+  <object id="28" gid="124" x="1088" y="320" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="29" name="Link" type="Server Warp" gid="145" x="1104" y="1104" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
+    <property name="Direction" value="Up Left"/>
     <property name="Incoming Data" value=""/>
     <property name="Port" type="int" value="0"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="30" gid="144" x="1104" y="1104" width="64" height="32"/>
-  <object id="31" name="Dead Link" type="Server Warp" gid="124" x="1280" y="128" width="64" height="32">
+  <object id="30" gid="124" x="1088" y="1088" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="31" name="Link" type="Server Warp" gid="145" x="1296" y="144" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
+    <property name="Direction" value="Up Left"/>
     <property name="Incoming Data" value=""/>
     <property name="Port" type="int" value="0"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="32" gid="144" x="1296" y="144" width="64" height="32"/>
-  <object id="33" name="Dead Link" type="Server Warp" gid="124" x="1280" y="1088" width="64" height="32">
+  <object id="32" gid="124" x="1280" y="128" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
+  <object id="33" name="Link" type="Server Warp" gid="145" x="1296" y="1104" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
+    <property name="Direction" value="Up Right"/>
     <property name="Incoming Data" value=""/>
     <property name="Port" type="int" value="0"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="34" gid="144" x="1296" y="1104" width="64" height="32"/>
+  <object id="34" gid="124" x="1280" y="1088" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="15" name="Stairs 3a" width="45" height="45" offsetx="0" offsety="-112">
   <data encoding="csv">
@@ -731,7 +943,7 @@
 </data>
  </layer>
  <objectgroup id="20" name="Object Layer 4" offsetx="0" offsety="-144">
-  <object id="35" name="Link to Dojo" type="Server Warp" gid="124" x="128" y="512" width="64" height="32">
+  <object id="35" name="Link to Dojo" type="Server Warp" gid="145" x="144" y="528" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -741,6 +953,10 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="36" gid="144" x="144" y="528" width="64" height="32"/>
+  <object id="36" gid="124" x="128" y="512" width="61" height="32">
+   <properties>
+    <property name="Description" value="Warp Tile"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
