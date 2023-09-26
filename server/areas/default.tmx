@@ -88,7 +88,7 @@
     <property name="Description" value="A shifting gate is here..."/>
     <property name="Dialogue Type" value="itemcheck"/>
     <property name="Disappear Cooldown" type="float" value="0"/>
-    <property name="Key Name" value="One-Time Key"/>
+    <property name="Key Name" value="1-Time Key"/>
     <property name="Once" type="bool" value="false"/>
     <property name="Required Keys" type="int" value="1"/>
     <property name="Skip Prompt" type="bool" value="false"/>
@@ -478,7 +478,7 @@
    <properties>
     <property name="Amount" type="int" value="1"/>
     <property name="Description" value="A one-time key."/>
-    <property name="Name" value="One-Time Key"/>
+    <property name="Name" value="1-Time Key"/>
     <property name="Once" type="bool" value="true"/>
     <property name="Price" type="int" value="999999999"/>
     <property name="Type" value="keyitem"/>
