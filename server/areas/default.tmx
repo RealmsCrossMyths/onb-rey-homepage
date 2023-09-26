@@ -112,7 +112,7 @@
     <property name="Description" value="Big Cybernet Pine"/>
    </properties>
   </object>
-  <object id="9" name="Link" type="Server Warp" gid="124" x="304" y="688" width="64" height="32">
+  <object id="9" name="Link" type="Server Warp" gid="124" x="320" y="704" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
@@ -122,7 +122,7 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="10" gid="145" x="320" y="704" width="64" height="32">
+  <object id="10" gid="145" x="336" y="720" width="64" height="32">
    <properties>
     <property name="Description" value="Warp Tile"/>
    </properties>
@@ -474,7 +474,7 @@
     <property name="Direction" value="Down Right"/>
    </properties>
   </object>
-  <object id="74" gid="174" x="1272" y="488" width="16" height="40">
+  <object id="74" type="Mystery Datum" gid="174" x="1272" y="488" width="16" height="40">
    <properties>
     <property name="Amount" type="int" value="1"/>
     <property name="Description" value="A one-time key."/>
