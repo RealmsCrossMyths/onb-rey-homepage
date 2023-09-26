@@ -474,7 +474,7 @@
     <property name="Direction" value="Down Right"/>
    </properties>
   </object>
-  <object id="74" type="Mystery Data" gid="174" x="1328" y="496" width="16" height="40">
+  <object id="74" gid="174" x="1328" y="496" width="16" height="40">
    <properties>
     <property name="Amount" type="int" value="1"/>
     <property name="Description" value="A one-time key."/>
