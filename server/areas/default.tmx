@@ -530,12 +530,12 @@
   </object>
   <object id="88" name="MO8" type="Mystery Option" gid="177" x="408" y="-912" width="16" height="40">
    <properties>
-    <property name="Amount" type="int" value="1"/>
-    <property name="Description" value="brute force"/>
-    <property name="Name" value="brute force"/>
+    <property name="Amount" type="int" value="50"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
     <property name="Once" type="bool" value="false"/>
     <property name="Price" type="int" value="999999999"/>
-    <property name="Type" value="item"/>
+    <property name="Type" value="money"/>
    </properties>
   </object>
   <object id="89" name="MO3" type="Mystery Option" gid="177" x="424" y="-928" width="16" height="40">
@@ -568,7 +568,7 @@
     <property name="Type" value="money"/>
    </properties>
   </object>
-  <object id="92" name="MO7" type="Mystery Option" gid="177" x="368" y="-992" width="16" height="40">
+  <object id="92" name="MO7" type="Mystery Option" gid="177" x="360" y="-1008" width="16" height="40">
    <properties>
     <property name="Amount" type="int" value="50"/>
     <property name="Description" value="money"/>
