@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" width="5" height="8" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="4">
+ <properties>
+  <property name="Background" value="custom"/>
+  <property name="Background Animation" value="/server/assets/wallpapers/undernet/static/green_static.animation"/>
+  <property name="Background Texture" value="/server/assets/wallpapers/undernet/static/static.png"/>
+  <property name="Name" value="Rey's HP"/>
+  <property name="Song" value="resources/loops/loop_overworld.ogg"/>
+ </properties>
+ <tileset firstgid="1" source="../assets/tiles/floors/undernet/gobby_standard.tsx"/>
+ <tileset firstgid="49" source="../assets/tiles/floors/special/empty.tsx"/>
+ <tileset firstgid="73" source="../assets/objects/warps/network.tsx"/>
+ <tileset firstgid="79" source="../assets/objects/decor/warps/link.tsx"/>
+ <tileset firstgid="84" source="../assets/objects/doors/skull_gate.tsx"/>
+ <layer id="1" name="Floor 4" width="5" height="8">
+  <data encoding="csv">
+0,20,36,20,0,
+20,47,36,47,20,
+36,10,36,36,36,
+20,47,36,47,20,
+0,20,9,20,0,
+0,0,53,0,0,
+0,0,53,0,0,
+0,0,53,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 4">
+  <object id="1" gid="74" x="64" y="64" width="64" height="32">
+   <properties>
+    <property name="Address" value="165.227.139.229"/>
+    <property name="Data" value="OverheadNorth"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Incoming Data" value="TheBlockNorth"/>
+    <property name="Port" type="int" value="8765"/>
+    <property name="Warp In" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="2" gid="79" x="80" y="80" width="64" height="32"/>
+  <object id="3" gid="84" x="80" y="168" width="34" height="52">
+   <properties>
+    <property name="Description" value="A gate blocks your path. It it is asking for GobboData0 to temporarily open."/>
+    <property name="Dialogue Type" value="itemcheck"/>
+    <property name="Disappear Cooldown" type="float" value="0"/>
+    <property name="Key Name" value="GobboData0"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Required Keys" type="int" value="1"/>
+    <property name="Skip Prompt" type="bool" value="false"/>
+    <property name="Take Item" type="bool" value="false"/>
+    <property name="Unlock Failed Message" value="You lack the GobboData0 to open this path..."/>
+    <property name="Unlocked Message" value="You used the GobboData0 to open the path!"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
