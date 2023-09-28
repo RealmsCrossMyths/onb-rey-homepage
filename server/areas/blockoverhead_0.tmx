@@ -4,8 +4,8 @@
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/wallpapers/undernet/static/green_static.animation"/>
   <property name="Background Texture" value="/server/assets/wallpapers/undernet/static/static.png"/>
-  <property name="Name" value="Rey's HP"/>
-  <property name="Song" value="resources/loops/loop_overworld.ogg"/>
+  <property name="Name" value="Hidden Area"/>
+  <property name="Song" value="/server/assets/sounds/music/undernet_theme.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/floors/undernet/gobby_standard.tsx"/>
  <tileset firstgid="49" source="../assets/tiles/floors/special/empty.tsx"/>
@@ -14,29 +14,29 @@
  <tileset firstgid="84" source="../assets/objects/doors/skull_gate.tsx"/>
  <layer id="1" name="Floor 4" width="5" height="8">
   <data encoding="csv">
-0,20,36,20,0,
-20,47,36,47,20,
-36,10,36,36,36,
-20,47,36,47,20,
-0,20,9,20,0,
 0,0,53,0,0,
 0,0,53,0,0,
-0,0,53,0,0
+0,0,53,0,0,
+0,9,48,36,0,
+36,44,24,44,36,
+48,24,48,24,48,
+36,44,24,44,36,
+0,36,48,10,0
 </data>
  </layer>
  <objectgroup id="2" name="Object Layer 4">
-  <object id="1" gid="74" x="64" y="64" width="64" height="32">
+  <object id="1" gid="74" x="64" y="160" width="64" height="32">
    <properties>
     <property name="Address" value="165.227.139.229"/>
     <property name="Data" value="ReyOverhead_0"/>
-    <property name="Direction" value="Down Left"/>
+    <property name="Direction" value="Up Right"/>
     <property name="Incoming Data" value="TheBlock_0"/>
     <property name="Port" type="int" value="8765"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="2" gid="79" x="80" y="80" width="64" height="32"/>
-  <object id="3" gid="84" x="80" y="168" width="34" height="52">
+  <object id="2" gid="79" x="80" y="176" width="64" height="32"/>
+  <object id="3" gid="84" x="80" y="88" width="34" height="52">
    <properties>
     <property name="Description" value="A gate blocks your path. It it is asking for GobboData0 to temporarily open."/>
     <property name="Dialogue Type" value="itemcheck"/>
@@ -50,12 +50,12 @@
     <property name="Unlocked Message" value="You used the GobboData0 to open the path!"/>
    </properties>
   </object>
-  <object id="4" type="Custom Warp" x="64" y="224" width="32" height="32">
+  <object id="4" x="64" y="0" width="32" height="32">
    <properties>
-    <property name="Arrival Animation" value="arrow_down_left_in"/>
-    <property name="Leave Animation" value="arrow_down_left_out"/>
+    <property name="Arrival Animation" value="arrow_up_right_in"/>
+    <property name="Leave Animation" value="arrow_up_right_out"/>
     <property name="Taget Area" value="default"/>
-    <property name="Target Object" type="int" value="141"/>
+    <property name="Target Object" type="int" value="142"/>
    </properties>
   </object>
  </objectgroup>
