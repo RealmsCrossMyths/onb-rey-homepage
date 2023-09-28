@@ -4,6 +4,8 @@
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.animation"/>
   <property name="Background Texture" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.png"/>
+  <property name="Background Vel X" type="float" value="0.4"/>
+  <property name="Background Vel Y" type="float" value="-0.25"/>
   <property name="Mystery Data Maximum" type="int" value="4"/>
   <property name="Mystery Data Minimum" type="int" value="2"/>
   <property name="Name" value="Rey's HP"/>

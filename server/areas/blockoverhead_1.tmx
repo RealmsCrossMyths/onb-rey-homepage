@@ -4,6 +4,8 @@
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/wallpapers/undernet/static/green_static.animation"/>
   <property name="Background Texture" value="/server/assets/wallpapers/undernet/static/static.png"/>
+  <property name="Background Vel X" type="float" value="0.4"/>
+  <property name="Background Vel Y" type="float" value="-0.25"/>
   <property name="Name" value="Hidden Area"/>
   <property name="Song" value="/server/assets/sounds/music/undernet_theme.ogg"/>
  </properties>
