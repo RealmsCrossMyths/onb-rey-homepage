@@ -419,7 +419,7 @@
     <property name="Type" value="random"/>
    </properties>
   </object>
-  <object id="139" type="Mystery Datum" gid="291" x="176" y="976" width="14" height="43">
+  <object id="139" type="Mystery Datum" gid="291" x="200" y="984" width="14" height="43">
    <properties>
     <property name="Next 1" type="object" value="101"/>
     <property name="Next 2" type="object" value="101"/>
