@@ -155,7 +155,7 @@
    </properties>
   </object>
   <object id="2" gid="79" x="80" y="80" width="64" height="32"/>
-  <object id="3" gid="84" x="80" y="168" width="34" height="52">
+  <object id="3" type="Checkpoint" gid="84" x="80" y="168" width="34" height="52">
    <properties>
     <property name="Description" value="A gate blocks your path. It it is asking for GobboData1 to temporarily open."/>
     <property name="Dialogue Type" value="itemcheck"/>
