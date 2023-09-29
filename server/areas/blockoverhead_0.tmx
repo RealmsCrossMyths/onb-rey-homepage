@@ -169,8 +169,9 @@
     <property name="Unlocked Message" value="You used the GobboData0 to open the path!"/>
    </properties>
   </object>
-  <object id="4" type="Custom Warp" gid="70" x="64" y="0" width="64" height="32">
+  <object id="4" type="Radius Warp" gid="49" x="64" y="0" width="64" height="32">
    <properties>
+    <property name="Activation Radius" type="float" value="1"/>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
     <property name="Taget Area" value="default"/>
