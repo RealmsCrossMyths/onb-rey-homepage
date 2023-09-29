@@ -1710,7 +1710,7 @@
     <property name="Type" value="random"/>
    </properties>
   </object>
-  <object id="141" x="320" y="0" width="32" height="32">
+  <object id="141" type="Custom Warp" gid="70" x="320" y="0" width="64" height="32">
    <properties>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
@@ -1718,7 +1718,7 @@
     <property name="Target Object" type="int" value="3"/>
    </properties>
   </object>
-  <object id="142" x="128" y="1408" width="32" height="32">
+  <object id="142" type="Custom Warp" gid="70" x="128" y="1408" width="64" height="32">
    <properties>
     <property name="Arrival Animation" value="arrow_down_left_in"/>
     <property name="Leave Animation" value="arrow_down_left_out"/>

@@ -169,7 +169,7 @@
     <property name="Unlocked Message" value="You used the GobboData1 to open the path!"/>
    </properties>
   </object>
-  <object id="4" type="Custom Warp" x="64" y="224" width="32" height="32">
+  <object id="4" type="Custom Warp" gid="70" x="64" y="224" width="64" height="32">
    <properties>
     <property name="Arrival Animation" value="arrow_down_left_in"/>
     <property name="Leave Animation" value="arrow_down_left_out"/>
