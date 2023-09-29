@@ -14,7 +14,7 @@
  <tileset firstgid="73" source="../assets/objects/warps/network.tsx"/>
  <tileset firstgid="79" source="../assets/objects/decor/warps/link.tsx"/>
  <tileset firstgid="84" source="../assets/objects/doors/skull_gate.tsx"/>
- <layer id="1" name="Floor 4" width="5" height="8">
+ <layer id="1" name="Floor 1" width="5" height="8">
   <data encoding="csv">
 0,20,36,20,0,
 20,48,36,48,20,
@@ -26,7 +26,7 @@
 0,0,53,0,0
 </data>
  </layer>
- <objectgroup id="2" name="Object Layer 4">
+ <objectgroup id="2" name="Object Layer 1">
   <object id="1" gid="74" x="64" y="64" width="64" height="32">
    <properties>
     <property name="Address" value="165.227.139.229"/>
