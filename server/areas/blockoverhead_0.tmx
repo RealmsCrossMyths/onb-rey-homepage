@@ -174,7 +174,7 @@
     <property name="Activation Radius" type="float" value="1"/>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
-    <property name="Taget Area" value="default"/>
+    <property name="Target Area" value="default"/>
     <property name="Target Object" value="142"/>
    </properties>
    <point/>

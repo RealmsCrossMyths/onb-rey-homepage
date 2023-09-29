@@ -1715,7 +1715,7 @@
     <property name="Activation Radius" type="float" value="1"/>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
-    <property name="Taget Area" value="blockoverhead_1"/>
+    <property name="Target Area" value="blockoverhead_1"/>
     <property name="Target Object" value="3"/>
    </properties>
    <point/>
@@ -1725,7 +1725,7 @@
     <property name="Activation Radius" type="float" value="1"/>
     <property name="Arrival Animation" value="arrow_down_left_in"/>
     <property name="Leave Animation" value="arrow_down_left_out"/>
-    <property name="Taget Area" value="blockoverhead_0"/>
+    <property name="Target Area" value="blockoverhead_0"/>
     <property name="Target Object" value="3"/>
    </properties>
    <point/>
