@@ -174,7 +174,7 @@
     <property name="Arrival Animation" value="arrow_down_left_in"/>
     <property name="Leave Animation" value="arrow_down_left_out"/>
     <property name="Taget Area" value="default"/>
-    <property name="Target Object" type="int" value="141"/>
+    <property name="Target Object" value="141"/>
    </properties>
   </object>
  </objectgroup>
