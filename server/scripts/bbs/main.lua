@@ -16,8 +16,8 @@
 -- Required libs:
 --   json.lua by rxi (store as scripts/libs/json.lua)
 
-local json = require("json")
-local SAVE_LOCATION = "scripts/bbs/data.json"
+local json = require("scrpts/libs/json")
+local SAVE_LOCATION = "memory/bbs/data.json"
 local TITLE_LIMIT = 14
 local AUTHOR_LIMIT = 7
 
