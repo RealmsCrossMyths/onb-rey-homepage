@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="16">
+<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="14">
  <properties>
   <property name="Background Animation" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.animation"/>
   <property name="Background Texture" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.png"/>
   <property name="Background Vel X" type="float" value="0.4"/>
   <property name="Background Vel Y" type="float" value="-0.25"/>
-  <property name="Mystery Data Maximum" type="int" value="6"/>
-  <property name="Mystery Data Minimum" type="int" value="3"/>
-  <property name="Name" value="Rey's HP"/>
+  <property name="Name" value="Rey's BBS"/>
   <property name="Song" value="resources/loops/loop_overworld.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/floors/cybernet/gobby_standard.tsx"/>
@@ -16,7 +14,7 @@
  <tileset firstgid="55" source="../assets/objects/decor/warps/HouseFrameSideA.tsx"/>
  <tileset firstgid="65" source="../assets/objects/decor/warps/HouseFrameSideB.tsx"/>
  <tileset firstgid="75" source="../assets/tiles/floors/special/empty.tsx"/>
- <layer id="7" name="Floor 1" width="7" height="7" offsetx="0" offsety="-48">
+ <layer id="1" name="Floor 1" width="7" height="7">
   <data encoding="csv">
 30,30,30,30,30,30,30,
 30,30,30,30,30,30,30,
@@ -27,16 +25,100 @@
 30,30,30,30,30,30,30
 </data>
  </layer>
- <objectgroup id="8" name="Floor 1" offsetx="0" offsety="-48">
-  <object id="1" name="Exit to Rey's HP" type="Interact Warp" gid="2147483698" x="195" y="99" width="64" height="32">
+ <objectgroup id="2" name="Floor 1">
+  <object id="1" x="216" y="112">
    <properties>
     <property name="Arrival Animation" value="arrow_down_right_in"/>
+    <property name="Description" value="Entry From Rey's Homepage"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="2" type="Radius Warp" x="225" y="121">
+   <properties>
+    <property name="Activation Radius" type="float" value="0.16"/>
+    <property name="Description" value="Exit To Rey's Homepage"/>
     <property name="Leave Animation" value="arrow_down_right_out"/>
     <property name="Target Area" value="default"/>
-    <property name="Target Object" value="136"/>
+    <property name="Target Object" value="134"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="3" name="Link to Rey's Homepage" type="Radius Warp" x="225" y="113">
+   <properties>
+    <property name="Activation Radius" type="float" value="0.16"/>
+    <property name="Description" value="Exit To Rey's Homepage"/>
+    <property name="Leave Animation" value="arrow_down_right_out"/>
+    <property name="Target Area" value="default"/>
+    <property name="Target Object" value="134"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="4" type="Radius Warp" x="225" y="105">
+   <properties>
+    <property name="Activation Radius" type="float" value="0.16"/>
+    <property name="Description" value="Exit To Rey's Homepage"/>
+    <property name="Leave Animation" value="arrow_down_right_out"/>
+    <property name="Target Area" value="default"/>
+    <property name="Target Object" value="134"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="5" gid="1073741874" x="224" y="96" width="64" height="32"/>
+  <object id="6" gid="2147483708" x="214" y="112" width="80" height="62"/>
+  <object id="7" gid="2147483718" x="243" y="113" width="80" height="62"/>
+  <object id="8" name="Help Desk" type="Board" gid="49" x="-9" y="167" width="32" height="54">
+   <properties>
+    <property name="BBS" type="bool" value="true"/>
+    <property name="Character Limit" type="int" value="222"/>
+    <property name="Color" type="color" value="#ff0a5822"/>
+    <property name="Name" value="Help Desk"/>
+    <property name="Post Limit" type="int" value="24"/>
    </properties>
   </object>
-  <object id="2" gid="2147483708" x="214" y="112" width="80" height="62"/>
-  <object id="3" gid="2147483718" x="243" y="113" width="80" height="62"/>
+  <object id="9" name="Net Battling" type="Board" gid="49" x="-9" y="103" width="32" height="54">
+   <properties>
+    <property name="BBS" type="bool" value="true"/>
+    <property name="Character Limit" type="int" value="222"/>
+    <property name="Color" type="color" value="#ff0a5822"/>
+    <property name="Name" value="Net Battling"/>
+    <property name="Post Limit" type="int" value="24"/>
+   </properties>
+  </object>
+  <object id="10" name="Navi Customization" type="Board" gid="49" x="-9" y="39" width="32" height="54">
+   <properties>
+    <property name="BBS" type="bool" value="true"/>
+    <property name="Character Limit" type="int" value="222"/>
+    <property name="Color" type="color" value="#ff0a5822"/>
+    <property name="Name" value="Navi Customization"/>
+    <property name="Post Limit" type="int" value="24"/>
+   </properties>
+  </object>
+  <object id="11" name="Battle Chips" type="Board" gid="2147483697" x="39" y="-9" width="32" height="54">
+   <properties>
+    <property name="BBS" type="bool" value="true"/>
+    <property name="Character Limit" type="int" value="222"/>
+    <property name="Color" type="color" value="#ff0a5822"/>
+    <property name="Name" value="Battle Chips"/>
+    <property name="Post Limit" type="int" value="24"/>
+   </properties>
+  </object>
+  <object id="12" name="News &amp; Info" type="Board" gid="2147483697" x="103" y="-9" width="32" height="54">
+   <properties>
+    <property name="BBS" type="bool" value="true"/>
+    <property name="Character Limit" type="int" value="222"/>
+    <property name="Color" type="color" value="#ff0a5822"/>
+    <property name="Name" value="News &amp; Info"/>
+    <property name="Post Limit" type="int" value="24"/>
+   </properties>
+  </object>
+  <object id="13" name="Mysteries &amp; Conspiracies" type="Board" gid="2147483697" x="167" y="-9" width="32" height="54">
+   <properties>
+    <property name="BBS" type="bool" value="true"/>
+    <property name="Character Limit" type="int" value="222"/>
+    <property name="Color" type="color" value="#ff0a5822"/>
+    <property name="Name" value="Mysteries &amp; Conspiracies"/>
+    <property name="Post Limit" type="int" value="24"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
