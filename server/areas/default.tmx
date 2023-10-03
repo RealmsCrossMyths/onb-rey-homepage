@@ -6,7 +6,7 @@
   <property name="Background Texture" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.png"/>
   <property name="Background Vel X" type="float" value="0.4"/>
   <property name="Background Vel Y" type="float" value="-0.25"/>
-  <property name="Mystery Data Maximum" type="int" value="6"/>
+  <property name="Mystery Data Maximum" type="int" value="10"/>
   <property name="Mystery Data Minimum" type="int" value="3"/>
   <property name="Name" value="Rey's HP"/>
   <property name="Song" value="resources/loops/loop_overworld.ogg"/>
@@ -327,115 +327,51 @@
     <property name="Description" value="Undernet Pine"/>
    </properties>
   </object>
-  <object id="100" type="Mystery Datum" gid="283" x="466" y="736" width="14" height="43">
+  <object id="100" type="Mystery Datum" gid="283" x="200" y="984" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="94"/>
-    <property name="Next 2" type="object" value="96"/>
-    <property name="Next 3" type="object" value="95"/>
-    <property name="Next 4" type="object" value="89"/>
-    <property name="Next 5" type="object" value="91"/>
-    <property name="Next 6" type="object" value="93"/>
-    <property name="Next 7" type="object" value="90"/>
-    <property name="Next 8" type="object" value="92"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="101" type="Mystery Datum" gid="283" x="376" y="688" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="102" type="Mystery Datum" gid="283" x="144" y="1336" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="111" type="Mystery Datum" gid="283" x="944" y="1144" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="21"/>
+    <property name="Next 1" type="object" value="21"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="112" type="Mystery Datum" gid="283" x="560" y="992" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="21"/>
+    <property name="Next 1" type="object" value="21"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="113" type="Mystery Datum" gid="283" x="288" y="1120" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="21"/>
+    <property name="Next 1" type="object" value="21"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
-  <object id="121" type="Mystery Datum" gid="299" x="200" y="984" width="14" height="43">
+  <object id="121" type="Mystery Datum" gid="299" x="472" y="736" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="122" type="Mystery Datum" gid="299" x="952" y="936" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
@@ -825,11 +761,11 @@
    <properties>
     <property name="Next 1" type="object" value="16"/>
     <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="16"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="17"/>
-    <property name="Next 7" type="object" value="17"/>
+    <property name="Next 3" type="object" value="17"/>
+    <property name="Next 4" type="object" value="17"/>
+    <property name="Next 5" type="object" value="18"/>
+    <property name="Next 6" type="object" value="18"/>
+    <property name="Next 7" type="object" value="19"/>
     <property name="Next 8" type="object" value="19"/>
     <property name="Next 9" type="object" value="15"/>
     <property name="Once" type="bool" value="false"/>
@@ -848,127 +784,55 @@
   </object>
   <object id="103" type="Mystery Datum" gid="283" x="1040" y="168" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="104" type="Mystery Datum" gid="283" x="808" y="328" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="105" type="Mystery Datum" gid="283" x="936" y="928" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="114" type="Mystery Datum" gid="283" x="936" y="536" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="21"/>
+    <property name="Next 1" type="object" value="21"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="115" type="Mystery Datum" gid="283" x="1296" y="896" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="21"/>
+    <property name="Next 1" type="object" value="21"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="116" type="Mystery Datum" gid="283" x="816" y="152" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="21"/>
+    <property name="Next 1" type="object" value="21"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="123" type="Mystery Datum" gid="299" x="1240" y="952" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="124" type="Mystery Datum" gid="299" x="944" y="744" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="125" type="Mystery Datum" gid="299" x="944" y="336" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
@@ -1286,155 +1150,67 @@
   <object id="59" name="Link" gid="145" x="1296" y="1104" width="64" height="32"/>
   <object id="106" type="Mystery Datum" gid="283" x="296" y="152" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="107" type="Mystery Datum" gid="283" x="680" y="1272" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="108" type="Mystery Datum" gid="283" x="1144" y="112" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="109" type="Mystery Datum" gid="283" x="112" y="880" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="110" type="Mystery Datum" gid="283" x="752" y="376" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="20"/>
+    <property name="Next 1" type="object" value="20"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="117" type="Mystery Datum" gid="283" x="1264" y="1112" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="21"/>
+    <property name="Next 1" type="object" value="21"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="118" type="Mystery Datum" gid="283" x="472" y="552" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="21"/>
+    <property name="Next 1" type="object" value="21"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="119" type="Mystery Datum" gid="283" x="184" y="1272" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="21"/>
+    <property name="Next 1" type="object" value="21"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="126" type="Mystery Datum" gid="299" x="168" y="544" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="127" type="Mystery Datum" gid="299" x="1080" y="304" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="128" type="Mystery Datum" gid="299" x="952" y="1144" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
@@ -1618,13 +1394,9 @@
    <point/>
   </object>
   <object id="30" x="144" y="1408">
-    <property name="Arrival Animation" value="arrow_down_left_in"/>
-    <property name="Description" value="Entry from Hidden Area (0)"/>
    <point/>
   </object>
   <object id="31" name="31" x="336" y="32">
-    <property name="Arrival Animation" value="arrow_up_right_in"/>
-    <property name="Description" value="Entry from Hidden Area (1)"/>
    <point/>
   </object>
   <object id="60" type="Server Warp" gid="125" x="128" y="512" width="64" height="32">
@@ -1640,85 +1412,37 @@
   <object id="61" name="Link to Dojo" gid="145" x="144" y="528" width="64" height="32"/>
   <object id="120" type="Mystery Datum" gid="283" x="176" y="496" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="21"/>
+    <property name="Next 1" type="object" value="21"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="129" type="Mystery Datum" gid="299" x="560" y="864" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="130" type="Mystery Datum" gid="299" x="904" y="584" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="131" type="Mystery Datum" gid="299" x="888" y="816" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="132" type="Mystery Datum" gid="299" x="696" y="728" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
   <object id="133" type="Mystery Datum" gid="299" x="536" y="568" width="14" height="43">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="16"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="17"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="18"/>
-    <property name="Next 8" type="object" value="19"/>
-    <property name="Next 9" type="object" value="22"/>
+    <property name="Next 1" type="object" value="22"/>
     <property name="Type" value="random"/>
    </properties>
   </object>
