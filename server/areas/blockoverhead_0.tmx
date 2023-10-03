@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="5" height="8" tilewidth="64" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="5">
+<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="5" height="8" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="6">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/wallpapers/undernet/static/green_static.animation"/>
@@ -14,124 +14,7 @@
  <tileset firstgid="73" source="../assets/objects/warps/network.tsx"/>
  <tileset firstgid="79" source="../assets/objects/decor/warps/link.tsx"/>
  <tileset firstgid="84" source="../assets/objects/doors/skull_gate.tsx"/>
- <layer id="1" name="Floor 1" width="5" height="8">
-  <data encoding="csv">
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="2" name="Object Layer 1"/>
- <layer id="3" name="Stairs 1a" width="5" height="8" offsetx="0" offsety="-16">
-  <data encoding="csv">
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="4" name="Object Layer 1a" offsetx="0" offsety="-16"/>
- <layer id="5" name="Stairs 1b" width="5" height="8" offsetx="0" offsety="-32">
-  <data encoding="csv">
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="6" name="Object Layer 1b" offsetx="0" offsety="-32"/>
- <layer id="7" name="Floor 2" width="5" height="8" offsetx="0" offsety="-48">
-  <data encoding="csv">
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="8" name="Object Layer 2" offsetx="0" offsety="-48"/>
- <layer id="9" name="Stairs 2a" width="5" height="8" offsetx="0" offsety="-64">
-  <data encoding="csv">
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="10" name="Object Layer 2a" offsetx="0" offsety="-64"/>
- <layer id="11" name="Stairs 2b" width="5" height="8" offsetx="0" offsety="-80">
-  <data encoding="csv">
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="12" name="Object Layer 2b" offsetx="0" offsety="-80"/>
- <layer id="13" name="Floor 3" width="5" height="8" offsetx="0" offsety="-96">
-  <data encoding="csv">
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="14" name="Object Layer 3" offsetx="0" offsety="-96"/>
- <layer id="15" name="Stairs 3a" width="5" height="8" offsetx="0" offsety="-112">
-  <data encoding="csv">
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="16" name="Object Layer 3a" offsetx="0" offsety="-112"/>
- <layer id="17" name="Stairs 3b" width="5" height="8" offsetx="0" offsety="-128">
-  <data encoding="csv">
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0,
-0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="18" name="Object Layer 3b" offsetx="0" offsety="-128"/>
- <layer id="19" name="Floor 4" width="5" height="8" offsetx="0" offsety="-144">
+ <layer id="1" name="Floor 3" width="5" height="8" offsetx="0" offsety="-96">
   <data encoding="csv">
 0,0,53,0,0,
 0,0,53,0,0,
@@ -143,7 +26,7 @@
 0,36,48,10,0
 </data>
  </layer>
- <objectgroup id="20" name="Object Layer 4" offsetx="0" offsety="-144">
+ <objectgroup id="2" name="Floor 3" offsetx="0" offsety="-96">
   <object id="1" type="Server Warp" gid="74" x="64" y="160" width="64" height="32">
    <properties>
     <property name="Address" value="165.227.139.229"/>
@@ -169,14 +52,17 @@
     <property name="Unlocked Message" value="You used the GobboData0 to open the path!"/>
    </properties>
   </object>
-  <object id="4" type="Radius Warp" x="80" y="16">
+  <object id="4" name="Link to Rey's Homepage" type="Radius Warp" x="80" y="16">
    <properties>
     <property name="Activation Radius" type="float" value="1"/>
-    <property name="Arrival Animation" value="arrow_up_right_in"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
     <property name="Target Area" value="default"/>
-    <property name="Target Object" value="142"/>
+    <property name="Target Object" value="30"/>
    </properties>
+   <point/>
+  </object>
+  <object id="5" x="80" y="48">
+    <property name="Arrival Animation" value="arrow_up_right_in"/>
    <point/>
   </object>
  </objectgroup>
