@@ -1071,7 +1071,7 @@
    </properties>
   </object>
   <object id="45" name="Link" gid="145" x="720" y="1104" width="64" height="32"/>
-  <object id="46" name="Link to Gravy Yum" type="Server Warp" gid="125" x="704" y="1280" width="64" height="32">
+  <object id="46" type="Server Warp" gid="125" x="704" y="1280" width="64" height="32">
    <properties>
     <property name="Address" value="keristero.xyz"/>
     <property name="Data" value="ReyHome"/>
@@ -1081,7 +1081,7 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="47" name="Link" gid="140" x="720" y="1296" width="64" height="32"/>
+  <object id="47" name="Link to Gravy Yum" gid="140" x="720" y="1296" width="64" height="32"/>
   <object id="48" type="Server Warp" gid="124" x="896" y="320" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
@@ -1375,7 +1375,7 @@
     <property name="Type" value="keyitem"/>
    </properties>
   </object>
-  <object id="28" name="Link to Hidden Area (0)" type="Radius Warp" x="144" y="1448">
+  <object id="28" name="Link to Hidden Area (0)" type="Radius Warp" x="144" y="1464">
    <properties>
     <property name="Activation Radius" type="float" value="1"/>
     <property name="Leave Animation" value="arrow_down_left_out"/>
@@ -1384,7 +1384,7 @@
    </properties>
    <point/>
   </object>
-  <object id="29" name="Link to Hidden Area (1)" type="Radius Warp" x="336" y="-8">
+  <object id="29" name="Link to Hidden Area (1)" type="Radius Warp" x="336" y="-24">
    <properties>
     <property name="Activation Radius" type="float" value="1"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
@@ -1393,10 +1393,10 @@
    </properties>
    <point/>
   </object>
-  <object id="30" x="144" y="1408">
+  <object id="30" x="144" y="1424">
    <point/>
   </object>
-  <object id="31" name="31" x="336" y="32">
+  <object id="31" name="31" x="336" y="16">
    <point/>
   </object>
   <object id="60" type="Server Warp" gid="125" x="128" y="512" width="64" height="32">
