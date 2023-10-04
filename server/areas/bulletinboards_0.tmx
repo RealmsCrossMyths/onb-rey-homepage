@@ -33,39 +33,19 @@
    </properties>
    <point/>
   </object>
-  <object id="2" type="Radius Warp" x="225" y="121">
+  <object id="3" name="Back to Rey's Homepage" type="Radius Warp" x="256" y="112">
    <properties>
-    <property name="Activation Radius" type="float" value="0.16"/>
-    <property name="Description" value="Exit To Rey's Homepage"/>
+    <property name="Activation Radius" type="float" value="1.15"/>
+    <property name="Description" value="Back to Rey's Homepage"/>
     <property name="Leave Animation" value="arrow_down_right_out"/>
     <property name="Target Area" value="default"/>
     <property name="Target Object" value="134"/>
    </properties>
    <point/>
   </object>
-  <object id="3" name="Link to Rey's Homepage" type="Radius Warp" x="225" y="113">
-   <properties>
-    <property name="Activation Radius" type="float" value="0.16"/>
-    <property name="Description" value="Exit To Rey's Homepage"/>
-    <property name="Leave Animation" value="arrow_down_right_out"/>
-    <property name="Target Area" value="default"/>
-    <property name="Target Object" value="134"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="4" type="Radius Warp" x="225" y="105">
-   <properties>
-    <property name="Activation Radius" type="float" value="0.16"/>
-    <property name="Description" value="Exit To Rey's Homepage"/>
-    <property name="Leave Animation" value="arrow_down_right_out"/>
-    <property name="Target Area" value="default"/>
-    <property name="Target Object" value="134"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="5" gid="1073741874" x="224" y="96" width="64" height="32"/>
+  <object id="5" gid="3221225522" x="211" y="99" width="28" height="17"/>
   <object id="6" gid="2147483708" x="214" y="112" width="80" height="62"/>
-  <object id="7" gid="2147483718" x="243" y="113" width="80" height="62"/>
+  <object id="7" gid="2147483718" x="240" y="110" width="80" height="62"/>
   <object id="8" name="Help Desk" type="Board" gid="49" x="-9" y="167" width="32" height="54">
    <properties>
     <property name="BBS" type="bool" value="true"/>

@@ -52,16 +52,16 @@
     <property name="Unlocked Message" value="You used the GobboData0 to open the path!"/>
    </properties>
   </object>
-  <object id="4" name="Link to Rey's Homepage" type="Radius Warp" x="80" y="-24">
+  <object id="4" name="Link to Rey's Homepage" type="Radius Warp" x="80" y="-32">
    <properties>
-    <property name="Activation Radius" type="float" value="1"/>
+    <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
     <property name="Target Area" value="default"/>
     <property name="Target Object" value="30"/>
    </properties>
    <point/>
   </object>
-  <object id="5" x="80" y="16">
+  <object id="5" x="80" y="8">
    <point/>
   </object>
  </objectgroup>

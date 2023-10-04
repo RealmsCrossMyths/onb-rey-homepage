@@ -836,46 +836,26 @@
     <property name="Type" value="random"/>
    </properties>
   </object>
-  <object id="134" x="776" y="208">
+  <object id="134" x="776" y="240">
    <properties>
     <property name="Arrival Animation" value="arrow_up_left_in"/>
     <property name="Description" value="Entry From Rey Bulletin Boards"/>
    </properties>
    <point/>
   </object>
-  <object id="135" type="Radius Warp" x="767" y="215">
+  <object id="136" name="To Rey's Bulletin Boards" type="Radius Warp" x="736" y="240">
    <properties>
-    <property name="Activation Radius" type="float" value="0.16"/>
-    <property name="Description" value="Exit To Rey Bulletin Boards"/>
+    <property name="Activation Radius" type="float" value="1.15"/>
+    <property name="Description" value="To Rey's Bulletin Boards"/>
     <property name="Leave Animation" value="arrow_up_left_out"/>
     <property name="Target Area" value="bulletinboards_0"/>
     <property name="Target Object" value="1"/>
    </properties>
    <point/>
   </object>
-  <object id="136" name="Link to Rey's Bulletin Boards" type="Radius Warp" x="767" y="207">
-   <properties>
-    <property name="Activation Radius" type="float" value="0.16"/>
-    <property name="Description" value="Exit To Rey Bulletin Boards"/>
-    <property name="Leave Animation" value="arrow_up_left_out"/>
-    <property name="Target Area" value="bulletinboards_0"/>
-    <property name="Target Object" value="1"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="137" type="Radius Warp" x="767" y="199">
-   <properties>
-    <property name="Activation Radius" type="float" value="0.16"/>
-    <property name="Description" value="Exit To Rey Bulletin Boards"/>
-    <property name="Leave Animation" value="arrow_up_left_out"/>
-    <property name="Target Area" value="bulletinboards_0"/>
-    <property name="Target Object" value="1"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="138" gid="2147483956" x="736" y="192" width="64" height="32"/>
-  <object id="139" gid="2147483966" x="755" y="205" width="80" height="62"/>
-  <object id="140" gid="2147483976" x="784" y="206" width="80" height="62"/>
+  <object id="138" gid="308" x="752" y="224" width="28" height="17"/>
+  <object id="139" gid="2147483966" x="755" y="237" width="80" height="62"/>
+  <object id="140" gid="2147483976" x="781" y="235" width="80" height="62"/>
  </objectgroup>
  <layer id="3" name="Stairs F1a" width="45" height="45" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -1375,28 +1355,28 @@
     <property name="Type" value="keyitem"/>
    </properties>
   </object>
-  <object id="28" name="Link to Hidden Area (0)" type="Radius Warp" x="144" y="1464">
+  <object id="28" name="Link to Hidden Area (0)" type="Radius Warp" x="144" y="1472">
    <properties>
-    <property name="Activation Radius" type="float" value="1"/>
+    <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_down_left_out"/>
     <property name="Target Area" value="blockoverhead_0"/>
     <property name="Target Object" value="5"/>
    </properties>
    <point/>
   </object>
-  <object id="29" name="Link to Hidden Area (1)" type="Radius Warp" x="336" y="-24">
+  <object id="29" name="Link to Hidden Area (1)" type="Radius Warp" x="336" y="-32">
    <properties>
-    <property name="Activation Radius" type="float" value="1"/>
+    <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
     <property name="Target Area" value="blockoverhead_1"/>
     <property name="Target Object" value="5"/>
    </properties>
    <point/>
   </object>
-  <object id="30" x="144" y="1424">
+  <object id="30" x="144" y="1432">
    <point/>
   </object>
-  <object id="31" name="31" x="336" y="16">
+  <object id="31" name="31" x="336" y="8">
    <point/>
   </object>
   <object id="60" type="Server Warp" gid="125" x="128" y="512" width="64" height="32">
