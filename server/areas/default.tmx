@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="45" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="179">
+<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="45" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="173">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.animation"/>
@@ -379,9 +379,21 @@
   <object id="142" gid="349" x="558" y="812" width="48" height="68"/>
   <object id="143" gid="2147483981" x="1126" y="1164" width="48" height="68"/>
   <object id="144" gid="335" x="276" y="736" width="48" height="68"/>
-  <object id="145" gid="2147483995" x="558" y="812" width="48" height="68"/>
-  <object id="146" gid="2147483980" x="1126" y="1164" width="48" height="68"/>
-  <object id="147" gid="332" x="276" y="736" width="48" height="68"/>
+  <object id="145" gid="2147483995" x="558" y="812" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;The Block&quot;"/>
+   </properties>
+  </object>
+  <object id="146" gid="2147483980" x="1126" y="1164" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
+  <object id="147" gid="332" x="276" y="736" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="17" name="Stairs B1a" width="45" height="45" offsetx="0" offsety="32">
   <data encoding="csv">
@@ -864,7 +876,14 @@
   <object id="138" gid="2147483966" x="755" y="237" width="80" height="62"/>
   <object id="139" gid="2147483976" x="781" y="235" width="80" height="62"/>
   <object id="140" gid="340" x="756" y="284" width="48" height="68"/>
-  <object id="141" gid="337" x="756" y="284" width="48" height="68"/>
+  <object id="141" gid="337" x="756" y="284" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="Rey's Bulletin Boards.                             Please be respectful and polite with your posts.                                                                                                                                                            Also, please don't harass the monkey."/>
+   </properties>
+  </object>
+  <object id="172" x="264" y="-992">
+   <point/>
+  </object>
  </objectgroup>
  <layer id="3" name="Stairs F1a" width="45" height="45" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -1084,15 +1103,15 @@
   <object id="49" name="Link" gid="145" x="912" y="336" width="64" height="32"/>
   <object id="50" type="Server Warp" gid="124" x="896" y="704" width="64" height="32">
    <properties>
-    <property name="Address" value=""/>
+    <property name="Address" value="159.223.165.219"/>
     <property name="Data" value="ReyHome"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Incoming Data" value=""/>
-    <property name="Port" type="int" value="0"/>
+    <property name="Incoming Data" value="ServJunct"/>
+    <property name="Port" type="int" value="7777"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="51" name="Link" gid="145" x="912" y="720" width="64" height="32"/>
+  <object id="51" name="Link to Server-Junction" gid="145" x="912" y="720" width="64" height="32"/>
   <object id="52" type="Server Warp" gid="124" x="1088" y="320" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
@@ -1214,17 +1233,61 @@
   <object id="156" gid="335" x="1236" y="1063" width="48" height="68"/>
   <object id="157" gid="335" x="852" y="688" width="48" height="68"/>
   <object id="158" gid="2147483982" x="1356" y="144" width="48" height="68"/>
-  <object id="159" gid="332" x="468" y="1104" width="48" height="68"/>
-  <object id="160" gid="2147483980" x="722" y="1044" width="48" height="68"/>
-  <object id="161" gid="332" x="1164" y="1104" width="48" height="68"/>
-  <object id="162" gid="332" x="1236" y="1063" width="48" height="68"/>
-  <object id="163" gid="332" x="852" y="688" width="48" height="68"/>
-  <object id="164" gid="332" x="972" y="307" width="48" height="68"/>
-  <object id="165" gid="2147483980" x="728" y="84" width="48" height="68"/>
-  <object id="166" gid="2147483980" x="1128" y="396" width="48" height="68"/>
-  <object id="167" gid="332" x="84" y="1071" width="48" height="68"/>
-  <object id="168" gid="332" x="1356" y="144" width="48" height="68"/>
-  <object id="169" gid="2147483980" x="691" y="1236" width="48" height="68"/>
+  <object id="159" gid="332" x="468" y="1104" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
+  <object id="160" gid="2147483980" x="722" y="1044" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
+  <object id="161" gid="332" x="1164" y="1104" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
+  <object id="162" gid="332" x="1236" y="1063" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
+  <object id="163" gid="332" x="852" y="688" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;Server-Junction&quot;"/>
+   </properties>
+  </object>
+  <object id="164" gid="332" x="972" y="307" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
+  <object id="165" gid="2147483980" x="728" y="84" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
+  <object id="166" gid="2147483980" x="1128" y="396" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
+  <object id="167" gid="332" x="84" y="1071" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
+  <object id="168" gid="332" x="1356" y="144" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+   </properties>
+  </object>
+  <object id="169" gid="2147483980" x="691" y="1236" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;Gravy Yum&quot;"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="9" name="Stairs F2a" width="45" height="45" offsetx="0" offsety="-64">
   <data encoding="csv">
@@ -1326,7 +1389,7 @@
 </data>
  </layer>
  <objectgroup id="12" name="Stairs F2b" offsetx="0" offsety="-80"/>
- <layer id="13" name="Floor 3" width="45" height="45" offsetx="0" offsety="-96">
+ <layer id="13" name="Floor 3" width="45" height="45" visible="0" offsetx="0" offsety="-96">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1464,6 +1527,10 @@
    </properties>
   </object>
   <object id="170" gid="335" x="84" y="549" width="48" height="68"/>
-  <object id="171" gid="332" x="84" y="549" width="48" height="68"/>
+  <object id="171" gid="332" x="84" y="549" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It has a reserved stamp placed on it…"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
