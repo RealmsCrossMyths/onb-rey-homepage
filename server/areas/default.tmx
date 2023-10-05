@@ -9,7 +9,7 @@
   <property name="Mystery Data Maximum" type="int" value="10"/>
   <property name="Mystery Data Minimum" type="int" value="3"/>
   <property name="Name" value="Rey's HP"/>
-  <property name="Song" value="resources/loops/loop_overworld.ogg"/>
+  <property name="Song" value="/server/assets/sounds/music/gobby-hp-loop.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/floors/cybernet/gobby_standard.tsx"/>
  <tileset firstgid="49" source="../assets/tiles/floors/undernet/gobby_standard.tsx"/>
