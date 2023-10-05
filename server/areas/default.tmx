@@ -1405,9 +1405,15 @@
    <point/>
   </object>
   <object id="30" x="144" y="1432">
+   <properties>
+    <property name="Arrival Animation" value="arrow_down_left_in"/>
+   </properties>
    <point/>
   </object>
-  <object id="31" name="31" x="336" y="8">
+  <object id="31" x="336" y="8">
+   <properties>
+    <property name="Arrival Animation" value="arrow_up_right_in"/>
+   </properties>
    <point/>
   </object>
   <object id="60" type="Server Warp" gid="125" x="128" y="512" width="64" height="32">

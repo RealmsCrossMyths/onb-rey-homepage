@@ -62,6 +62,9 @@
    <point/>
   </object>
   <object id="5" x="80" y="248">
+   <properties>
+    <property name="Arrival Animation" value="arrow_down_left_in"/>
+   </properties>
    <point/>
   </object>
  </objectgroup>
