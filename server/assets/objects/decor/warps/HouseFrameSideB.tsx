@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.8" tiledversion="1.8.0" name="House Frame - Side B" tilewidth="80" tileheight="62" tilecount="10" columns="5" objectalignment="bottom">
- <tileoffset x="-4" y="1"/>
+ <tileoffset x="-4" y="4"/>
  <grid orientation="orthogonal" width="64" height="32"/>
  <image source="HouseFrameSideB.png" width="400" height="124"/>
  <tile id="0">
