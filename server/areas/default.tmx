@@ -1507,7 +1507,7 @@
    </properties>
    <point/>
   </object>
-  <object id="190" type="NPC" x="200" y="440">
+  <object id="190" name="underprog" type="NPC" x="200" y="440">
    <properties>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Left"/>
@@ -1546,7 +1546,7 @@
    </properties>
    <point/>
   </object>
-  <object id="196" name="CrossMan WP0" x="264" y="136">
+  <object id="196" name="CrossMan WP0" type="Waypoint" x="264" y="144">
    <properties>
     <property name="Next Waypoint 1" type="object" value="197"/>
     <property name="Next Waypoint 2" type="object" value="198"/>
@@ -1562,7 +1562,7 @@
    </properties>
    <point/>
   </object>
-  <object id="197" name="CrossMan WP1" x="328" y="552">
+  <object id="197" name="CrossMan WP1" type="Waypoint" x="328" y="552">
    <properties>
     <property name="Next Waypoint 1" type="object" value="196"/>
     <property name="Next Waypoint 2" type="object" value="198"/>
@@ -1578,7 +1578,7 @@
    </properties>
    <point/>
   </object>
-  <object id="198" name="CrossMan WP2" x="256" y="352">
+  <object id="198" name="CrossMan WP2" type="Waypoint" x="256" y="352">
    <properties>
     <property name="Next Waypoint 1" type="object" value="196"/>
     <property name="Next Waypoint 2" type="object" value="197"/>
@@ -1594,7 +1594,7 @@
    </properties>
    <point/>
   </object>
-  <object id="199" name="CrossMan WP3" x="400" y="192">
+  <object id="199" name="CrossMan WP3" type="Waypoint" x="400" y="192">
    <properties>
     <property name="Next Waypoint 1" type="object" value="196"/>
     <property name="Next Waypoint 2" type="object" value="197"/>
@@ -1610,7 +1610,7 @@
    </properties>
    <point/>
   </object>
-  <object id="200" name="CrossMan WP4" x="192" y="512">
+  <object id="200" name="CrossMan WP4" type="Waypoint" x="192" y="512">
    <properties>
     <property name="Next Waypoint 1" type="object" value="196"/>
     <property name="Next Waypoint 2" type="object" value="197"/>
@@ -1626,7 +1626,7 @@
    </properties>
    <point/>
   </object>
-  <object id="201" name="CrossMan WP5" x="528" y="488">
+  <object id="201" name="CrossMan WP5" type="Waypoint" x="528" y="488">
    <properties>
     <property name="Next Waypoint 1" type="object" value="196"/>
     <property name="Next Waypoint 2" type="object" value="197"/>
@@ -1642,7 +1642,7 @@
    </properties>
    <point/>
   </object>
-  <object id="202" name="CrossMan WP6" x="168" y="280">
+  <object id="202" name="CrossMan WP6" type="Waypoint" x="168" y="280">
    <properties>
     <property name="Next Waypoint 1" type="object" value="196"/>
     <property name="Next Waypoint 2" type="object" value="197"/>
@@ -1658,7 +1658,7 @@
    </properties>
    <point/>
   </object>
-  <object id="203" name="CrossMan WP7" x="216" y="168">
+  <object id="203" name="CrossMan WP7" type="Waypoint" x="216" y="168">
    <properties>
     <property name="Next Waypoint 1" type="object" value="196"/>
     <property name="Next Waypoint 2" type="object" value="197"/>
@@ -1674,7 +1674,7 @@
    </properties>
    <point/>
   </object>
-  <object id="204" name="CrossMan WP8" x="496" y="352">
+  <object id="204" name="CrossMan WP8" type="Waypoint" x="496" y="352">
    <properties>
     <property name="Next Waypoint 1" type="object" value="196"/>
     <property name="Next Waypoint 2" type="object" value="197"/>
@@ -1690,7 +1690,7 @@
    </properties>
    <point/>
   </object>
-  <object id="205" name="CrossMan WP9" x="352" y="320">
+  <object id="205" name="CrossMan WP9" type="Waypoint" x="352" y="320">
    <properties>
     <property name="Next Waypoint 1" type="object" value="196"/>
     <property name="Next Waypoint 2" type="object" value="197"/>
