@@ -9,6 +9,7 @@
             "description":"The homepage of Rey, Gobby.EXE's operator. She plans to add links to various networks, servers, and other homepages.",
             "tags":["pvp","meetup","junction"],
             "address":"keristero.xyz:9876",
+            "default_area_id":"default"
             "data":"",
             "icon":"advertisement.png",
             "color":"rgb(13,110,43)",

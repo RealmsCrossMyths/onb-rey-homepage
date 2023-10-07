@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="45" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="173">
+<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="45" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="189">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.animation"/>
@@ -112,7 +112,7 @@
     <property name="Description" value="Gobby.EXE's secret data. It says something about travelling around the block?"/>
     <property name="Name" value="GobboData0"/>
     <property name="Once" type="bool" value="true"/>
-    <property name="Price" type="int" value="22"/>
+    <property name="Price" type="int" value="999999999"/>
     <property name="Type" value="keyitem"/>
    </properties>
   </object>
@@ -881,7 +881,113 @@
     <property name="Flavor" value="Rey's Bulletin Boards.                             Please be respectful and polite with your posts.                                                                                                                                                            Also, please don't harass the monkey."/>
    </properties>
   </object>
-  <object id="172" x="264" y="-992">
+  <object id="172" name="Gobby.EXE" type="NPC" x="992" y="520">
+   <properties>
+    <property name="Dialogue Type" value="itemcheck"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Dont Face Player" type="bool" value="false"/>
+    <property name="Dont Notify" type="bool" value="false"/>
+    <property name="Item 1" type="object" value="173"/>
+    <property name="Mugshot Path" value="/server/assets/characters/mug/"/>
+    <property name="Next 1" type="object" value="184"/>
+    <property name="Next 2" type="object" value="174"/>
+    <property name="Sheet Name" value="gobby"/>
+    <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
+    <property name="Text 1" value="My operator's homepage is really coming along. We are going to try and max out Rey's homepage's appeal if we can."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="173" name="QI000" x="264" y="-992">
+   <properties>
+    <property name="Amount" type="int" value="1"/>
+    <property name="Description" value="???"/>
+    <property name="Name" value="quest000"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="999999999"/>
+    <property name="Type" value="item"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="174" x="-920" y="-416">
+   <properties>
+    <property name="Dialogue Type" value="item"/>
+    <property name="Dont Notify" type="bool" value="true"/>
+    <property name="Item 1" type="object" value="173"/>
+    <property name="Next 1" type="object" value="175"/>
+    <property name="Text 1" value="By the way. if it's not too much trouble; I need data scraps. If you find any, please bring them to me."/>
+    <property name="Text 2" value="You won't be able to see them in your inventor; so just come to me if you think you have some."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="175" x="-944" y="-440">
+   <properties>
+    <property name="Dialogue Type" value="none"/>
+    <property name="Next 1" type="object" value="176"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="177" x="-992" y="-488">
+   <properties>
+    <property name="Dialogue Type" value="question"/>
+    <property name="Next 1" type="object" value="182"/>
+    <property name="Next 2" type="object" value="183"/>
+    <property name="Text 1" value="You have a data scrap; I can feel it. Would you let me take it from you?"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="178" name="QI001" x="272" y="-1000">
+   <properties>
+    <property name="Amount" type="int" value="1"/>
+    <property name="Description" value="???"/>
+    <property name="Name" value="quest001"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="999999999"/>
+    <property name="Type" value="item"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="182" x="-1016" y="-512">
+   <properties>
+    <property name="Dialogue Type" value="itemcheck"/>
+    <property name="Item 1" type="object" value="13"/>
+    <property name="Next 1" type="object" value="175"/>
+    <property name="Take Item" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="183" x="-1040" y="-536">
+   <properties>
+    <property name="Dialogue Type" value="none"/>
+    <property name="Next 1" type="object" value="184"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="184" x="-1064" y="-560">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Text 1" value="If it's not too much trouble; I still need data scraps. If you find any, please bring them to me."/>
+    <property name="Text 2" value="You won't be able to see them in your inventor; so just come to me if you think you have some."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="185" x="-1096" y="-584">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="186" x="-1088" y="-592">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="176" x="-968" y="-464">
+   <properties>
+    <property name="Dialogue Type" value="itemcheck"/>
+    <property name="Item 1" type="object" value="13"/>
+    <property name="Next 1" type="object" value="177"/>
+   </properties>
    <point/>
   </object>
  </objectgroup>
@@ -1288,6 +1394,23 @@
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;Gravy Yum&quot;"/>
    </properties>
   </object>
+  <object id="188" x="1304" y="568">
+   <properties>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Mugshot Path" value="/server/assets/characters/mug/"/>
+    <property name="Sheet Name" value="underprog"/>
+    <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
+    <property name="Text 1" value="I'm just a Mr. Prog. I don't know anything about the bulletin board monkey moderator being harrassed with banana viruses. What? Nothing. I didn't say anything. You're hearing things."/>
+    <property name="Text 2" value="I'm just a Mr. Prog. I don't know anything the poor security at Builie's Pawn Shop Stop. What? Nothing. I didn't say anything. You're hearing things."/>
+    <property name="Text 3" value="Remember ReyHPMax… Can't forget… Eh? What? Nothing!"/>
+    <property name="Text 4" value="I'm just a Mr. Prog. I don't know anything about Hidden Areas on this homepage. What? Nothing. I didn't say anything. You're hearing things."/>
+    <property name="Text 5" value="I'm just a Mr. Prog. I don't know anything about the undernet. What? Nothing. I didn't say anything. You're hearing things."/>
+    <property name="Text 6" value="Pretty sure I lost it around here… Lost something? No; don't be silly, I didn't lose anything!"/>
+    <property name="Text 7" value="I'm just a Mr. Prog. I don't know anything about the stock market. What? Nothing. I didn't say anything. You're hearing things."/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
  <layer id="9" name="Stairs F2a" width="45" height="45" offsetx="0" offsety="-64">
   <data encoding="csv">
@@ -1445,7 +1568,7 @@
     <property name="Description" value="Gobby.EXE's secret data. It says something about travelling around the block?"/>
     <property name="Name" value="GobboData1"/>
     <property name="Once" type="bool" value="true"/>
-    <property name="Price" type="int" value="22"/>
+    <property name="Price" type="int" value="999999999"/>
     <property name="Type" value="keyitem"/>
    </properties>
   </object>
