@@ -881,7 +881,7 @@
     <property name="Flavor" value="Rey's Bulletin Boards.                             Please be respectful and polite with your posts.                                                                                                                                                            Also, please don't harass the monkey."/>
    </properties>
   </object>
-  <object id="172" name="Gobby.EXE" type="NPC" x="992" y="520" visible="false">
+  <object id="172" name="Gobby.EXE" x="992" y="520">
    <properties>
     <property name="Dialogue Type" value="itemcheck"/>
     <property name="Direction" value="Up Right"/>
