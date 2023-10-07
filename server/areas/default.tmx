@@ -1394,7 +1394,7 @@
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;Gravy Yum&quot;"/>
    </properties>
   </object>
-  <object id="188" x="1304" y="568">
+  <object id="188" type="NPC" x="1304" y="568">
    <properties>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Right"/>
