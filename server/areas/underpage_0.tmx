@@ -38,7 +38,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="Basement 1" offsetx="0" offsety="48">
-  <object id="1" name="underprog" type="NPC" x="376" y="528">
+  <object id="3" name="underprog" type="NPC" x="376" y="528">
    <properties>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
@@ -50,19 +50,19 @@
    </properties>
    <point/>
   </object>
-  <object id="2" x="480" y="544">
+  <object id="4" x="480" y="544">
    <properties>
-    <property name="Interact Relay" type="object" value="1"/>
+    <property name="Interact Relay" type="object" value="3"/>
    </properties>
    <polygon points="0,0 0,-32 -2,-32 -2,0"/>
   </object>
-  <object id="3" x="664" y="528">
+  <object id="1" x="664" y="528">
    <properties>
     <property name="Arrival Animation" value="arrow_down_right_in"/>
    </properties>
    <point/>
   </object>
-  <object id="4" type="Radius Warp" x="704" y="528">
+  <object id="2" name="Back to Rey's HP" type="Radius Warp" x="704" y="528">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_down_right_out"/>
