@@ -14,7 +14,7 @@
  <tileset firstgid="1" source="../assets/tiles/floors/cybernet/gobby_standard.tsx"/>
  <tileset firstgid="49" source="../assets/tiles/floors/undernet/gobby_standard.tsx"/>
  <tileset firstgid="97" source="../assets/tiles/floors/special/empty.tsx"/>
- <tileset firstgid="121" source="../assets/tiles/stairs/default.tsx"/>
+ <tileset firstgid="121" source="../assets/tiles/stairs/cybernet/gobby-sampler.tsx"/>
  <tileset firstgid="124" source="../assets/objects/warps/network.tsx"/>
  <tileset firstgid="130" source="../assets/objects/decor/warps/home.tsx"/>
  <tileset firstgid="135" source="../assets/objects/decor/warps/page.tsx"/>
@@ -31,6 +31,7 @@
  <tileset firstgid="312" source="../assets/objects/decor/warps/HouseFrameSideA.tsx"/>
  <tileset firstgid="322" source="../assets/objects/decor/warps/HouseFrameSideB.tsx"/>
  <tileset firstgid="332" source="../assets/objects/signs/cyber_noticeboard.tsx"/>
+ <tileset firstgid="352" source="../assets/tiles/conveyor/Netopia_Tileset_directional_paths.tsx"/>
  <layer id="19" name="Basement 1" width="45" height="45" offsetx="0" offsety="48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
