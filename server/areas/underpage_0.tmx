@@ -12,7 +12,8 @@
  <tileset firstgid="1" source="../assets/tiles/floors/undernet/gobby_standard.tsx"/>
  <tileset firstgid="49" source="../assets/tiles/stairs/undernet/gobby-sampler.tsx"/>
  <tileset firstgid="52" source="../assets/tiles/floors/special/empty.tsx"/>
- <layer id="1" name="Basement 1" width="21" height="21" offsetx="0" offsety="48">
+ <tileset firstgid="76" source="../assets/objects/walls/invisible.tsx"/>
+ <layer id="3" name="Basement 1" width="21" height="21" offsetx="0" offsety="48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -37,25 +38,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="2" name="Basement 1" offsetx="0" offsety="48">
-  <object id="3" name="underprog" type="NPC" x="376" y="528">
-   <properties>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Right"/>
-    <property name="Dont Face Player" type="bool" value="true"/>
-    <property name="Mugshot Path" value="/server/assets/characters/mug/"/>
-    <property name="Sheet Name" value="underprog"/>
-    <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
-    <property name="Text 1" value="I like seeing the look of confusion on the faces of people across this chasm."/>
-   </properties>
-   <point/>
-  </object>
-  <object id="4" x="480" y="544">
-   <properties>
-    <property name="Interact Relay" type="object" value="3"/>
-   </properties>
-   <polygon points="0,0 0,-32 -2,-32 -2,0"/>
-  </object>
+ <objectgroup id="4" name="Basement 1" offsetx="0" offsety="48">
   <object id="1" x="664" y="528">
    <properties>
     <property name="Arrival Animation" value="arrow_down_right_in"/>
@@ -71,8 +54,25 @@
    </properties>
    <point/>
   </object>
+  <object id="3" name="underprog" type="NPC" x="376" y="528">
+   <properties>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Mugshot Path" value="/server/assets/characters/mug/"/>
+    <property name="Sheet Name" value="underprog"/>
+    <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
+    <property name="Text 1" value="I like seeing the look of confusion on the faces of people across this chasm."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="4" gid="76" x="479" y="528" width="34" height="17">
+   <properties>
+    <property name="Interact Relay" type="object" value="3"/>
+   </properties>
+  </object>
  </objectgroup>
- <layer id="3" name="Stairs B1a" width="21" height="21" offsetx="0" offsety="32">
+ <layer id="5" name="Stairs B1a" width="21" height="21" offsetx="0" offsety="32">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -97,8 +97,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="Stairs B1a" offsetx="0" offsety="32"/>
- <layer id="5" name="Stairs B1b" width="21" height="21" offsetx="0" offsety="16">
+ <objectgroup id="6" name="Stairs B1a" offsetx="0" offsety="32"/>
+ <layer id="7" name="Stairs B1b" width="21" height="21" offsetx="0" offsety="16">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -123,8 +123,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="Stairs B1b" offsetx="0" offsety="16"/>
- <layer id="7" name="Floor 1" width="21" height="21">
+ <objectgroup id="8" name="Stairs B1b" offsetx="0" offsety="16"/>
+ <layer id="1" name="Floor 1" width="21" height="21">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -149,5 +149,5 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="8" name="Floor 1"/>
+ <objectgroup id="2" name="Floor 1"/>
 </map>
