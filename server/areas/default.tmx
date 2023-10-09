@@ -1552,7 +1552,7 @@
     <property name="Text 1" value="This place is pretty big… And a little shady…"/>
     <property name="Text 2" value="The lights above this level are a bit distracting."/>
     <property name="Text 3" value="There's no viruses here. That's nice."/>
-    <property name="Text 4" value="I wonder there's any reason those two grim-looking pines at the back of the woods on the lower level."/>
+    <property name="Text 4" value="I wonder there's any reason there is two grim-looking pines at the back of the woods on the lower level."/>
     <property name="Text 5" value="I'm just here to relax."/>
     <property name="Text 6" value="I'm just here to relax."/>
     <property name="Text 7" value="I'm just here to relax."/>
