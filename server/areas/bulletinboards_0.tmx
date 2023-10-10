@@ -16,13 +16,13 @@
  <tileset firstgid="75" source="../assets/tiles/floors/special/empty.tsx"/>
  <layer id="1" name="Floor 1" width="7" height="7">
   <data encoding="csv">
-30,30,30,30,30,30,30,
-30,30,30,30,30,30,30,
-30,30,30,30,30,30,30,
-30,30,30,30,30,30,30,
-30,30,30,30,30,30,30,
-30,30,30,30,30,30,30,
-30,30,30,30,30,30,30
+20,20,20,20,20,20,20,
+20,20,20,20,20,20,20,
+20,20,20,20,20,20,20,
+20,20,20,20,20,20,20,
+20,20,20,20,20,20,20,
+20,20,20,20,20,20,20,
+20,20,20,20,20,20,20
 </data>
  </layer>
  <objectgroup id="2" name="Floor 1">
@@ -33,13 +33,13 @@
    </properties>
    <point/>
   </object>
-  <object id="3" name="Back to Rey's Homepage" type="Radius Warp" x="256" y="112">
+  <object id="2" name="Back to Rey's Homepage" type="Radius Warp" x="256" y="112">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Description" value="Back to Rey's Homepage"/>
     <property name="Leave Animation" value="arrow_down_right_out"/>
     <property name="Target Area" value="default"/>
-    <property name="Target Object" value="134"/>
+    <property name="Target Object" value="135"/>
    </properties>
    <point/>
   </object>
