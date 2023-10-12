@@ -9,25 +9,26 @@
   <property name="Name" value="Hidden Area"/>
   <property name="Song" value="/server/assets/sounds/music/undernet_theme.ogg"/>
  </properties>
- <tileset firstgid="1" source="../assets/tiles/floors/undernet/gobby_standard.tsx"/>
- <tileset firstgid="49" source="../assets/tiles/floors/special/empty.tsx"/>
- <tileset firstgid="73" source="../assets/objects/warps/network.tsx"/>
- <tileset firstgid="79" source="../assets/objects/decor/warps/link.tsx"/>
- <tileset firstgid="84" source="../assets/objects/doors/skull_gate.tsx"/>
+ <tileset firstgid="1" source="../assets/tiles/floors/undernet/standard-00-denim.tsx"/>
+ <tileset firstgid="145" source="../assets/tiles/floors/undernet/standard-01-denim.tsx"/>
+ <tileset firstgid="289" source="../assets/tiles/floors/special/empty.tsx"/>
+ <tileset firstgid="313" source="../assets/objects/warps/network.tsx"/>
+ <tileset firstgid="319" source="../assets/objects/decor/warps/link.tsx"/>
+ <tileset firstgid="324" source="../assets/objects/doors/skull_gate.tsx"/>
  <layer id="1" name="Floor 3" width="5" height="8" offsetx="0" offsety="-96">
   <data encoding="csv">
-0,20,36,20,0,
-20,48,36,48,20,
-36,10,36,36,36,
-20,48,36,12,5,
-0,5,11,20,0,
-0,0,53,0,0,
-0,0,53,0,0,
-0,0,53,0,0
+0,10,180,12,0,
+10,238,190,238,24,
+179,190,142,190,190,
+11,238,190,238,22,
+0,23,190,22,0,
+0,0,292,0,0,
+0,0,292,0,0,
+0,0,292,0,0
 </data>
  </layer>
  <objectgroup id="2" name="Floor 3" offsetx="0" offsety="-96">
-  <object id="1" type="Server Warp" gid="74" x="64" y="64" width="64" height="32">
+  <object id="1" type="Server Warp" gid="314" x="64" y="64" width="64" height="32">
    <properties>
     <property name="Address" value="165.227.139.229"/>
     <property name="Data" value="ReyOverhead_1"/>
@@ -37,8 +38,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="2" gid="79" x="80" y="80" width="64" height="32"/>
-  <object id="3" type="Checkpoint" gid="84" x="80" y="168" width="34" height="52">
+  <object id="2" gid="319" x="80" y="80" width="64" height="32"/>
+  <object id="3" type="Checkpoint" gid="324" x="80" y="168" width="34" height="52">
    <properties>
     <property name="Description" value="A gate blocks your path. It it is asking for GobboData1 to temporarily open."/>
     <property name="Dialogue Type" value="itemcheck"/>

@@ -8,21 +8,21 @@
   <property name="Name" value="Rey's BBS"/>
   <property name="Song" value="/server/assets/sounds/music/gobby-hp-loop.ogg"/>
  </properties>
- <tileset firstgid="1" source="../assets/tiles/floors/cybernet/gobby_standard.tsx"/>
- <tileset firstgid="49" source="../assets/objects/signs/BulletinBoard.tsx"/>
- <tileset firstgid="50" source="../assets/objects/warps/HouseFrameBase.tsx"/>
- <tileset firstgid="55" source="../assets/objects/decor/warps/HouseFrameSideA.tsx"/>
- <tileset firstgid="65" source="../assets/objects/decor/warps/HouseFrameSideB.tsx"/>
- <tileset firstgid="75" source="../assets/tiles/floors/special/empty.tsx"/>
+ <tileset firstgid="1" source="../assets/tiles/floors/cybernet/standard-00-forest.tsx"/>
+ <tileset firstgid="145" source="../assets/tiles/floors/cybernet/standard-01-forest.tsx"/>
+ <tileset firstgid="289" source="../assets/objects/signs/BulletinBoard.tsx"/>
+ <tileset firstgid="290" source="../assets/objects/warps/HouseFrameBase.tsx"/>
+ <tileset firstgid="295" source="../assets/objects/decor/warps/HouseFrameSideA.tsx"/>
+ <tileset firstgid="305" source="../assets/objects/decor/warps/HouseFrameSideB.tsx"/>
  <layer id="1" name="Floor 1" width="7" height="7">
   <data encoding="csv">
-20,20,20,20,20,20,20,
-20,20,20,20,20,20,20,
-20,20,20,20,20,20,20,
-20,20,20,20,20,20,20,
-20,20,20,20,20,20,20,
-20,20,20,20,20,20,20,
-20,20,20,20,20,20,20
+4,6,6,6,6,6,6,
+5,16,16,16,16,16,16,
+5,16,16,16,16,16,16,
+5,16,16,16,16,16,16,
+5,16,16,16,16,16,16,
+5,16,16,16,16,16,16,
+5,16,16,16,16,16,16
 </data>
  </layer>
  <objectgroup id="2" name="Floor 1">
@@ -43,10 +43,10 @@
    </properties>
    <point/>
   </object>
-  <object id="5" gid="3221225522" x="211" y="99" width="28" height="17"/>
-  <object id="6" gid="2147483708" x="214" y="112" width="80" height="62"/>
-  <object id="7" gid="2147483718" x="240" y="110" width="80" height="62"/>
-  <object id="8" name="Help Desk" type="Board" gid="49" x="-9" y="167" width="32" height="54">
+  <object id="5" gid="3221225762" x="211" y="99" width="28" height="17"/>
+  <object id="6" gid="2147483943" x="214" y="112" width="80" height="62"/>
+  <object id="7" gid="2147483953" x="240" y="110" width="80" height="62"/>
+  <object id="8" name="Help Desk" type="Board" gid="289" x="-9" y="167" width="32" height="54">
    <properties>
     <property name="BBS" type="bool" value="true"/>
     <property name="Character Limit" type="int" value="222"/>
@@ -55,7 +55,7 @@
     <property name="Post Limit" type="int" value="24"/>
    </properties>
   </object>
-  <object id="9" name="Net Battling" type="Board" gid="49" x="-9" y="103" width="32" height="54">
+  <object id="9" name="Net Battling" type="Board" gid="289" x="-9" y="103" width="32" height="54">
    <properties>
     <property name="BBS" type="bool" value="true"/>
     <property name="Character Limit" type="int" value="222"/>
@@ -64,7 +64,7 @@
     <property name="Post Limit" type="int" value="24"/>
    </properties>
   </object>
-  <object id="10" name="Navi Customization" type="Board" gid="49" x="-9" y="39" width="32" height="54">
+  <object id="10" name="Navi Customization" type="Board" gid="289" x="-9" y="39" width="32" height="54">
    <properties>
     <property name="BBS" type="bool" value="true"/>
     <property name="Character Limit" type="int" value="222"/>
@@ -73,7 +73,7 @@
     <property name="Post Limit" type="int" value="24"/>
    </properties>
   </object>
-  <object id="11" name="Battle Chips" type="Board" gid="2147483697" x="39" y="-9" width="32" height="54">
+  <object id="11" name="Battle Chips" type="Board" gid="2147483937" x="39" y="-9" width="32" height="54">
    <properties>
     <property name="BBS" type="bool" value="true"/>
     <property name="Character Limit" type="int" value="222"/>
@@ -82,7 +82,7 @@
     <property name="Post Limit" type="int" value="24"/>
    </properties>
   </object>
-  <object id="12" name="News &amp; Info" type="Board" gid="2147483697" x="103" y="-9" width="32" height="54">
+  <object id="12" name="News &amp; Info" type="Board" gid="2147483937" x="103" y="-9" width="32" height="54">
    <properties>
     <property name="BBS" type="bool" value="true"/>
     <property name="Character Limit" type="int" value="222"/>
@@ -91,7 +91,7 @@
     <property name="Post Limit" type="int" value="24"/>
    </properties>
   </object>
-  <object id="13" name="Mysteries &amp; Conspiracies" type="Board" gid="2147483697" x="167" y="-9" width="32" height="54">
+  <object id="13" name="Mysteries &amp; Conspiracies" type="Board" gid="2147483937" x="167" y="-9" width="32" height="54">
    <properties>
     <property name="BBS" type="bool" value="true"/>
     <property name="Character Limit" type="int" value="222"/>
