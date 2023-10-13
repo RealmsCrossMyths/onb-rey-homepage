@@ -466,6 +466,7 @@
     <property name="Next Waypoint 1" type="object" value="210"/>
     <property name="Sheet Name" value="canvas"/>
     <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
+    <property name="Take Item" type="bool" value="true"/>
     <property name="ezMugAnimate" type="bool" value="false"/>
    </properties>
    <point/>
@@ -1275,6 +1276,7 @@
     <property name="Item 1" type="object" value="134"/>
     <property name="Next 1" type="object" value="220"/>
     <property name="Next 2" type="object" value="223"/>
+    <property name="Take Item" type="bool" value="true"/>
    </properties>
    <point/>
   </object>
@@ -1308,6 +1310,7 @@
     <property name="Item 1" type="object" value="208"/>
     <property name="Next 1" type="object" value="224"/>
     <property name="Next 2" type="object" value="218"/>
+    <property name="Take Item" type="bool" value="true"/>
    </properties>
    <point/>
   </object>
@@ -1316,6 +1319,7 @@
     <property name="Dialogue Type" value="itemcheck"/>
     <property name="Item 1" type="object" value="208"/>
     <property name="Next 1" type="object" value="224"/>
+    <property name="Take Item" type="bool" value="true"/>
    </properties>
    <point/>
   </object>
