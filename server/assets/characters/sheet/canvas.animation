@@ -1,7 +1,5 @@
 animation state="IDLE_U"
 frame duration="0.1" x="0" y="0" w="17" h="31" originx="8" originy="30"
-frame duration="0.1" x="151" y="93" w="20" h="30" originx="8" originy="29"
-frame duration="0.1" x="0" y="124" w="20" h="30" originx="8" originy="29"
 
 animation state="IDLE_UR"
 frame duration="0.1" x="17" y="0" w="14" h="31" originx="6" originy="30"
