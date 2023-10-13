@@ -847,13 +847,13 @@
   </object>
   <object id="15" name="MO012" type="Mystery Option" x="336" y="-952">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="17"/>
-    <property name="Next 4" type="object" value="18"/>
-    <property name="Next 5" type="object" value="19"/>
-    <property name="Next 6" type="object" value="20"/>
-    <property name="Next 7" type="object" value="21"/>
+    <property name="Next 1" type="object" value="20"/>
+    <property name="Next 2" type="object" value="20"/>
+    <property name="Next 3" type="object" value="20"/>
+    <property name="Next 4" type="object" value="21"/>
+    <property name="Next 5" type="object" value="21"/>
+    <property name="Next 6" type="object" value="21"/>
+    <property name="Next 7" type="object" value="13"/>
     <property name="Next 8" type="object" value="13"/>
     <property name="Next 9" type="object" value="14"/>
     <property name="Once" type="bool" value="false"/>
@@ -1367,14 +1367,14 @@
   </object>
   <object id="228" name="MO020" type="Mystery Option" x="344" y="-912">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="17"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="18"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="19"/>
-    <property name="Next 8" type="object" value="19"/>
+    <property name="Next 1" type="object" value="19"/>
+    <property name="Next 2" type="object" value="19"/>
+    <property name="Next 3" type="object" value="19"/>
+    <property name="Next 4" type="object" value="134"/>
+    <property name="Next 5" type="object" value="134"/>
+    <property name="Next 6" type="object" value="134"/>
+    <property name="Next 7" type="object" value="134"/>
+    <property name="Next 8" type="object" value="134"/>
     <property name="Next 9" type="object" value="134"/>
     <property name="Once" type="bool" value="false"/>
     <property name="Type" value="random"/>
@@ -1383,14 +1383,14 @@
   </object>
   <object id="229" name="MO021" type="Mystery Option" x="352" y="-920">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="17"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="18"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="19"/>
-    <property name="Next 8" type="object" value="19"/>
+    <property name="Next 1" type="object" value="19"/>
+    <property name="Next 2" type="object" value="19"/>
+    <property name="Next 3" type="object" value="19"/>
+    <property name="Next 4" type="object" value="208"/>
+    <property name="Next 5" type="object" value="208"/>
+    <property name="Next 6" type="object" value="208"/>
+    <property name="Next 7" type="object" value="208"/>
+    <property name="Next 8" type="object" value="208"/>
     <property name="Next 9" type="object" value="208"/>
     <property name="Once" type="bool" value="false"/>
     <property name="Type" value="random"/>
@@ -1399,14 +1399,14 @@
   </object>
   <object id="230" name="MO022" type="Mystery Option" x="360" y="-928">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="17"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="18"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="19"/>
-    <property name="Next 8" type="object" value="134"/>
+    <property name="Next 1" type="object" value="19"/>
+    <property name="Next 2" type="object" value="19"/>
+    <property name="Next 3" type="object" value="19"/>
+    <property name="Next 4" type="object" value="134"/>
+    <property name="Next 5" type="object" value="134"/>
+    <property name="Next 6" type="object" value="134"/>
+    <property name="Next 7" type="object" value="208"/>
+    <property name="Next 8" type="object" value="208"/>
     <property name="Next 9" type="object" value="208"/>
     <property name="Once" type="bool" value="false"/>
     <property name="Type" value="random"/>
@@ -1431,14 +1431,14 @@
   </object>
   <object id="232" name="MO024" type="Mystery Option" x="376" y="-944">
    <properties>
-    <property name="Next 1" type="object" value="16"/>
-    <property name="Next 2" type="object" value="16"/>
-    <property name="Next 3" type="object" value="17"/>
-    <property name="Next 4" type="object" value="17"/>
-    <property name="Next 5" type="object" value="18"/>
-    <property name="Next 6" type="object" value="18"/>
-    <property name="Next 7" type="object" value="19"/>
-    <property name="Next 8" type="object" value="19"/>
+    <property name="Next 1" type="object" value="20"/>
+    <property name="Next 2" type="object" value="20"/>
+    <property name="Next 3" type="object" value="20"/>
+    <property name="Next 4" type="object" value="20"/>
+    <property name="Next 5" type="object" value="20"/>
+    <property name="Next 6" type="object" value="21"/>
+    <property name="Next 7" type="object" value="21"/>
+    <property name="Next 8" type="object" value="21"/>
     <property name="Next 9" type="object" value="231"/>
     <property name="Once" type="bool" value="false"/>
     <property name="Type" value="random"/>
