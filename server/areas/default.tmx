@@ -1707,17 +1707,17 @@
    </properties>
   </object>
   <object id="47" name="Link to Gravy Yum" gid="620" x="720" y="1296" width="64" height="32"/>
-  <object id="48" type="Server Warp" gid="604" x="896" y="320" width="64" height="32">
+  <object id="48" type="Server Warp" gid="605" x="896" y="320" width="64" height="32">
    <properties>
-    <property name="Address" value=""/>
+    <property name="Address" value="159.223.165.219"/>
     <property name="Data" value="ReyHome"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Incoming Data" value=""/>
-    <property name="Port" type="int" value="0"/>
+    <property name="Incoming Data" value="ONBPlaza"/>
+    <property name="Port" type="int" value="8000"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="49" name="Link" gid="625" x="912" y="336" width="64" height="32"/>
+  <object id="49" name="Link to the ONB Plaza" gid="620" x="912" y="336" width="64" height="32"/>
   <object id="50" type="Server Warp" gid="605" x="896" y="704" width="64" height="32">
    <properties>
     <property name="Address" value="159.223.165.219"/>
@@ -1872,7 +1872,7 @@
   <object id="148" name="Sign 06" gid="2147484474" x="972" y="307" width="48" height="68"/>
   <object id="164" name="Sign 06" gid="824" x="972" y="307" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;The Open Net Battle Plaza&quot;"/>
    </properties>
   </object>
   <object id="149" name="Sign 07" gid="828" x="728" y="84" width="48" height="68"/>
