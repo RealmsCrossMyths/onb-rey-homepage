@@ -1285,14 +1285,6 @@
     <property name="Dialogue Type" value="random"/>
     <property name="Next 1" type="object" value="221"/>
     <property name="Text 1" value="Oh! You found my tube of sunset red paint! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 2" value="Oh! You found my tube of sandy beige paint! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 3" value="Oh! You found my tube of tangerine orange paint! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 4" value="Oh! You found my tube of eggshell white paint! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 5" value="Oh! You found my tube of muddy brown paint! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 6" value="Oh! You found my tube of midnight blue paint! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 7" value="Oh! You found my tube of onyx black paint! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 8" value="Oh! You found my tube of golden yellow paint! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 9" value="Oh! You found my tube of forest green paint! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 10" value="Oh! You found my tube of neon gree paint! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 11" value="Oh! You found my tube of sky blue paint! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 12" value="Oh! You found my tube of sea green paint! That's wonderful! Here's a reward for bringing it back to me!"/>
@@ -1303,7 +1295,15 @@
     <property name="Text 17" value="Oh! You found my tube of stone gray paint! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 18" value="Oh! You found my tube of grass green paint! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 19" value="Oh! You found my tube of pearl white paint! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 2" value="Oh! You found my tube of sandy beige paint! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 20" value="Oh! You found my tube of steel gray paint! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 3" value="Oh! You found my tube of tangerine orange paint! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 4" value="Oh! You found my tube of eggshell white paint! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 5" value="Oh! You found my tube of muddy brown paint! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 6" value="Oh! You found my tube of midnight blue paint! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 7" value="Oh! You found my tube of onyx black paint! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 8" value="Oh! You found my tube of golden yellow paint! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 9" value="Oh! You found my tube of forest green paint! That's wonderful! Here's a reward for bringing it back to me!"/>
    </properties>
    <point/>
   </object>
@@ -1339,14 +1339,6 @@
     <property name="Dialogue Type" value="random"/>
     <property name="Next 1" type="object" value="225"/>
     <property name="Text 1" value="Oh! You found my spray brush! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 2" value="Oh! You found my caligraphy brush! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 3" value="Oh! You found my ink brush! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 4" value="Oh! You found my oil brush! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 5" value="Oh! You found my watercolour brush! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 6" value="Oh! You found my fountain pen brush! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 7" value="Oh! You found my pencil brush! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 8" value="Oh! You found my marker brush! That's wonderful! Here's a reward for bringing it back to me!"/>
-    <property name="Text 9" value="Oh! You found my ballpoint pen brush! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 10" value="Oh! You found my rough metal brush! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 11" value="Oh! You found my rough stone brush! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 12" value="Oh! You found my glow brush! That's wonderful! Here's a reward for bringing it back to me!"/>
@@ -1357,7 +1349,15 @@
     <property name="Text 17" value="Oh! You found my wide brush! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 18" value="Oh! You found my glue brush! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 19" value="Oh! You found my scorch mark brush! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 2" value="Oh! You found my caligraphy brush! That's wonderful! Here's a reward for bringing it back to me!"/>
     <property name="Text 20" value="Oh! You found my chalk brush! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 3" value="Oh! You found my ink brush! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 4" value="Oh! You found my oil brush! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 5" value="Oh! You found my watercolour brush! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 6" value="Oh! You found my fountain pen brush! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 7" value="Oh! You found my pencil brush! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 8" value="Oh! You found my marker brush! That's wonderful! Here's a reward for bringing it back to me!"/>
+    <property name="Text 9" value="Oh! You found my ballpoint pen brush! That's wonderful! Here's a reward for bringing it back to me!"/>
    </properties>
    <point/>
   </object>
@@ -1622,7 +1622,7 @@
 0,0,0,56,67,67,67,67,67,67,67,67,67,67,67,67,67,67,0,0,0,55,67,69,0,0,0,55,67,69,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,
 0,0,0,56,67,67,67,67,67,67,67,67,67,67,67,67,67,67,0,0,0,56,67,67,69,57,57,67,67,67,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,
 0,0,0,56,67,67,67,67,67,67,67,67,67,67,67,67,67,67,0,0,0,56,67,67,0,0,0,68,67,67,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484251,0,0,0,0,0,103,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484251,0,0,0,0,0,68,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,
 0,0,0,0,2147484249,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,
 0,0,0,55,57,57,0,0,0,55,57,57,0,0,0,55,57,57,0,0,0,0,0,0,0,0,0,55,67,69,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,
