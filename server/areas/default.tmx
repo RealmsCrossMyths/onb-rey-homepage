@@ -410,13 +410,13 @@
     <property name="Next 6" type="object" value="193"/>
     <property name="Sheet Name" value="underprog"/>
     <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
-    <property name="Text 1" value="I'm just a Mr. Prog. I don't know anything about the limits of physical strain on steel."/>
+    <property name="Text 1" value="I'm just a local Mr. Prog. I don't know anything about the limits of physical strain on steel."/>
     <property name="Text 2" value="Has Crimson.EXE even met Gobby.EXE? Are they friends?"/>
-    <property name="Text 3" value="I'm just a Mr. Prog. I don't know anything about how to break a block chain."/>
-    <property name="Text 4" value="I'm just a Mr. Prog. I don't know anything about secret of data scraps."/>
-    <property name="Text 5" value="I'm just a Mr. Prog. I don't know anything about the undernet."/>
+    <property name="Text 3" value="I'm just a local Mr. Prog. I don't know anything about how to break a block chain."/>
+    <property name="Text 4" value="I'm just a local Mr. Prog. I don't know anything about secret of data scraps."/>
+    <property name="Text 5" value="I'm just a local Mr. Prog. I don't know anything about the undernet."/>
     <property name="Text 6" value="What was Crimson.EXE doing by that play structure in [hyperlink blocked]?"/>
-    <property name="Text 7" value="I'm just a Mr. Prog. I don't know anything about interstellar aliens."/>
+    <property name="Text 7" value="I'm just a local Mr. Prog. I don't know anything about interstellar aliens."/>
    </properties>
    <point/>
   </object>
@@ -430,13 +430,13 @@
     <property name="Next 6" type="object" value="194"/>
     <property name="Sheet Name" value="underprog"/>
     <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
-    <property name="Text 1" value="I'm just a Mr. Prog. I don't know anything about MetalMan Solid: The Twin SnakeMan."/>
-    <property name="Text 2" value="I'm just a Mr. Prog. I don't know anything CyanMan.EXE's past."/>
-    <property name="Text 3" value="I'm just a Mr. Prog. I don't know anything about Call of Data sever security risks."/>
-    <property name="Text 4" value="I'm just a Mr. Prog. I don't know anything about Tales of Cybertopia."/>
-    <property name="Text 5" value="I'm just a Mr. Prog. I don't know anything about the undernet."/>
+    <property name="Text 1" value="I'm just a local Mr. Prog. I don't know anything about MetalMan Solid: The Twin SnakeMan."/>
+    <property name="Text 2" value="I'm just a local Mr. Prog. I don't know anything CyanMan.EXE's past."/>
+    <property name="Text 3" value="I'm just a local Mr. Prog. I don't know anything about Call of Data sever security risks."/>
+    <property name="Text 4" value="I'm just a local Mr. Prog. I don't know anything about Tales of Cybertopia."/>
+    <property name="Text 5" value="I'm just a local Mr. Prog. I don't know anything about the undernet."/>
     <property name="Text 6" value="Remember ReyHPMax… Can't forget…"/>
-    <property name="Text 7" value="I'm just a Mr. Prog. I don't know anything about Stardata Valley."/>
+    <property name="Text 7" value="I'm just a local Mr. Prog. I don't know anything about Stardata Valley."/>
    </properties>
    <point/>
   </object>
@@ -1915,13 +1915,13 @@
     <property name="Next 6" type="object" value="192"/>
     <property name="Sheet Name" value="underprog"/>
     <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
-    <property name="Text 1" value="I'm just a Mr. Prog. I don't know anything about the bulletin board monkey moderator being harrassed with banana viruses."/>
-    <property name="Text 2" value="I'm just a Mr. Prog. I don't know anything CyanMan.EXE's past."/>
-    <property name="Text 3" value="I'm just a Mr. Prog. I don't know anything about IPC documents."/>
-    <property name="Text 4" value="I'm just a Mr. Prog. I don't know anything about Hidden Areas on this homepage."/>
-    <property name="Text 5" value="I'm just a Mr. Prog. I don't know anything about the undernet."/>
+    <property name="Text 1" value="I'm just a local Mr. Prog. I don't know anything about the bulletin board monkey moderator being harrassed with banana viruses."/>
+    <property name="Text 2" value="I'm just a local Mr. Prog. I don't know anything CyanMan.EXE's past."/>
+    <property name="Text 3" value="I'm just a local Mr. Prog. I don't know anything about IPC documents."/>
+    <property name="Text 4" value="I'm just a local Mr. Prog. I don't know anything about Hidden Areas on this homepage."/>
+    <property name="Text 5" value="I'm just a local Mr. Prog. I don't know anything about the undernet."/>
     <property name="Text 6" value="Pretty sure I lost it around here…"/>
-    <property name="Text 7" value="I'm just a Mr. Prog. I don't know anything about the stock market."/>
+    <property name="Text 7" value="I'm just a local Mr. Prog. I don't know anything about the stock market."/>
    </properties>
    <point/>
   </object>
@@ -1934,13 +1934,13 @@
     <property name="Next 1" type="object" value="191"/>
     <property name="Sheet Name" value="underprog"/>
     <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
-    <property name="Text 1" value="I'm just a Mr. Prog. I don't know anything about anxiety."/>
-    <property name="Text 2" value="I'm just a Mr. Prog. I don't know anything about rainbows."/>
-    <property name="Text 3" value="I'm just a Mr. Prog. I don't know anything about trains."/>
-    <property name="Text 4" value="I'm just a Mr. Prog. I don't know anything about balloons."/>
-    <property name="Text 5" value="I'm just a Mr. Prog. I don't know anything about the undernet."/>
-    <property name="Text 6" value="I'm just a Mr. Prog. I don't know anything about seashells."/>
-    <property name="Text 7" value="I'm just a Mr. Prog. I don't know anything about virtual streamers."/>
+    <property name="Text 1" value="I'm just a local Mr. Prog. I don't know anything about anxiety."/>
+    <property name="Text 2" value="I'm just a local Mr. Prog. I don't know anything about rainbows."/>
+    <property name="Text 3" value="I'm just a local Mr. Prog. I don't know anything about trains."/>
+    <property name="Text 4" value="I'm just a local Mr. Prog. I don't know anything about balloons."/>
+    <property name="Text 5" value="I'm just a local Mr. Prog. I don't know anything about the undernet."/>
+    <property name="Text 6" value="I'm just a local Mr. Prog. I don't know anything about seashells."/>
+    <property name="Text 7" value="I'm just a local Mr. Prog. I don't know anything about virtual streamers."/>
    </properties>
    <point/>
   </object>
