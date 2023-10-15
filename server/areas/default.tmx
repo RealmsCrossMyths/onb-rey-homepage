@@ -413,7 +413,7 @@
     <property name="Text 1" value="I'm just a local Mr. Prog. I don't know anything about the limits of physical strain on steel."/>
     <property name="Text 2" value="Has Crimson.EXE even met Gobby.EXE? Are they friends?"/>
     <property name="Text 3" value="I'm just a local Mr. Prog. I don't know anything about how to break a block chain."/>
-    <property name="Text 4" value="I'm just a local Mr. Prog. I don't know anything about secret of data scraps."/>
+    <property name="Text 4" value="I'm just a local Mr. Prog. I don't know anything about the secret of data scraps."/>
     <property name="Text 5" value="I'm just a local Mr. Prog. I don't know anything about the undernet."/>
     <property name="Text 6" value="What was Crimson.EXE doing by that play structure in [hyperlink blocked]?"/>
     <property name="Text 7" value="I'm just a local Mr. Prog. I don't know anything about interstellar aliens."/>
@@ -2286,7 +2286,7 @@
 0,0,0,0,0,0,0,0,0,0,581,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,581,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,581,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,580,2147484227,2147484227,2147484227,2147484227,2147484227,2147484227,2147484227,2147484227,2147484227,2147484227,2147484227,2147484228,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,580,2147484229,2147484229,2147484229,2147484229,2147484229,2147484229,2147484229,2147484229,2147484229,2147484229,2147484229,2147484228,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,581,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,581,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,581,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
