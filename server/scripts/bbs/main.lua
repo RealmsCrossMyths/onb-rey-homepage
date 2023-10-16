@@ -16,10 +16,10 @@
 -- Required libs:
 --   json.lua by rxi (store as scripts/libs/json.lua)
 
-local json = require("scripts/libs/json")
+local json = require("scripts/ezlibs-scripts/json")
 local SAVE_LOCATION = "memory/bbs/data.json"
 local TITLE_LIMIT = 14
-local AUTHOR_LIMIT = 7
+local AUTHOR_LIMIT = 10
 
 -- storing last time players checked BBS to display the NEW icon
 local last_read_time = {}
