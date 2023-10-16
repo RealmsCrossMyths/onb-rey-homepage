@@ -88,7 +88,8 @@ function handle_object_interaction(player_id, object_id)
         -- shallow copy to prevent mutation
         post = shallow_copy(post)
 
-        post.title = "PIN: " .. string.sub(post.title, 1, TITLE_LIMIT - 5)
+        -- post.title = "PIN: " .. string.sub(post.title, 1, TITLE_LIMIT - 5)
+        post.title = "" .. string.sub(post.title, 1, TITLE_LIMIT)
 
         -- mark post as read if we've checked the board after this was posted
         if last_time == nil or post.time < last_time then
