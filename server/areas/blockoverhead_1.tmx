@@ -11,24 +11,24 @@
  </properties>
  <tileset firstgid="1" source="../assets/tiles/floors/undernet/standard-00-denim.tsx"/>
  <tileset firstgid="145" source="../assets/tiles/floors/undernet/standard-01-denim.tsx"/>
- <tileset firstgid="289" source="../assets/tiles/floors/special/empty.tsx"/>
- <tileset firstgid="313" source="../assets/objects/warps/network.tsx"/>
- <tileset firstgid="319" source="../assets/objects/decor/warps/link.tsx"/>
- <tileset firstgid="324" source="../assets/objects/doors/skull_gate.tsx"/>
+ <tileset firstgid="241" source="../assets/tiles/floors/special/empty.tsx"/>
+ <tileset firstgid="265" source="../assets/objects/warps/network.tsx"/>
+ <tileset firstgid="271" source="../assets/objects/decor/warps/link.tsx"/>
+ <tileset firstgid="276" source="../assets/objects/doors/skull_gate.tsx"/>
  <layer id="1" name="Floor 3" width="5" height="8" offsetx="0" offsety="-96">
   <data encoding="csv">
-0,10,180,12,0,
-10,238,190,238,24,
-179,190,142,190,190,
-11,238,190,238,22,
-0,23,190,22,0,
-0,0,293,0,0,
-0,0,293,0,0,
-0,0,293,0,0
+0,10,2147483816,12,0,
+10,207,175,207,24,
+168,175,239,175,175,
+11,207,175,207,22,
+0,23,175,22,0,
+0,0,245,0,0,
+0,0,245,0,0,
+0,0,245,0,0
 </data>
  </layer>
  <objectgroup id="2" name="Floor 3" offsetx="0" offsety="-96">
-  <object id="1" type="Server Warp" gid="314" x="64" y="64" width="64" height="32">
+  <object id="1" type="Server Warp" gid="266" x="64" y="64" width="64" height="32">
    <properties>
     <property name="Address" value="165.227.139.229"/>
     <property name="Data" value="ReyOverhead_1"/>
@@ -38,8 +38,8 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="2" gid="319" x="80" y="80" width="64" height="32"/>
-  <object id="3" type="Checkpoint" gid="324" x="80" y="168" width="34" height="52">
+  <object id="2" gid="271" x="80" y="80" width="64" height="32"/>
+  <object id="3" type="Checkpoint" gid="276" x="80" y="168" width="34" height="52">
    <properties>
     <property name="Description" value="A gate blocks your path. It it is asking for GobboData1 to temporarily open."/>
     <property name="Dialogue Type" value="itemcheck"/>
