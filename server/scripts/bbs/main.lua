@@ -19,7 +19,7 @@
 local json = require("scripts/ezlibs-scripts/json")
 local SAVE_LOCATION = "memory/bbs/data.json"
 local TITLE_LIMIT = 14
-local AUTHOR_LIMIT = 10
+local AUTHOR_LIMIT = 9
 
 -- storing last time players checked BBS to display the NEW icon
 local last_read_time = {}
