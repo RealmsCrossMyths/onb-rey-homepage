@@ -986,15 +986,15 @@
   </object>
   <object id="27" name="Gobby.EXE" type="NPC" x="1072" y="952">
    <properties>
-    <property name="Animation Name" value="../../../characters/sheet/gobby"/>
-    <property name="Asset Name" value="../../../characters/sheet/gobby"/>
+    <property name="Animation Name" value="sheet/gobby"/>
+    <property name="Asset Name" value="sheet/gobby"/>
     <property name="Dialogue Type" value="itemcheck"/>
     <property name="Direction" value="Up Right"/>
     <property name="Dont Face Player" type="bool" value="false"/>
     <property name="Dont Notify" type="bool" value="false"/>
     <property name="Item 1" type="object" value="172"/>
-    <property name="Mug Animation Name" value="../../../characters/mug/gobby"/>
-    <property name="Mugshot" value="../../../characters/mug/gobby"/>
+    <property name="Mug Animation Name" value="mug/gobby"/>
+    <property name="Mugshot" value="mug/gobby"/>
     <property name="Mugshot Path" value="/server/assets/characters/mug/"/>
     <property name="Next 1" type="object" value="174"/>
     <property name="Next 2" type="object" value="175"/>
