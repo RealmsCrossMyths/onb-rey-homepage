@@ -13,7 +13,7 @@
  <tileset firstgid="145" source="../assets/tiles/floors/undernet/standard-01-denim.tsx"/>
  <tileset firstgid="241" source="../assets/tiles/floors/special/empty.tsx"/>
  <tileset firstgid="265" source="../assets/tiles/arrows/undernet/standard-00-denim.tsx"/>
- <tileset firstgid="313" source="../assets/tiles/stairs/gobby-sampler.tsx"/>
+ <tileset firstgid="313" source="../assets/tiles/stairs/temp/gobby-sampler.tsx"/>
  <tileset firstgid="319" source="../assets/objects/walls/invisible.tsx"/>
  <tileset firstgid="320" source="../assets/objects/signs/cyber_noticeboard.tsx"/>
  <layer id="3" name="Basement 1" width="21" height="21" offsetx="0" offsety="48">
