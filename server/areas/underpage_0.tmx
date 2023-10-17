@@ -13,9 +13,9 @@
  <tileset firstgid="145" source="../assets/tiles/floors/undernet/standard-01-denim.tsx"/>
  <tileset firstgid="241" source="../assets/tiles/floors/special/empty.tsx"/>
  <tileset firstgid="265" source="../assets/tiles/arrows/undernet/standard-00-denim.tsx"/>
- <tileset firstgid="313" source="../assets/tiles/stairs/undernet/gobby-sampler.tsx"/>
- <tileset firstgid="316" source="../assets/objects/walls/invisible.tsx"/>
- <tileset firstgid="317" source="../assets/objects/signs/cyber_noticeboard.tsx"/>
+ <tileset firstgid="313" source="../assets/tiles/stairs/gobby-sampler.tsx"/>
+ <tileset firstgid="319" source="../assets/objects/walls/invisible.tsx"/>
+ <tileset firstgid="320" source="../assets/objects/signs/cyber_noticeboard.tsx"/>
  <layer id="3" name="Basement 1" width="21" height="21" offsetx="0" offsety="48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -69,13 +69,13 @@
    </properties>
    <point/>
   </object>
-  <object id="4" gid="316" x="448" y="512" width="34" height="17">
+  <object id="4" gid="319" x="448" y="512" width="34" height="17">
    <properties>
     <property name="Interact Relay" type="object" value="3"/>
    </properties>
   </object>
-  <object id="11" gid="336" x="614" y="500" width="48" height="68"/>
-  <object id="12" gid="2147483980" x="614" y="500" width="48" height="68">
+  <object id="11" gid="339" x="614" y="500" width="48" height="68"/>
+  <object id="12" gid="2147483983" x="614" y="500" width="48" height="68">
    <properties>
     <property name="Flavor" value="It's a sign; It reads &quot;If you're here from my homepage, welcome to my underpage. I'm keeping an eye on the undernet. If you're hear from one of my deeper underpages, my home page is down thispath. Whichever way you're heading, avoid drawing attention to yourself and don't start trouble.&quot;"/>
    </properties>
@@ -264,7 +264,7 @@
    </properties>
    <point/>
   </object>
-  <object id="10" gid="2147483964" x="17" y="399" width="34" height="17">
+  <object id="10" gid="2147483967" x="17" y="399" width="34" height="17">
    <properties>
     <property name="Interact Relay" type="object" value="9"/>
    </properties>
