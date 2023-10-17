@@ -398,7 +398,7 @@
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
    </properties>
   </object>
-  <object id="187" name="Mr. Prog" type="NPC" x="408" y="1272">
+  <object id="187" name="Mr. Prog" Typ="NPC?" x="408" y="1272">
    <properties>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Right"/>
@@ -419,7 +419,7 @@
    </properties>
    <point/>
   </object>
-  <object id="188" name="Mr. Prog" type="NPC" x="872" y="952">
+  <object id="188" name="Mr. Prog" Typ="NPC?" x="872" y="952">
    <properties>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Up Left"/>
@@ -454,7 +454,7 @@
    </properties>
    <point/>
   </object>
-  <object id="209" name="Canvas.EXE" type="NPC" x="408" y="1112">
+  <object id="209" name="Canvas.EXE" Typ="NPC?" x="408" y="1112">
    <properties>
     <property name="Dialogue Type" value="itemcheck"/>
     <property name="Direction" value="Up Left"/>
@@ -984,7 +984,7 @@
    </properties>
    <point/>
   </object>
-  <object id="27" name="Gobby.EXE" type="NPC" x="1072" y="952">
+  <object id="27" name="Gobby.EXE" Typ="NPC?" x="1072" y="952">
    <properties>
     <property name="Dialogue Type" value="itemcheck"/>
     <property name="Direction" value="Up Right"/>
@@ -1904,7 +1904,7 @@
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;Gravy Yum&quot;"/>
    </properties>
   </object>
-  <object id="186" name="Mr. Prog" type="NPC" x="1304" y="568">
+  <object id="186" name="Mr. Prog" Typ="NPC?" x="1304" y="568">
    <properties>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Right"/>
@@ -1924,7 +1924,7 @@
    </properties>
    <point/>
   </object>
-  <object id="189" name="Mr. Prog" type="NPC" x="200" y="440">
+  <object id="189" name="Mr. Prog" Typ="NPC?" x="200" y="440">
    <properties>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Left"/>
@@ -1943,7 +1943,7 @@
    </properties>
    <point/>
   </object>
-  <object id="195" name="CrossMan.EXE" type="NPC" x="264" y="144">
+  <object id="195" name="CrossMan.EXE" Typ="NPC?" x="264" y="144">
    <properties>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Right"/>
