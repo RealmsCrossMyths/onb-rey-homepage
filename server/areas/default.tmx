@@ -998,6 +998,7 @@
     <property name="Mugshot Path" value="/server/assets/characters/mug/"/>
     <property name="Next 1" type="object" value="174"/>
     <property name="Next 2" type="object" value="175"/>
+    <property name="Sheet Name" value="gobby"/>
     <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
    </properties>
    <point/>
