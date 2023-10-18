@@ -16,7 +16,7 @@
  <tileset firstgid="241" source="../assets/tiles/floors/undernet/standard-00-denim.tsx"/>
  <tileset firstgid="385" source="../assets/tiles/floors/undernet/standard-01-denim.tsx"/>
  <tileset firstgid="481" source="../assets/tiles/floors/special/empty.tsx"/>
- <tileset firstgid="505" source="../assets/tiles/stairs/temp/gobby-sampler.tsx"/>
+ <tileset firstgid="505" source="../assets/tiles/stairs/bullpoopstairscanfrackthemselves.tsx"/>
  <tileset firstgid="511" source="../assets/objects/warps/network.tsx"/>
  <tileset firstgid="517" source="../assets/objects/decor/warps/home.tsx"/>
  <tileset firstgid="522" source="../assets/objects/decor/warps/page.tsx"/>
