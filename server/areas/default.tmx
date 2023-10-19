@@ -11,8 +11,8 @@
   <property name="Name" value="Rey's HP 0"/>
   <property name="Song" value="/server/assets/sounds/music/gobby-hp-loop.ogg"/>
  </properties>
- <tileset firstgid="1" source="../assets/tiles/floors/cybernet/standard-00-forest.tsx"/>
- <tileset firstgid="145" source="../assets/tiles/floors/cybernet/standard-01-forest.tsx"/>
+ <tileset firstgid="1" source="../assets/tiles/floors/cybernet/standard-00-0-forest.tsx"/>
+ <tileset firstgid="145" source="../assets/tiles/floors/cybernet/standard-01-0-forest.tsx"/>
  <tileset firstgid="241" source="../assets/tiles/floors/undernet/standard-00-denim.tsx"/>
  <tileset firstgid="385" source="../assets/tiles/floors/undernet/standard-01-denim.tsx"/>
  <tileset firstgid="481" source="../assets/tiles/floors/special/empty.tsx"/>
@@ -234,7 +234,7 @@
   </object>
   <object id="80" gid="537" x="176" y="880" width="64" height="61">
    <properties>
-    <property name="Flavor" value="This is a cybernet pine.                                                               This one is wide for some reason."/>
+    <property name="Flavor" value="This is a cybernet pine.                                                                                     This one is wide for some reason."/>
    </properties>
   </object>
   <object id="81" gid="537" x="336" y="976" width="42" height="61">

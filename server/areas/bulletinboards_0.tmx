@@ -8,8 +8,8 @@
   <property name="Name" value="Rey's BBS"/>
   <property name="Song" value="/server/assets/sounds/music/gobby-hp-loop.ogg"/>
  </properties>
- <tileset firstgid="1" source="../assets/tiles/floors/cybernet/standard-00-forest.tsx"/>
- <tileset firstgid="145" source="../assets/tiles/floors/cybernet/standard-01-forest.tsx"/>
+ <tileset firstgid="1" source="../assets/tiles/floors/cybernet/standard-00-0-forest.tsx"/>
+ <tileset firstgid="145" source="../assets/tiles/floors/cybernet/standard-01-0-forest.tsx"/>
  <tileset firstgid="241" source="../assets/objects/signs/BulletinBoard.tsx"/>
  <tileset firstgid="242" source="../assets/objects/warps/HouseFrameBase.tsx"/>
  <tileset firstgid="247" source="../assets/objects/decor/warps/HouseFrameSideA.tsx"/>
