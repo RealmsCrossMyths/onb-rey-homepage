@@ -77,7 +77,7 @@
   <object id="11" gid="339" x="614" y="500" width="48" height="68"/>
   <object id="12" gid="2147483983" x="614" y="500" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign; It reads &quot;If you're here from my homepage, welcome to my underpage. I'm keeping an eye on the undernet. If you're hear from one of my deeper underpages, my home page is down thispath. Whichever way you're heading, avoid drawing attention to yourself and don't start trouble.&quot;"/>
+    <property name="Flavor" value="It's a sign; It reads &quot;If you're here from my homepage, welcome to my underpage. I'm keeping an eye on the undernet. If you're here from one of my deeper underpages, my homepage is down this path. Whichever way you're heading, avoid drawing attention to yourself and don't start trouble.&quot;"/>
    </properties>
   </object>
   <object id="13" x="8" y="48">
