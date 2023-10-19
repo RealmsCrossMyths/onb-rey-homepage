@@ -57,7 +57,7 @@
    </properties>
    <point/>
   </object>
-  <object id="3" name="underprog" type="NPC" x="376" y="528">
+  <object id="3" name="Mr. Prog" type="NPC" x="376" y="528">
    <properties>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
@@ -264,7 +264,7 @@
    </properties>
    <point/>
   </object>
-  <object id="10" gid="2147483967" x="17" y="399" width="34" height="17">
+  <object id="10" gid="2147483967" x="17" y="399.3" width="34" height="17">
    <properties>
     <property name="Interact Relay" type="object" value="9"/>
    </properties>
