@@ -36,6 +36,8 @@
  <tileset firstgid="752" source="../assets/objects/decor/warps/HouseFrameSideB.tsx"/>
  <tileset firstgid="762" source="../assets/objects/signs/noticeboards.tsx"/>
  <tileset firstgid="802" source="../assets/objects/warps/ONBSanctuaryLink.tsx"/>
+ <tileset firstgid="806" source="../assets/tiles/floors/cybernet/standard-00-1-forest.tsx"/>
+ <tileset firstgid="950" source="../assets/tiles/floors/cybernet/standard-01-1-forest.tsx"/>
  <layer id="19" name="Basement 1" width="45" height="45" offsetx="0" offsety="48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -384,19 +386,19 @@
   <object id="142" name="Sign 13" gid="774" x="558" y="812" width="48" height="68"/>
   <object id="143" name="Sign 13" gid="2147484420" x="558" y="812" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;The Block&quot;"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;The Block&quot;"/>
    </properties>
   </object>
   <object id="144" name="Sign 14" gid="764" x="1126" y="1164" width="48" height="68"/>
   <object id="145" name="Sign 14" gid="2147484410" x="1126" y="1164" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
    </properties>
   </object>
   <object id="146" name="Sign 15" gid="765" x="276" y="736" width="48" height="68"/>
   <object id="147" name="Sign 15" gid="762" x="276" y="736" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
    </properties>
   </object>
   <object id="187" name="Mr. Prog" type="NPC" x="408" y="1272">
@@ -435,7 +437,7 @@
     <property name="Text 3" value="I'm just a local Mr. Prog. I don't know anything about Call of Data sever security risks."/>
     <property name="Text 4" value="I'm just a local Mr. Prog. I don't know anything about Tales of Cybertopia."/>
     <property name="Text 5" value="I'm just a local Mr. Prog. I don't know anything about the undernet."/>
-    <property name="Text 6" value="Remember ReyHPMax… Can't forget…"/>
+    <property name="Text 6" value="Remember ReyHPMax... Can't forget..."/>
     <property name="Text 7" value="I'm just a local Mr. Prog. I don't know anything about Stardata Valley."/>
    </properties>
    <point/>
@@ -1258,10 +1260,10 @@
   <object id="218" name="Canvas" x="-688" y="392">
    <properties>
     <property name="Dialogue Type" value="random"/>
-    <property name="Text 1" value="Hey there! Look how big this tree is! Maybe I should make a painting of it…"/>
-    <property name="Text 2" value="Hey there! Look how big this tree is! Maybe I should make a painting of it…"/>
-    <property name="Text 3" value="Hey there! Look how big this tree is! Maybe I should make a painting of it…"/>
-    <property name="Text 4" value="Hey there! Look how big this tree is! Maybe I should make a painting of it…"/>
+    <property name="Text 1" value="Hey there! Look how big this tree is! Maybe I should make a painting of it..."/>
+    <property name="Text 2" value="Hey there! Look how big this tree is! Maybe I should make a painting of it..."/>
+    <property name="Text 3" value="Hey there! Look how big this tree is! Maybe I should make a painting of it..."/>
+    <property name="Text 4" value="Hey there! Look how big this tree is! Maybe I should make a painting of it..."/>
     <property name="Text 5" value="So many colours! It's so pretty! I wonder if I can find any like it for myself, or several!"/>
     <property name="Text 6" value="So many colours! It's so pretty! I wonder if I can find any like it for myself, or several!"/>
     <property name="Text 7" value="So many colours! It's so pretty! I wonder if I can find any like it for myself, or several!"/>
@@ -1842,67 +1844,67 @@
   <object id="153" name="Sign 01" gid="765" x="468" y="1104" width="48" height="68"/>
   <object id="159" name="Sign 01" gid="762" x="468" y="1104" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
    </properties>
   </object>
   <object id="152" name="Sign 02" gid="766" x="722" y="1044" width="48" height="68"/>
   <object id="160" name="Sign 02" gid="2147484410" x="722" y="1044" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
    </properties>
   </object>
   <object id="155" name="Sign 03" gid="763" x="1164" y="1104" width="48" height="68"/>
   <object id="161" name="Sign 03" gid="762" x="1164" y="1104" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
    </properties>
   </object>
   <object id="156" name="Sign 04" gid="765" x="1236" y="1063" width="48" height="68"/>
   <object id="162" name="Sign 04" gid="762" x="1236" y="1063" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;The Sanctuary&quot;"/>
    </properties>
   </object>
   <object id="157" name="Sign 05" gid="765" x="852" y="688" width="48" height="68"/>
   <object id="163" name="Sign 05" gid="762" x="852" y="688" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;Server-Junction&quot;"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;Server-Junction&quot;"/>
    </properties>
   </object>
   <object id="148" name="Sign 06" gid="763" x="972" y="307" width="48" height="68"/>
   <object id="164" name="Sign 06" gid="762" x="972" y="307" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;The Open Net Battle Plaza&quot;"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;The Open Net Battle Plaza&quot;"/>
    </properties>
   </object>
   <object id="149" name="Sign 07" gid="766" x="728" y="84" width="48" height="68"/>
   <object id="165" name="Sign 07" gid="2147484410" x="728" y="84" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
    </properties>
   </object>
   <object id="150" name="Sign 08" gid="764" x="1128" y="396" width="48" height="68"/>
   <object id="166" name="Sign 08" gid="2147484410" x="1128" y="396" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
    </properties>
   </object>
   <object id="154" name="Sign 09" gid="765" x="84" y="1071" width="48" height="68"/>
   <object id="167" name="Sign 09" gid="762" x="84" y="1071" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
    </properties>
   </object>
   <object id="158" name="Sign 10" gid="763" x="1356" y="144" width="48" height="68"/>
   <object id="168" name="Sign 10" gid="762" x="1356" y="144" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
    </properties>
   </object>
   <object id="151" name="Sign 11" gid="766" x="691" y="1236" width="48" height="68"/>
   <object id="169" name="Sign 11" gid="2147484410" x="691" y="1236" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;Gravy Yum&quot;"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;Gravy Yum&quot;"/>
    </properties>
   </object>
   <object id="186" name="Mr. Prog" type="NPC" x="1304" y="568">
@@ -1920,7 +1922,7 @@
     <property name="Text 3" value="I'm just a local Mr. Prog. I don't know anything about IPC documents."/>
     <property name="Text 4" value="I'm just a local Mr. Prog. I don't know anything about Hidden Areas on this homepage."/>
     <property name="Text 5" value="I'm just a local Mr. Prog. I don't know anything about the undernet."/>
-    <property name="Text 6" value="Pretty sure I lost it around here…"/>
+    <property name="Text 6" value="Pretty sure I lost it around here..."/>
     <property name="Text 7" value="I'm just a local Mr. Prog. I don't know anything about the stock market."/>
    </properties>
    <point/>
@@ -1952,7 +1954,7 @@
     <property name="Next Waypoint 1" type="object" value="196"/>
     <property name="Sheet Name" value="crossman"/>
     <property name="Sheet Path" value="/server/assets/characters/sheet/"/>
-    <property name="Text 1" value="This place is pretty big… And a little shady…"/>
+    <property name="Text 1" value="This place is pretty big... And a little shady..."/>
     <property name="Text 2" value="The lights above this level are a bit distracting."/>
     <property name="Text 3" value="There's no viruses here. That's nice."/>
     <property name="Text 4" value="I wonder there's any reason there is two grim-looking pines at the back of the woods on the lower level."/>
@@ -2297,9 +2299,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,485,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,485,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,485,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,199,84,2147483848,0,0,0,0,0,0,0,0,0,483,2147484134,2147484134,2147484134,2147484134,2147484134,2147484134,481,2147484134,2147484134,2147484134,2147484134,2147484134,2147484134,2147484132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,83,94,94,0,0,0,0,0,0,0,0,0,486,481,481,481,481,481,481,481,481,481,481,481,481,481,3221225958,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,200,94,207,0,0,0,0,0,0,0,0,0,486,481,481,481,481,481,481,481,481,481,481,481,481,481,3221225958,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1004,889,2147484653,0,0,0,0,0,0,0,0,0,483,2147484134,2147484134,2147484134,2147484134,2147484134,2147484134,481,2147484134,2147484134,2147484134,2147484134,2147484134,2147484134,2147484132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,888,899,899,0,0,0,0,0,0,0,0,0,486,481,481,481,481,481,481,481,481,481,481,481,481,481,3221225958,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1005,899,1012,0,0,0,0,0,0,0,0,0,486,481,481,481,481,481,481,481,481,481,481,481,481,481,3221225958,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,2147484155,0,0,0,0,0,0,0,0,0,0,486,481,481,481,481,481,481,481,481,481,481,481,481,481,3221225958,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,486,481,481,481,481,481,481,481,481,481,481,481,481,481,3221225958,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,486,481,481,481,481,481,481,481,481,481,481,481,481,481,3221225958,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2420,7 +2422,7 @@
   <object id="170" name="Sign 12" gid="765" x="84" y="549" width="48" height="68"/>
   <object id="171" name="Sign 12" gid="762" x="84" y="549" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to… It has a reserved stamp placed on it…"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It has a reserved stamp placed on it..."/>
    </properties>
   </object>
  </objectgroup>
