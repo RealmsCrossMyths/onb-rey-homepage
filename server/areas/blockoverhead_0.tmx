@@ -14,7 +14,7 @@
  <tileset firstgid="241" source="../assets/tiles/floors/special/empty.tsx"/>
  <tileset firstgid="265" source="../assets/objects/warps/network.tsx"/>
  <tileset firstgid="271" source="../assets/objects/decor/warps/link.tsx"/>
- <tileset firstgid="276" source="../assets/objects/doors/skull_gate.tsx"/>
+ <tileset firstgid="276" source="../assets/objects/doors/gates-00-00.tsx"/>
  <layer id="1" name="Floor 3" width="5" height="8" offsetx="0" offsety="-96">
   <data encoding="csv">
 0,0,245,0,0,
@@ -39,7 +39,7 @@
    </properties>
   </object>
   <object id="2" gid="271" x="80" y="176" width="64" height="32"/>
-  <object id="3" type="Checkpoint" gid="276" x="80" y="88" width="34" height="52">
+  <object id="3" type="Checkpoint" gid="283" x="72" y="80" width="32" height="52">
    <properties>
     <property name="Description" value="A gate blocks your path. It it is asking for GobboData0 to temporarily open."/>
     <property name="Dialogue Type" value="itemcheck"/>
