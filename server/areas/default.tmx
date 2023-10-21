@@ -34,7 +34,7 @@
  <tileset firstgid="706" source="../assets/objects/warps/HouseFrameBase.tsx"/>
  <tileset firstgid="711" source="../assets/objects/decor/warps/HouseFrameSideA.tsx"/>
  <tileset firstgid="721" source="../assets/objects/decor/warps/HouseFrameSideB.tsx"/>
- <tileset firstgid="731" source="../assets/objects/signs/cyber_noticeboard.tsx"/>
+ <tileset firstgid="731" source="../assets/objects/signs/noticeboards.tsx"/>
  <layer id="19" name="Basement 1" width="45" height="45" offsetx="0" offsety="48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -380,13 +380,13 @@
     <property name="Type" value="random"/>
    </properties>
   </object>
-  <object id="142" name="Sign 13" gid="2147484395" x="558" y="812" width="48" height="68"/>
-  <object id="143" name="Sign 13" gid="2147484394" x="558" y="812" width="48" height="68">
+  <object id="142" name="Sign 13" gid="743" x="558" y="812" width="48" height="68"/>
+  <object id="143" name="Sign 13" gid="2147484389" x="558" y="812" width="48" height="68">
    <properties>
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;The Block&quot;"/>
    </properties>
   </object>
-  <object id="144" name="Sign 14" gid="2147484380" x="1126" y="1164" width="48" height="68"/>
+  <object id="144" name="Sign 14" gid="733" x="1126" y="1164" width="48" height="68"/>
   <object id="145" name="Sign 14" gid="2147484379" x="1126" y="1164" width="48" height="68">
    <properties>
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
@@ -1850,7 +1850,7 @@
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
    </properties>
   </object>
-  <object id="155" name="Sign 03" gid="2147484381" x="1164" y="1104" width="48" height="68"/>
+  <object id="155" name="Sign 03" gid="732" x="1164" y="1104" width="48" height="68"/>
   <object id="161" name="Sign 03" gid="731" x="1164" y="1104" width="48" height="68">
    <properties>
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
@@ -1868,7 +1868,7 @@
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;Server-Junction&quot;"/>
    </properties>
   </object>
-  <object id="148" name="Sign 06" gid="2147484381" x="972" y="307" width="48" height="68"/>
+  <object id="148" name="Sign 06" gid="732" x="972" y="307" width="48" height="68"/>
   <object id="164" name="Sign 06" gid="731" x="972" y="307" width="48" height="68">
    <properties>
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… &quot;The Open Net Battle Plaza&quot;"/>
@@ -1880,7 +1880,7 @@
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
    </properties>
   </object>
-  <object id="150" name="Sign 08" gid="2147484380" x="1128" y="396" width="48" height="68"/>
+  <object id="150" name="Sign 08" gid="733" x="1128" y="396" width="48" height="68"/>
   <object id="166" name="Sign 08" gid="2147484379" x="1128" y="396" width="48" height="68">
    <properties>
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
@@ -1892,7 +1892,7 @@
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>
    </properties>
   </object>
-  <object id="158" name="Sign 10" gid="2147484381" x="1356" y="144" width="48" height="68"/>
+  <object id="158" name="Sign 10" gid="732" x="1356" y="144" width="48" height="68"/>
   <object id="168" name="Sign 10" gid="731" x="1356" y="144" width="48" height="68">
    <properties>
     <property name="Flavor" value="It's a sign for where the nearby warp goes to… It's blank, though…"/>

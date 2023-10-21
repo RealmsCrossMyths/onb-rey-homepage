@@ -6,7 +6,7 @@
   <property name="Background Texture" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.png"/>
   <property name="Background Vel X" type="float" value="0.4"/>
   <property name="Background Vel Y" type="float" value="-0.25"/>
-  <property name="Name" value="Rey's UP 1"/>
+  <property name="Name" value="Rey's UP 0"/>
   <property name="Song" value="/server/assets/sounds/music/gobby-hp-loop.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/floors/undernet/standard-00-0-denim.tsx"/>
@@ -15,7 +15,7 @@
  <tileset firstgid="265" source="../assets/tiles/arrows/undernet/standard-0-denim.tsx"/>
  <tileset firstgid="313" source="../assets/tiles/stairs/bullpoopstairscanfrackthemselves.tsx"/>
  <tileset firstgid="319" source="../assets/objects/walls/invisible.tsx"/>
- <tileset firstgid="320" source="../assets/objects/signs/cyber_noticeboard.tsx"/>
+ <tileset firstgid="320" source="../assets/objects/signs/noticeboards.tsx"/>
  <layer id="3" name="Basement 1" width="21" height="21" offsetx="0" offsety="48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
