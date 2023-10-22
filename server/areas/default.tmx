@@ -1764,17 +1764,17 @@
    </properties>
   </object>
   <object id="57" name="Link" gid="532" x="1296" y="144" width="64" height="32"/>
-  <object id="58" name="Link to The Sanctuary" type="Server Warp" gid="802" x="1280" y="1088" width="64" height="34">
+  <object id="58" type="Server Warp" gid="512" x="1280" y="1088" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Incoming Data" value="RuneSnctuary"/>
+    <property name="Incoming Data" value=""/>
     <property name="Port" type="int" value="0"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="59" name="Link to The Sanctuary" gid="532" x="1576" y="1360" width="64" height="32"/>
+  <object id="59" name="Link to Dojo" gid="532" x="1296" y="1104" width="64" height="32"/>
   <object id="106" type="Mystery Datum" gid="705" x="296" y="152" width="14" height="43">
    <properties>
     <property name="Next 1" type="object" value="20"/>
@@ -1862,7 +1862,7 @@
   <object id="156" name="Sign 04" gid="765" x="1236" y="1063" width="48" height="68"/>
   <object id="162" name="Sign 04" gid="762" x="1236" y="1063" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;The Sanctuary&quot;"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It has a reserved stamp placed on it..."/>
    </properties>
   </object>
   <object id="157" name="Sign 05" gid="765" x="852" y="688" width="48" height="68"/>
@@ -2372,17 +2372,17 @@
    </properties>
    <point/>
   </object>
-  <object id="60" type="Server Warp" gid="512" x="128" y="512" width="64" height="32">
+  <object id="60" type="Server Warp" gid="802" x="127" y="511" width="64" height="34">
    <properties>
     <property name="Address" value=""/>
     <property name="Data" value="ReyHome"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="RuneSnctuary"/>
     <property name="Port" type="int" value="0"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="61" name="Link to Dojo" gid="532" x="144" y="528" width="64" height="32"/>
+  <object id="61" name="Link to The Sanctuary" gid="481" x="128" y="512" width="64" height="32"/>
   <object id="120" type="Mystery Datum" gid="705" x="176" y="496" width="14" height="43">
    <properties>
     <property name="Next 1" type="object" value="21"/>
@@ -2422,7 +2422,7 @@
   <object id="170" name="Sign 12" gid="765" x="84" y="549" width="48" height="68"/>
   <object id="171" name="Sign 12" gid="762" x="84" y="549" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It has a reserved stamp placed on it..."/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;The Sanctuary&quot;"/>
    </properties>
   </object>
  </objectgroup>

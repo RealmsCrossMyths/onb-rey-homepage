@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.0" name="bullpoopstairscanfrackthemselves" tilewidth="64" tileheight="57" tilecount="6" columns="3">
- <tileoffset x="0" y="9"/>
+<tileset version="1.8" tiledversion="1.8.0" name="Stairs - Gobby Sampler" tilewidth="64" tileheight="57" tilecount="6" columns="3">
+ <tileoffset x="0" y="8"/>
+ <grid orientation="orthogonal" width="64" height="32"/>
  <image source="bullpoopstairscanfrackthemselves.png" width="192" height="114"/>
  <tile id="0" type="Stairs">
   <properties>

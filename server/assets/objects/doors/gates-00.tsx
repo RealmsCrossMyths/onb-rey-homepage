@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.8" tiledversion="1.8.0" name="Doors — Cyber Gates #00" tilewidth="32" tileheight="52" tilecount="6" columns="1" objectalignment="center">
- <tileoffset x="0" y="-8"/>
+ <tileoffset x="0" y="-16"/>
  <image source="gates-00.png" width="32" height="312"/>
  <tile id="0">
   <objectgroup draworder="index" id="1">
