@@ -123,7 +123,16 @@
     <property name="Flavor" value="The gate is broken?"/>
    </properties>
   </object>
-  <object id="19" gid="872" x="1217" y="609" width="64" height="32"/>
+  <object id="19" gid="872" x="1217" y="609" width="64" height="32">
+   <properties>
+    <property name="Address" value=""/>
+    <property name="Data" value=""/>
+    <property name="Direction" value=""/>
+    <property name="Incoming Data" value=""/>
+    <property name="Port" type="int" value="0"/>
+    <property name="Warp In" type="bool" value="false"/>
+   </properties>
+  </object>
   <object id="20" gid="888" x="1184" y="-152" width="64" height="32"/>
   <object id="24" x="592" y="8">
    <properties>
@@ -388,7 +397,7 @@
    </properties>
    <point/>
   </object>
-  <object id="11" type="Custom Warp" gid="867" x="818" y="1266" width="64" height="32">
+  <object id="11" gid="867" x="818" y="1266" width="64" height="32">
    <properties>
     <property name="Target Object" type="object" value="40"/>
    </properties>
@@ -620,7 +629,7 @@
 </data>
  </layer>
  <objectgroup id="8" name="Floor 1">
-  <object id="5" type="Custom Warp" gid="867" x="1154" y="1346" width="64" height="32">
+  <object id="5" gid="867" x="1154" y="1346" width="64" height="32">
    <properties>
     <property name="Target Object" type="object" value="40"/>
    </properties>
@@ -633,14 +642,14 @@
     <property name="Flavor" value="The gate is broken?"/>
    </properties>
   </object>
-  <object id="16" type="Server Warp" gid="872" x="993" y="417" width="64" height="32">
+  <object id="16" gid="872" x="993" y="417" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
-    <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
+    <property name="Data" value=""/>
+    <property name="Direction" value=""/>
     <property name="Incoming Data" value=""/>
     <property name="Port" type="int" value="0"/>
-    <property name="Warp In" type="bool" value="true"/>
+    <property name="Warp In" type="bool" value="false"/>
    </properties>
   </object>
   <object id="17" gid="888" x="1160" y="-72" width="64" height="32"/>
@@ -700,18 +709,18 @@
    </properties>
    <point/>
   </object>
-  <object id="38" type="Server Warp" gid="872" x="193" y="449" width="64" height="32">
+  <object id="38" gid="872" x="193" y="449" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
-    <property name="Data" value="ReyHome"/>
-    <property name="Direction" value="Down Left"/>
+    <property name="Data" value=""/>
+    <property name="Direction" value=""/>
     <property name="Incoming Data" value=""/>
     <property name="Port" type="int" value="0"/>
-    <property name="Warp In" type="bool" value="true"/>
+    <property name="Warp In" type="bool" value="false"/>
    </properties>
   </object>
   <object id="39" gid="888" x="1192" y="-104" width="64" height="32"/>
-  <object id="40" type="Custom Warp" gid="867" x="129" y="97" width="64" height="32">
+  <object id="40" gid="867" x="129" y="97" width="64" height="32">
    <properties>
     <property name="Target Object" type="object" value="11"/>
    </properties>
