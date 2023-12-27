@@ -398,7 +398,7 @@
   <object id="146" name="Sign 15" gid="765" x="276" y="736" width="48" height="68"/>
   <object id="147" name="Sign 15" gid="762" x="276" y="736" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;Riverdale Area&quot;"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;RiverdaleArea&quot;"/>
    </properties>
   </object>
   <object id="187" name="Mr. Prog" type="NPC" x="408" y="1272">
