@@ -125,15 +125,15 @@
   </object>
   <object id="34" type="Server Warp" gid="511" x="320" y="704" width="64" height="32">
    <properties>
-    <property name="Address" value=""/>
+    <property name="Address" value="18.222.9.74"/>
     <property name="Data" value="ReyHome"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Incoming Data" value=""/>
-    <property name="Port" type="int" value="0"/>
+    <property name="Incoming Data" value="RvrdaleArea"/>
+    <property name="Port" type="int" value="8765"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="35" name="Link" gid="532" x="336" y="720" width="64" height="32"/>
+  <object id="35" name="Link to RvrdaleArea" gid="527" x="336" y="720" width="64" height="32"/>
   <object id="36" type="Server Warp" gid="511" x="1088" y="1088" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
@@ -398,7 +398,7 @@
   <object id="146" name="Sign 15" gid="765" x="276" y="736" width="48" height="68"/>
   <object id="147" name="Sign 15" gid="762" x="276" y="736" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;Riverdale Area&quot;"/>
    </properties>
   </object>
   <object id="187" name="Mr. Prog" type="NPC" x="408" y="1272">
@@ -448,7 +448,7 @@
    </properties>
    <point/>
   </object>
-  <object id="207" name="To Rey's HP?" type="Radius Warp" x="-32" y="1104">
+  <object id="207" name="To Rey's Underpage 0" type="Radius Warp" x="-32" y="1104">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_up_left_out"/>
@@ -1215,7 +1215,22 @@
    </properties>
    <point/>
   </object>
-  <object id="190" name="DEAD" x="800" y="144">
+  <object id="190" name="Normal Navi" type="NPC" x="800" y="144">
+   <properties>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Sheet Name" value="normal-navi-bn4_green"/>
+    <property name="Text 1" value="Hi."/>
+    <property name="Text 2" value="Hello."/>
+    <property name="Text 3" value="Greetings."/>
+    <property name="Text 4" value="Salutations."/>
+    <property name="Text 5" value="Ello."/>
+    <property name="Text 6" value="Hullo."/>
+    <property name="Text 7" value="Hail."/>
+    <property name="Text 8" value="Howdy."/>
+    <property name="Text 9" value="Yo."/>
+    <property name="ezMugAnimate" type="bool" value="true"/>
+   </properties>
    <point/>
   </object>
   <object id="191" name="underprog 0" x="-424" y="264">
@@ -2382,7 +2397,7 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="61" name="Link to The Sanctuary" gid="481" x="128" y="512" width="64" height="32"/>
+  <object id="61" name="Link to The Sanctuary" gid="481" x="112" y="496" width="64" height="32"/>
   <object id="120" type="Mystery Datum" gid="705" x="176" y="496" width="14" height="43">
    <properties>
     <property name="Next 1" type="object" value="21"/>
