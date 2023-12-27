@@ -123,7 +123,7 @@
     <property name="Type" value="keyitem"/>
    </properties>
   </object>
-  <object id="34" type="Server Warp" gid="511" x="320" y="704" width="64" height="32">
+  <object id="34" type="Server Warp" gid="512" x="320" y="704" width="64" height="32">
    <properties>
     <property name="Address" value="18.222.9.74"/>
     <property name="Data" value="ReyHome"/>
@@ -2397,7 +2397,7 @@
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="61" name="Link to The Sanctuary" gid="481" x="112" y="496" width="64" height="32"/>
+  <object id="61" name="Link to The Sanctuary" gid="481" x="128" y="512" width="64" height="32"/>
   <object id="120" type="Mystery Datum" gid="705" x="176" y="496" width="14" height="43">
    <properties>
     <property name="Next 1" type="object" value="21"/>
