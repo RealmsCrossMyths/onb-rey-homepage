@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="45" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="250">
+<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="45" height="45" tilewidth="64" tileheight="32" infinite="0" backgroundcolor="#0a5822" nextlayerid="21" nextobjectid="250">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.animation"/>
@@ -1516,6 +1516,12 @@
    <properties>
     <property name="Next 1" type="object" value="232"/>
     <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="250" name="Sign 16" gid="781" x="809" y="692" width="48" height="68"/>
+  <object id="251" name="Sign 16" gid="2147484425" x="809" y="692" width="48" height="68">
+   <properties>
+    <property name="Flavor" value="It's a notice from Rey; &quot;Heya. Welcom to my Homepage! Special thanks to Layla for the wallpaper of Gobby's Mark. I animated it, but she drew the components. I hope you enjoy your stay.&quot;"/>
    </properties>
   </object>
  </objectgroup>
