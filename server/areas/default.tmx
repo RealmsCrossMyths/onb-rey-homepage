@@ -1521,7 +1521,7 @@
   <object id="250" name="Sign 16" gid="781" x="809" y="692" width="48" height="68"/>
   <object id="251" name="Sign 16" gid="2147484425" x="809" y="692" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a notice from Rey; &quot;Heya. Welcom to my Homepage! Special thanks to Layla for the wallpaper of Gobby's Mark. I animated it, but she drew the components. I hope you enjoy your stay.&quot;"/>
+    <property name="Flavor" value="It's a notice from Rey; &quot;Heya. Welcome to my Homepage! Special thanks to Layla for the wallpaper of Gobby's Mark. I animated it, but she drew the components. I hope you enjoy your stay.&quot;"/>
    </properties>
   </object>
  </objectgroup>
