@@ -9,7 +9,7 @@
   <property name="Mystery Data Maximum" type="int" value="0"/>
   <property name="Mystery Data Minimum" type="int" value="0"/>
   <property name="Name" value="Rey's UP 1"/>
-  <property name="Song" value="/server/assets/sounds/music/gobby-hp-loop.ogg"/>
+  <property name="Song" value="/server/assets/sounds/music/gobby-up-loop.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/floors/undernet/standard-00-0-denim.tsx"/>
  <tileset firstgid="145" source="../assets/tiles/floors/undernet/standard-00-1-denim.tsx"/>
