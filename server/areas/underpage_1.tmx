@@ -8,7 +8,7 @@
   <property name="Background Vel Y" type="float" value="-0.25"/>
   <property name="Mystery Data Maximum" type="int" value="0"/>
   <property name="Mystery Data Minimum" type="int" value="0"/>
-  <property name="Name" value="Rey's UP 1"/>
+  <property name="Name" value="GblnRiot  -1"/>
   <property name="Song" value="/server/assets/sounds/music/gobby-up-loop.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/floors/undernet/standard-00-0-denim.tsx"/>
@@ -115,7 +115,7 @@
   <object id="13" gid="933" x="580" y="52" width="48" height="68"/>
   <object id="14" gid="2147484572" x="580" y="52" width="48" height="68">
    <properties>
-    <property name="Flavor" value="Sorry. Rey hasn't finished the page this way yet."/>
+    <property name="Flavor" value="It's a notice from Goblin Riot. It reads; &quot;Sorry. we haven't finished the page this way yet.&quot;"/>
    </properties>
   </object>
   <object id="18" gid="963" x="1232" y="696" width="32" height="52">
@@ -133,7 +133,7 @@
     <property name="Warp In" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="20" gid="888" x="1184" y="-152" width="64" height="32"/>
+  <object id="20" gid="888" x="1232" y="624" width="64" height="32"/>
   <object id="24" x="592" y="8">
    <properties>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
@@ -173,7 +173,7 @@
    </properties>
   </object>
   <object id="36" gid="872" x="929" y="801" width="64" height="32"/>
-  <object id="37" gid="888" x="1136" y="-136" width="64" height="32"/>
+  <object id="37" gid="888" x="944" y="816" width="64" height="32"/>
  </objectgroup>
  <layer id="17" name="Stairs B2a" width="50" height="64" offsetx="0" offsety="80">
   <data encoding="csv">
@@ -652,7 +652,7 @@
     <property name="Warp In" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="17" gid="888" x="1160" y="-72" width="64" height="32"/>
+  <object id="17" gid="888" x="208" y="464" width="64" height="32"/>
   <object id="22" gid="966" x="624" y="1800" width="32" height="52">
    <properties>
     <property name="Flavor" value="The gate is broken?"/>
@@ -719,7 +719,7 @@
     <property name="Warp In" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="39" gid="888" x="1192" y="-104" width="64" height="32"/>
+  <object id="39" gid="888" x="1008" y="432" width="64" height="32"/>
   <object id="40" gid="867" x="129" y="97" width="64" height="32">
    <properties>
     <property name="Target Object" type="object" value="11"/>
@@ -952,7 +952,7 @@
   <object id="9" gid="923" x="1488" y="916" width="48" height="68"/>
   <object id="10" gid="2147484567" x="1488" y="916" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a signboard. It reads; &quot;Hello! I have no idea what end you're coming from, but welcome to my Underpage 1 anyway! Since you're reading this, here's some advice: Don't let the colours fool you, the patterns on floors will let you know which floor you're on. Also, if it helps, you're currently on Floor 2.&quot;"/>
+    <property name="Flavor" value="It's a notice from Goblin Riot. It reads; &quot;Hello! We have no idea what end you're coming from, but welcome to our basementpage 1 anyway! Since you're reading this, here's some advice: Don't let the colours fool you, the patterns on floors will let you know which floor you're on. Also, if it helps, you're currently on Floor 2.&quot;"/>
    </properties>
   </object>
   <object id="21" gid="2147484614" x="512" y="976" width="32" height="52">

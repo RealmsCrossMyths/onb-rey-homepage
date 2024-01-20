@@ -5,13 +5,13 @@
     "advertisements":[
         {
             "unique_server_id":"Rey_Junc_HP",
-            "name":"Rey's Homepage",
-            "description":"The homepage of Rey, Gobby.EXE's operator. She plans to add links to various networks, servers, and other homepages. Special thanks to Layla for the art of Gobby's Mark~!",
+            "name":"Goblin Riot's Homepage",
+            "description":"The homepage of Goblin Riot, a freelance goblin navi band, that also does security and law enforcement. It is a communial hub, as well as a venue. Different quests and activities will be available in the future.",
             "tags":["pvp","meetup","junction"],
             "address":"keristero.xyz:9876",
             "default_area_id":"default",
             "data":"",
-            "icon":"Gobby's Mark.gif",
+            "icon":"advertisement.png",
             "color":"rgb(13,110,43)",
             "advertise_map":true
         }
