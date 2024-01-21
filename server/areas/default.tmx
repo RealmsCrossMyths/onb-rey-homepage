@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="45" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="252">
+<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="45" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="254">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.animation"/>
@@ -39,6 +39,7 @@
  <tileset firstgid="806" source="../assets/tiles/floors/cybernet/standard-00-1-forest.tsx"/>
  <tileset firstgid="950" source="../assets/tiles/floors/cybernet/standard-01-1-forest.tsx"/>
  <tileset firstgid="1046" source="../../onb-rey-homepage/server/assets/objects/signs/noticeboards.tsx"/>
+ <tileset firstgid="1086" source="../assets/tiles/arrows/cybernet/standard-0-forest.tsx"/>
  <layer id="19" name="Basement 1" width="45" height="45" offsetx="0" offsety="48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -438,7 +439,7 @@
     <property name="Text 3" value="I'm just a local Mr. Prog. I don't know anything about Call of Data sever security risks."/>
     <property name="Text 4" value="I'm just a local Mr. Prog. I don't know anything about Tales of Cybertopia."/>
     <property name="Text 5" value="I'm just a local Mr. Prog. I don't know anything about the undernet."/>
-    <property name="Text 6" value="Remember ReyHPMax... Can't forget..."/>
+    <property name="Text 6" value="Remember GobRiotHPMax... Can't forget..."/>
     <property name="Text 7" value="I'm just a local Mr. Prog. I don't know anything about Stardata Valley."/>
    </properties>
    <point/>
@@ -685,7 +686,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,40,171,40,171,40,171,40,171,40,171,40,171,40,171,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484153,0,0,0,0,29,40,40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,30,30,0,0,0,29,40,40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,505,29,171,40,2147483820,30,2147483812,40,171,40,171,40,171,40,171,40,171,40,171,40,171,40,2147484133,2147484133,3221225954,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,505,29,171,40,2147483820,30,2147483812,40,171,40,171,40,171,40,171,40,171,40,171,40,171,40,2147483820,2147483812,2147484747,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,40,40,0,0,0,41,40,40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484155,0,0,0,0,29,40,40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,40,171,40,171,40,171,40,171,40,171,40,171,40,171,0,0,0,
@@ -1525,6 +1526,21 @@
     <property name="Flavor" value="It's a notice from Goblin Riot. It reads; &quot;Heya. Welcome to our Homepage! Special thanks to Layla for Gobby's Navi Mark. We hope you enjoy your stay.&quot;"/>
    </properties>
   </object>
+  <object id="252" x="1424" y="720">
+   <properties>
+    <property name="Arrival Animation" value="arrow_down_right_in"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="253" name="Link to Goblin Riot 1" type="Radius Warp" x="1472" y="720">
+   <properties>
+    <property name="Activation Radius" type="float" value="1.15"/>
+    <property name="Leave Animation" value="arrow_down_right_out"/>
+    <property name="Target Area" value="homepage_1"/>
+    <property name="Target Object" value="1"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
  <layer id="3" name="Stairs F1a" width="45" height="45" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -1698,17 +1714,17 @@
    </properties>
   </object>
   <object id="41" name="Link" gid="532" x="528" y="1104" width="64" height="32"/>
-  <object id="42" type="Server Warp" gid="511" x="704" y="128" width="64" height="32">
+  <object id="42" type="Server Warp" gid="512" x="704" y="128" width="64" height="32">
    <properties>
-    <property name="Address" value=""/>
+    <property name="Address" value="84.83.194.82"/>
     <property name="Data" value="ReyHome"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Incoming Data" value=""/>
-    <property name="Port" type="int" value="0"/>
+    <property name="Incoming Data" value="ChairNet"/>
+    <property name="Port" type="int" value="8765"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="43" name="Link" gid="532" x="720" y="144" width="64" height="32"/>
+  <object id="43" name="Link to HyperNet" gid="527" x="720" y="144" width="64" height="32"/>
   <object id="44" type="Server Warp" gid="511" x="704" y="1088" width="64" height="32">
    <properties>
     <property name="Address" value=""/>
@@ -1902,7 +1918,7 @@
   <object id="149" name="Sign 07" gid="766" x="728" y="84" width="48" height="68"/>
   <object id="165" name="Sign 07" gid="2147484410" x="728" y="84" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to... It's blank, though..."/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;The HyperNet&quot;"/>
    </properties>
   </object>
   <object id="150" name="Sign 08" gid="764" x="1128" y="396" width="48" height="68"/>
