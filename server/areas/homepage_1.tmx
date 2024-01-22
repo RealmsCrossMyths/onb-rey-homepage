@@ -277,9 +277,18 @@
  </layer>
  <objectgroup id="14" name="Floor 3" offsetx="0" offsety="-96">
   <object id="3" x="496" y="16">
+   <properties>
+    <property name="Arrival Animation" value="arrow_up_right_in"/>
+   </properties>
    <point/>
   </object>
-  <object id="4" x="496" y="-32">
+  <object id="4" name="To " type="Radius Warp" x="496" y="-32">
+   <properties>
+    <property name="Activation Radius" type="float" value="1.15"/>
+    <property name="Leave Animation" value="arrow_up_right_out"/>
+    <property name="Target Area" value="default"/>
+    <property name="Target Object" value="252"/>
+   </properties>
    <point/>
   </object>
   <object id="5" gid="2147484680" x="490" y="40" width="48" height="68">

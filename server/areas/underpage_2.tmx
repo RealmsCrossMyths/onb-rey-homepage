@@ -455,7 +455,7 @@
    </properties>
    <point/>
   </object>
-  <object id="4" name="To Goblin Riot -3" x="560" y="-32">
+  <object id="4" name="To Goblin Riot -3" type="Radius Warp" x="560" y="-32">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
