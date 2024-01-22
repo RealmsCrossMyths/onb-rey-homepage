@@ -450,7 +450,7 @@
    </properties>
    <point/>
   </object>
-  <object id="207" name="To Rey's Underpage 0" type="Radius Warp" x="-32" y="1104">
+  <object id="207" name="To Goblin Riot -0" type="Radius Warp" x="-32" y="1104">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_up_left_out"/>
@@ -1532,7 +1532,7 @@
    </properties>
    <point/>
   </object>
-  <object id="253" name="Link to Goblin Riot 1" type="Radius Warp" x="1472" y="720">
+  <object id="253" name="To Goblin Riot 1" type="Radius Warp" x="1472" y="720">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_down_right_out"/>
@@ -2320,7 +2320,7 @@
 </data>
  </layer>
  <objectgroup id="12" name="Stairs F2b" offsetx="0" offsety="-80"/>
- <layer id="13" name="Floor 3" width="45" height="45" offsetx="0" offsety="-96">
+ <layer id="13" name="Floor 3" width="45" height="45" visible="0" offsetx="0" offsety="-96">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,485,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,485,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2380,7 +2380,7 @@
     <property name="Type" value="keyitem"/>
    </properties>
   </object>
-  <object id="28" name="Link to Hidden Area (0)" type="Radius Warp" x="144" y="1472">
+  <object id="28" name="To Hidden Area (0)" type="Radius Warp" x="144" y="1472">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_down_left_out"/>
@@ -2389,7 +2389,7 @@
    </properties>
    <point/>
   </object>
-  <object id="29" name="Link to Hidden Area (1)" type="Radius Warp" x="336" y="-32">
+  <object id="29" name="To Hidden Area (1)" type="Radius Warp" x="336" y="-32">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>

@@ -33,7 +33,7 @@
    </properties>
    <point/>
   </object>
-  <object id="2" name="Back to Rey's Homepage" type="Radius Warp" x="256" y="112">
+  <object id="2" name="To Goblin Riot 0" type="Radius Warp" x="256" y="112">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Description" value="Back to Rey's Homepage"/>

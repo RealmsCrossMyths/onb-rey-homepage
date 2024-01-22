@@ -6,7 +6,7 @@
   <property name="Background Texture" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.png"/>
   <property name="Background Vel X" type="float" value="0.4"/>
   <property name="Background Vel Y" type="float" value="-0.25"/>
-  <property name="Name" value="GblnRiot  -0"/>
+  <property name="Name" value="GblnRiot   -0"/>
   <property name="Song" value="/server/assets/sounds/music/gobby-up-loop.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/floors/undernet/standard-00-0-denim.tsx"/>
@@ -48,7 +48,7 @@
    </properties>
    <point/>
   </object>
-  <object id="2" name="Back to Rey's HP" type="Radius Warp" x="704" y="528">
+  <object id="2" name="To Goblin Riot 0" type="Radius Warp" x="704" y="528">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_down_right_out"/>
@@ -86,7 +86,7 @@
    </properties>
    <point/>
   </object>
-  <object id="14" name="To Rey's Underpage 1" type="Radius Warp" x="-32" y="48">
+  <object id="14" name="To Goblin Riot -1" type="Radius Warp" x="-32" y="48">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_up_left_out"/>
@@ -275,7 +275,7 @@
    </properties>
    <point/>
   </object>
-  <object id="16" name="To Rey's Underpage 1" type="Radius Warp" x="-32" y="432">
+  <object id="16" name="To Goblin Riot -1" type="Radius Warp" x="-32" y="432">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_up_left_out"/>

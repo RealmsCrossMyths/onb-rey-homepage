@@ -39,7 +39,7 @@
    </properties>
   </object>
   <object id="2" gid="271" x="80" y="80" width="64" height="32"/>
-  <object id="3" type="Checkpoint" gid="283" x="72" y="160" width="32" height="52">
+  <object id="3" type="Checkpoint" gid="283" x="80" y="168" width="32" height="52">
    <properties>
     <property name="Description" value="A gate blocks your path. It it is asking for GobboData1 to temporarily open."/>
     <property name="Dialogue Type" value="itemcheck"/>
@@ -53,7 +53,7 @@
     <property name="Unlocked Message" value="You used the GobboData1 to open the path!"/>
    </properties>
   </object>
-  <object id="4" name="Link to Rey's Homepage" type="Radius Warp" x="80" y="288">
+  <object id="4" name="To Goblin Riot 0" type="Radius Warp" x="80" y="288">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_down_left_out"/>

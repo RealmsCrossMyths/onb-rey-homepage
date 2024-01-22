@@ -112,8 +112,8 @@
 </data>
  </layer>
  <objectgroup id="16" name="Basement 2" offsetx="0" offsety="96">
-  <object id="13" gid="933" x="580" y="52" width="48" height="68"/>
-  <object id="14" gid="2147484572" x="580" y="52" width="48" height="68">
+  <object id="13" gid="933" x="1247" y="564" width="48" height="68"/>
+  <object id="14" gid="2147484572" x="1247" y="564" width="48" height="68">
    <properties>
     <property name="Flavor" value="It's a notice from Goblin Riot. It reads; &quot;Sorry. we haven't finished the page this way yet.&quot;"/>
    </properties>
@@ -140,7 +140,7 @@
    </properties>
    <point/>
   </object>
-  <object id="25" name="To Rey's Underpage 2" x="592" y="-32">
+  <object id="25" name="To Goblin Riot -2" x="592" y="-32">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
@@ -388,7 +388,7 @@
    </properties>
    <point/>
   </object>
-  <object id="2" name="To Rey's Underpage 0" type="Radius Warp" x="1632" y="592">
+  <object id="2" name="To Goblin Riot -0" type="Radius Warp" x="1632" y="592">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_down_right_out"/>
@@ -397,12 +397,13 @@
    </properties>
    <point/>
   </object>
-  <object id="11" gid="867" x="818" y="1266" width="64" height="32">
+  <object id="12" name="2-B" type="Custom Warp" gid="867" x="818" y="1266" width="64" height="32">
    <properties>
-    <property name="Target Object" type="object" value="40"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Target Area" value="underpage_1"/>
+    <property name="Target Object" type="object" value="41"/>
    </properties>
   </object>
-  <object id="12" gid="878" x="1176" y="-160" width="64" height="32"/>
   <object id="33" name="Normal Navi" type="NPC" x="1232" y="1552">
    <properties>
     <property name="Dialogue Type" value="random"/>
@@ -629,14 +630,17 @@
 </data>
  </layer>
  <objectgroup id="8" name="Floor 1">
-  <object id="5" gid="867" x="1154" y="1346" width="64" height="32">
+  <object id="5" name="1-B" type="Custom Warp" gid="867" x="1154" y="1346" width="64" height="32">
    <properties>
+    <property name="Direction" value="Down Right"/>
+    <property name="Target Area" value="underpage_1"/>
     <property name="Target Object" type="object" value="40"/>
    </properties>
   </object>
-  <object id="6" gid="878" x="1184" y="-96" width="64" height="32"/>
-  <object id="7" gid="867" x="1443" y="1635" width="64" height="32"/>
-  <object id="8" gid="878" x="1224" y="-80" width="64" height="32"/>
+  <object id="6" gid="950" x="268" y="496" width="48" height="68"/>
+  <object id="7" gid="949" x="268" y="496" width="48" height="68"/>
+  <object id="8" gid="953" x="1016" y="372" width="48" height="68"/>
+  <object id="9" gid="2147484582" x="1016" y="372" width="48" height="68"/>
   <object id="15" gid="963" x="1008" y="504" width="32" height="52">
    <properties>
     <property name="Flavor" value="The gate is broken?"/>
@@ -720,12 +724,20 @@
    </properties>
   </object>
   <object id="39" gid="888" x="1008" y="432" width="64" height="32"/>
-  <object id="40" gid="867" x="129" y="97" width="64" height="32">
+  <object id="40" name="1-A" type="Custom Warp" gid="867" x="129" y="97" width="64" height="32">
    <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Target Area" value="underpage_1"/>
     <property name="Target Object" type="object" value="11"/>
    </properties>
   </object>
-  <object id="41" gid="878" x="1176" y="-64" width="64" height="32"/>
+  <object id="41" name="2-A" type="Custom Warp" gid="867" x="1443" y="1635" width="64" height="32">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Target Area" value="underpage_1"/>
+    <property name="Target Object" type="object" value="12"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="9" name="Stairs F1a" width="50" height="64" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -940,7 +952,7 @@
    </properties>
    <point/>
   </object>
-  <object id="4" name="To Rey's Underpage 0" type="Radius Warp" x="1632" y="976">
+  <object id="4" name="To Goblin Riot -0" type="Radius Warp" x="1632" y="976">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_down_right_out"/>
@@ -949,8 +961,8 @@
    </properties>
    <point/>
   </object>
-  <object id="9" gid="923" x="1488" y="916" width="48" height="68"/>
-  <object id="10" gid="2147484567" x="1488" y="916" width="48" height="68">
+  <object id="10" gid="923" x="1488" y="916" width="48" height="68"/>
+  <object id="11" gid="2147484567" x="1488" y="916" width="48" height="68">
    <properties>
     <property name="Flavor" value="It's a notice from Goblin Riot. It reads; &quot;Hello! We have no idea what end you're coming from, but welcome to our basementpage 1 anyway! Since you're reading this, here's some advice: Don't let the colours fool you, the patterns on floors will let you know which floor you're on. Also, if it helps, you're currently on Floor 2.&quot;"/>
    </properties>
@@ -971,7 +983,7 @@
    </properties>
    <point/>
   </object>
-  <object id="27" name="To Rey's Homepage 3" x="864" y="1968">
+  <object id="27" name="To Goblin Riot 3" x="864" y="1968">
    <properties>
     <property name="Activation Radius" type="float" value="1.15"/>
     <property name="Leave Animation" value="arrow_down_right_out"/>
