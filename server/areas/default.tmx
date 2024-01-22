@@ -1918,7 +1918,7 @@
   <object id="149" name="Sign 07" gid="766" x="728" y="84" width="48" height="68"/>
   <object id="165" name="Sign 07" gid="2147484410" x="728" y="84" width="48" height="68">
    <properties>
-    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;The HyperNet&quot;"/>
+    <property name="Flavor" value="It's a sign for where the nearby warp goes to... &quot;Taireru's homepage, on the HyperNet&quot;"/>
    </properties>
   </object>
   <object id="150" name="Sign 08" gid="764" x="1128" y="396" width="48" height="68"/>
