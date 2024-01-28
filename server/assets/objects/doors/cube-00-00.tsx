@@ -4,6 +4,10 @@
  <image source="cube-00-00.png" width="240" height="104"/>
  <tile id="0" type="Checkpoint">
   <properties>
+   <property name="Dialogue Type" value="None"/>
+   <property name="Password" value=""/>
+   <property name="Unlock Failed Message" value=""/>
+   <property name="Unlocked Message" value=""/>
    <property name="Unlocking Animation Time" type="float" value="0.883"/>
    <property name="Unlocking Asset Name" value="cube"/>
   </properties>
