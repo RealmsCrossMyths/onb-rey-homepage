@@ -4,6 +4,7 @@
  <image source="cube-00-00.png" width="240" height="104"/>
  <tile id="0" type="Checkpoint">
   <properties>
+   <property name="Description" value=""/>
    <property name="Dialogue Type" value="None"/>
    <property name="Password" value=""/>
    <property name="Unlock Failed Message" value=""/>
