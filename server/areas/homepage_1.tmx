@@ -362,7 +362,7 @@
 </data>
  </layer>
  <objectgroup id="18" name="Stairs F3b" offsetx="0" offsety="-128"/>
- <layer id="19" name="Floor 4" width="21" height="27" offsetx="0" offsety="-144">
+ <layer id="19" name="Floor 4" width="21" height="27" visible="0" offsetx="0" offsety="-144">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

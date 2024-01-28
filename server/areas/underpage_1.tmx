@@ -43,7 +43,6 @@
  <tileset firstgid="1247" source="../assets/ezlibs-assets/ezmystery/GreenMysteryData.tsx"/>
  <tileset firstgid="1255" source="../assets/ezlibs-assets/ezmystery/PurpleMysteryData.tsx"/>
  <tileset firstgid="1263" source="../assets/ezlibs-assets/ezmystery/DarkMysteryData.tsx"/>
- <tileset firstgid="1271" source="../assets/objects/doors/cube-00-00.tsx"/>
  <layer id="15" name="Basement 2" width="50" height="64" offsetx="0" offsety="96">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484437,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -642,12 +641,9 @@
   <object id="7" gid="949" x="268" y="496" width="48" height="68"/>
   <object id="8" gid="953" x="1016" y="372" width="48" height="68"/>
   <object id="9" gid="2147484582" x="1016" y="372" width="48" height="68"/>
-  <object id="15" gid="1271" x="992" y="480" width="48" height="52">
+  <object id="15" gid="963" x="1016" y="512" width="32" height="52">
    <properties>
-    <property name="Description" value="TEST"/>
-    <property name="Password" value="testing"/>
-    <property name="Unlock Failed Message" value="failure"/>
-    <property name="Unlocked Message" value="success"/>
+    <property name="Flavor" value="The gate is broken?"/>
    </properties>
   </object>
   <object id="16" gid="872" x="993" y="417" width="64" height="32">

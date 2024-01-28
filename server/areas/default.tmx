@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="45" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="254">
+<map version="1.8" tiledversion="1.8.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="45" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="261">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/wallpapers/homepages/rey/gobbymarkspin.animation"/>
@@ -38,7 +38,8 @@
  <tileset firstgid="802" source="../assets/objects/warps/ONBSanctuaryLink.tsx"/>
  <tileset firstgid="806" source="../assets/tiles/floors/cybernet/standard-00-1-forest.tsx"/>
  <tileset firstgid="950" source="../assets/tiles/floors/cybernet/standard-01-1-forest.tsx"/>
- <tileset firstgid="1046" source="../assets/tiles/arrows/cybernet/standard-0-forest.tsx"/>
+ <tileset firstgid="1046" source="../../onb-rey-homepage/server/assets/objects/signs/noticeboards.tsx"/>
+ <tileset firstgid="1086" source="../assets/tiles/arrows/cybernet/standard-0-forest.tsx"/>
  <layer id="19" name="Basement 1" width="45" height="45" offsetx="0" offsety="48">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -100,7 +101,7 @@
    </properties>
   </object>
   <object id="24" name="Link to The Block" gid="527" x="528" y="720" width="64" height="32"/>
-  <object id="25" type="Checkpoint" gid="556" x="912" y="856" width="32" height="52">
+  <object id="25" type="Checkpoint" gid="549" x="920" y="880" width="32" height="52">
    <properties>
     <property name="Description" value="A shifting gate is here..."/>
     <property name="Dialogue Type" value="itemcheck"/>
@@ -685,7 +686,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,40,171,40,171,40,171,40,171,40,171,40,171,40,171,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484153,0,0,0,0,29,40,40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,30,30,0,0,0,29,40,40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,505,29,171,40,2147483820,30,2147483812,40,171,40,171,40,171,40,171,40,171,40,171,40,171,40,2147483820,2147483812,2147484707,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,505,29,171,40,2147483820,30,2147483812,40,171,40,171,40,171,40,171,40,171,40,171,40,171,40,2147483820,2147483812,2147484747,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,40,40,0,0,0,41,40,40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147484155,0,0,0,0,29,40,40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,40,171,40,171,40,171,40,171,40,171,40,171,40,171,0,0,0,
@@ -1540,6 +1541,24 @@
    </properties>
    <point/>
   </object>
+  <object id="254" name="Mr. Prog" type="NPC" x="1168" y="496">
+   <properties>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Sheet Name" value="prog.png"/>
+    <property name="Text 1" value="I am handling incoming venue reservation forms. Goblin Riot does host a number of events, and they need to be arranged in advanced. If you wish to reserve the venue, please do so via the designated methods. I can not accept reservation forms directly from clients, sorry."/>
+    <property name="Text 2" value="I am handling incoming venue reservation forms. Goblin Riot does host a number of events, and they need to be arranged in advanced. If you wish to reserve the venue, please do so via the designated methods. I can not accept reservation forms directly from clients, sorry."/>
+    <property name="Text 3" value="Busy, busy. . ."/>
+    <property name="Text 4" value="I am handling incoming venue reservation forms. Goblin Riot does host a number of events, and they need to be arranged in advanced. If you wish to reserve the venue, please do so via the designated methods. I can not accept reservation forms directly from clients, sorry."/>
+    <property name="Text 5" value="I am handling incoming venue reservation forms. Goblin Riot does host a number of events, and they need to be arranged in advanced. If you wish to reserve the venue, please do so via the designated methods. I can not accept reservation forms directly from clients, sorry."/>
+    <property name="Text 6" value=". . ."/>
+    <property name="Text 7" value="I am handling incoming venue reservation forms. Goblin Riot does host a number of events, and they need to be arranged in advanced. If you wish to reserve the venue, please do so via the designated methods. I can not accept reservation forms directly from clients, sorry."/>
+    <property name="Text 8" value="I am handling incoming venue reservation forms. Goblin Riot does host a number of events, and they need to be arranged in advanced. If you wish to reserve the venue, please do so via the designated methods. I can not accept reservation forms directly from clients, sorry."/>
+    <property name="Text 9" value="I am handling incoming venue reservation forms. Goblin Riot does host a number of events, and they need to be arranged in advanced. If you wish to reserve the venue, please do so via the designated methods. I can not accept reservation forms directly from clients, sorry."/>
+    <property name="ezMugAnimate" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
  <layer id="3" name="Stairs F1a" width="45" height="45" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -2217,6 +2236,64 @@
     <property name="Next 1" type="object" value="232"/>
     <property name="Type" value="random"/>
    </properties>
+  </object>
+  <object id="255" name="Mr. Prog" type="NPC" x="144" y="912">
+   <properties>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Sheet Name" value="prog.png"/>
+    <property name="Text 1" value="I'm in charge  of maintaining the second floor's second section paths."/>
+    <property name="Text 2" value="I'm in charge  of maintaining the second floor's second section paths."/>
+    <property name="Text 3" value="Busy, busy. . ."/>
+    <property name="Text 4" value="I'm in charge  of maintaining the second floor's second section paths."/>
+    <property name="Text 5" value="I'm in charge  of maintaining the second floor's second section paths."/>
+    <property name="Text 6" value=". . ."/>
+    <property name="Text 7" value="I'm in charge  of maintaining the second floor's second section paths."/>
+    <property name="Text 8" value="I'm in charge  of maintaining the second floor's second section paths."/>
+    <property name="Text 9" value="I'm in charge  of maintaining the second floor's second section paths."/>
+    <property name="ezMugAnimate" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="256" name="Prog A0 WP0" type="Waypoint" x="144" y="912">
+   <properties>
+    <property name="Next Waypoint 1" type="object" value="257"/>
+    <property name="Wait Time" type="int" value="3"/>
+    <property name="Waypoint Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="257" name="Prog A0 WP1" type="Waypoint" x="144" y="1072">
+   <properties>
+    <property name="Next Waypoint 1" type="object" value="258"/>
+    <property name="Wait Time" type="int" value="0"/>
+    <property name="Waypoint Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="258" name="Prog A0 WP2" type="Waypoint" x="176" y="1104">
+   <properties>
+    <property name="Next Waypoint 1" type="object" value="259"/>
+    <property name="Wait Time" type="int" value="0"/>
+    <property name="Waypoint Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="259" name="Prog A0 WP3" type="Waypoint" x="144" y="1136">
+   <properties>
+    <property name="Next Waypoint 1" type="object" value="260"/>
+    <property name="Wait Time" type="int" value="0"/>
+    <property name="Waypoint Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="260" name="Prog A0 WP4" type="Waypoint" x="144" y="1296">
+   <properties>
+    <property name="Next Waypoint 1" type="object" value="197"/>
+    <property name="Wait Time" type="int" value="3"/>
+    <property name="Waypoint Type" value="random"/>
+   </properties>
+   <point/>
   </object>
  </objectgroup>
  <layer id="9" name="Stairs F2a" width="45" height="45" offsetx="0" offsety="-64">
