@@ -642,15 +642,12 @@
   <object id="7" gid="949" x="268" y="496" width="48" height="68"/>
   <object id="8" gid="953" x="1016" y="372" width="48" height="68"/>
   <object id="9" gid="2147484582" x="1016" y="372" width="48" height="68"/>
-  <object id="15" gid="1271" x="1008" y="528" width="48" height="52">
+  <object id="15" gid="1271" x="992" y="480" width="48" height="52">
    <properties>
     <property name="Dialogue Type" value="password"/>
-    <property name="Disappear Cooldown" type="float" value="0.883"/>
     <property name="Password" value="testing"/>
     <property name="Unlock Failed Message" value="failure"/>
     <property name="Unlocked Message" value="success"/>
-    <property name="Unlocking Animation Time" type="float" value="0.883"/>
-    <property name="Unlocking Asset Name" value="cube"/>
    </properties>
   </object>
   <object id="16" gid="872" x="993" y="417" width="64" height="32">
