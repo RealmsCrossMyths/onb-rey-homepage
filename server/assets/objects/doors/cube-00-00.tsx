@@ -15,8 +15,9 @@
    <property name="Skip Prompt" type="bool" value="false"/>
    <property name="Unlock Failed Message" value=""/>
    <property name="Unlocked Message" value=""/>
+   <property name="Unlocking Animation Name" value="/server/assets/objects/doors/cube"/>
    <property name="Unlocking Animation Time" type="float" value="0.883"/>
-   <property name="Unlocking Asset Name" value="cube"/>
+   <property name="Unlocking Asset Name" value="/server/assets/objects/doors/cube-00-00"/>
   </properties>
   <objectgroup draworder="index" id="1">
    <object id="1" x="-3" y="23">
