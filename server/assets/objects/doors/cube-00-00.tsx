@@ -4,9 +4,15 @@
  <image source="cube-00-00.png" width="240" height="104"/>
  <tile id="0" type="Checkpoint">
   <properties>
+   <property name="Consume" type="bool" value="false"/>
    <property name="Description" value=""/>
    <property name="Dialogue Type" value="None"/>
+   <property name="Disappear Cooldown" type="float" value="0"/>
+   <property name="Key Name" value=""/>
+   <property name="Once" type="bool" value="false"/>
    <property name="Password" value=""/>
+   <property name="Required Keys" type="int" value="0"/>
+   <property name="Skip Prompt" type="bool" value="false"/>
    <property name="Unlock Failed Message" value=""/>
    <property name="Unlocked Message" value=""/>
    <property name="Unlocking Animation Time" type="float" value="0.883"/>
