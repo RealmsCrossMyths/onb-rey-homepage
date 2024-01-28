@@ -1,0 +1,29 @@
+animation "IDLE"
+frame duration="0.133" x=0 y=0 w=48 h=52 originx=24 originy=51
+frame duration="0.133" x=48 y=0 w=48 h=52 originx=24 originy=51
+frame duration="0.133" x=0 y=0 w=48 h=52 originx=24 originy=51
+frame duration="0.133" x=96 y=0 w=48 h=52 originx=24 originy=51
+
+animation "UNLOCKING"
+frame duration="0.1" x=144 y=0 w=48 h=52 originx=24 originy=51
+frame duration="0.033" x=192 y=0 w=48 h=52 originx=24 originy=51
+frame duration="0.033" x=0 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.033" x=48 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.033" x=96 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.033" x=144 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.233" x=192 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.017" x=0 y=0 w=2 h=2 originx=1 originy=1
+frame duration="0.05" x=192 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.017" x=0 y=0 w=2 h=2 originx=1 originy=1
+frame duration="0.05" x=192 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.017" x=0 y=0 w=2 h=2 originx=1 originy=1
+frame duration="0.033" x=192 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.017" x=0 y=0 w=2 h=2 originx=1 originy=1
+frame duration="0.033" x=192 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.017" x=0 y=0 w=2 h=2 originx=1 originy=1
+frame duration="0.033" x=192 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.017" x=0 y=0 w=2 h=2 originx=1 originy=1
+frame duration="0.017" x=192 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.017" x=0 y=0 w=2 h=2 originx=1 originy=1
+frame duration="0.017" x=192 y=52 w=48 h=52 originx=24 originy=51
+frame duration="0.033" x=0 y=0 w=2 h=2 originx=1 originy=1
